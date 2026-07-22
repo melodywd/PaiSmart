@@ -1,0 +1,1420 @@
+{"kind":"deck","id":"pr/l6er81","name":"Deck"}
+{"kind":"layout","layoutId":"00e850e0-f5ed-4b3b-8586-c6023861eb46","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"fb3464a8-0f50-409e-9b61-2d205caea35f","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/dy83ow","slide":1,"title":"PAI","textShapes":13}
+{"kind":"shape","id":"sh/ixc7a1cb","slide":1,"bbox":[0,0,360,720]}
+{"kind":"textbox","id":"sh/50nq5wb2","slide":1,"text":"PAI\nSMART","textPreview":"PAI | SMART","textChars":9,"textLines":2,"bbox":[52,55,220,160]}
+{"kind":"shape","id":"sh/4ze9cruh","slide":1,"bbox":[52,244,200,6]}
+{"kind":"textbox","id":"sh/rm5876t8","slide":1,"text":"企业级 RAG 知识管理系统","textPreview":"企业级 RAG 知识管理系统","textChars":14,"textLines":1,"bbox":[52,274,250,80]}
+{"kind":"textbox","id":"sh/6lwre1cn","slide":1,"text":"从零到可调试","textPreview":"从零到可调试","textChars":6,"textLines":1,"bbox":[430,84,760,80]}
+{"kind":"textbox","id":"sh/tonq9gby","slide":1,"text":"用户管理 · 文件上传与解析 · 知识检索 · 聊天助手","textPreview":"用户管理 · 文件上传与解析 · 知识检索 · 聊天助手","textChars":28,"textLines":1,"bbox":[432,174,760,46]}
+{"kind":"textbox","id":"sh/sne9gbud","slide":1,"text":"一份按“前端 → API → 安全过滤 → 服务 → 中间件/存储 → 返回结果”追踪源码的学习型 PPT。","textPreview":"一份按“前端 → API → 安全过滤 → 服务 → 中间件/存储 → 返回结果”追踪源码的学习型 PPT。","textChars":54,"textLines":1,"bbox":[432,246,710,96]}
+{"kind":"textbox","id":"sh/fq58b6t4","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[432,394,50,28]}
+{"kind":"textbox","id":"sh/epwrilcj","slide":1,"text":"看懂真实端到端链路","textPreview":"看懂真实端到端链路","textChars":9,"textLines":1,"bbox":[492,386,520,42]}
+{"kind":"shape","id":"sh/0bq10nqh","slide":1,"bbox":[432,438,560,1]}
+{"kind":"textbox","id":"sh/1cz29872","slide":1,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[432,466,50,28]}
+{"kind":"textbox","id":"sh/e98jyd8b","slide":1,"text":"定位关键类、方法与配置","textPreview":"定位关键类、方法与配置","textChars":11,"textLines":1,"bbox":[492,458,520,42]}
+{"kind":"shape","id":"sh/fah07ipw","slide":1,"bbox":[432,510,560,1]}
+{"kind":"textbox","id":"sh/ofa14nqt","slide":1,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[432,538,50,28]}
+{"kind":"textbox","id":"sh/p0j2ds7y","slide":1,"text":"掌握调试断点与排错入口","textPreview":"掌握调试断点与排错入口","textChars":11,"textLines":1,"bbox":[492,530,520,42]}
+{"kind":"shape","id":"sh/2d8j2d8n","slide":1,"bbox":[432,582,560,1]}
+{"kind":"textbox","id":"sh/ne1kbip8","slide":1,"text":"基于当前工作区源码核对 · 2026-07-21","textPreview":"基于当前工作区源码核对 · 2026-07-21","textChars":24,"textLines":1,"bbox":[432,650,600,28]}
+{"kind":"textbox","id":"sh/c3a187qp","slide":1,"text":"01 / 37","textPreview":"01 / 37","textChars":7,"textLines":1,"bbox":[1120,650,100,28]}
+{"kind":"notes","id":"nt/dy83ow","slide":1,"text":""}
+{"kind":"slide","id":"sl/t1b4mz","slide":2,"title":"学习导航","textShapes":19}
+{"kind":"textbox","id":"sh/8fahk7a5","slide":2,"text":"学习导航","textPreview":"学习导航","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/7e10b29k","slide":2,"text":"这份 PPT 解决什么问题","textPreview":"这份 PPT 解决什么问题","textChars":13,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/6dszixsz","slide":2,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/lcji9sre","slide":2,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/kbahgnat","slide":2,"text":"02 / 37","textPreview":"02 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/jq107298","slide":2,"bbox":[42,156,274,224]}
+{"kind":"textbox","id":"sh/ypszexsn","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[58,170,42,30]}
+{"kind":"textbox","id":"sh/xoji5sri","slide":2,"text":"用户管理","textPreview":"用户管理","textChars":4,"textLines":1,"bbox":[104,168,196,34]}
+{"kind":"textbox","id":"sh/wnqhcnax","slide":2,"text":"注册 / 登录 / JWT / 角色 / 组织标签","textPreview":"注册 / 登录 / JWT / 角色 / 组织标签","textChars":25,"textLines":1,"bbox":[60,210,238,158]}
+{"kind":"shape","id":"sh/ahg7e94r","slide":2,"bbox":[340,156,274,224]}
+{"kind":"textbox","id":"sh/b2p8nelc","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[356,170,42,30]}
+{"kind":"textbox","id":"sh/c3ypgjmx","slide":2,"text":"文件上传","textPreview":"文件上传","textChars":4,"textLines":1,"bbox":[402,168,196,34]}
+{"kind":"textbox","id":"sh/x47qpo3i","slide":2,"text":"5MB 分片 / Redis 位图 / MinIO 合并 / Kafka","textPreview":"5MB 分片 / Redis 位图 / MinIO 合并 / Kafka","textChars":36,"textLines":1,"bbox":[358,210,238,158]}
+{"kind":"shape","id":"sh/2dw7a94v","slide":2,"bbox":[638,156,274,224]}
+{"kind":"textbox","id":"sh/ne5ojel0","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[654,170,42,30]}
+{"kind":"textbox","id":"sh/ofepczml","slide":2,"text":"知识检索","textPreview":"知识检索","textChars":4,"textLines":1,"bbox":[700,168,196,34]}
+{"kind":"textbox","id":"sh/pg76l436","slide":2,"text":"Query Embedding / KNN / BM25 / 权限过滤","textPreview":"Query Embedding / KNN / BM25 / 权限过滤","textChars":35,"textLines":1,"bbox":[656,210,238,158]}
+{"kind":"shape","id":"sh/e9w76p4j","slide":2,"bbox":[936,156,274,224]}
+{"kind":"textbox","id":"sh/fa5oful4","slide":2,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[952,170,42,30]}
+{"kind":"textbox","id":"sh/je147q1w","slide":2,"text":"聊天助手","textPreview":"聊天助手","textChars":4,"textLines":1,"bbox":[998,168,196,34]}
+{"kind":"textbox","id":"sh/ids3elkb","slide":2,"text":"WebSocket / RAG / 流式模型 / 引用证据","textPreview":"WebSocket / RAG / 流式模型 / 引用证据","textChars":29,"textLines":1,"bbox":[954,210,238,158]}
+{"kind":"shape","id":"sh/5g3m90j2","slide":2,"bbox":[42,414,572,176]}
+{"kind":"textbox","id":"sh/4fa5gv2h","slide":2,"text":"统一读法","textPreview":"统一读法","textChars":4,"textLines":1,"bbox":[60,428,536,34]}
+{"kind":"textbox","id":"sh/ril4ba1s","slide":2,"text":"每个模块都按同一条线看：\n页面操作 → 前端请求/状态 → Controller → Filter → Service → Repository / 中间件 → 响应。","textPreview":"每个模块都按同一条线看： | 页面操作 → 前端请求/状态 → Controller → Filter → Service → Repository / 中间件 → 响应。","textChars":84,"textLines":2,"bbox":[60,468,536,110]}
+{"kind":"shape","id":"sh/6hcni5kn","slide":2,"bbox":[638,414,600,176]}
+{"kind":"textbox","id":"sh/dk3md0jy","slide":2,"text":"学完后的能力","textPreview":"学完后的能力","textChars":6,"textLines":1,"bbox":[656,428,564,34]}
+{"kind":"textbox","id":"sh/sju5kf2d","slide":2,"text":"你应该能回答：数据存在哪里？权限在哪里生效？异步边界在哪里？失败会怎样重试？一个请求应该在哪些方法打断点？","textPreview":"你应该能回答：数据存在哪里？权限在哪里生效？异步边界在哪里？失败会怎样重试？一个请求应该在哪些方法打断点？","textChars":53,"textLines":1,"bbox":[656,468,564,110]}
+{"kind":"notes","id":"nt/t1b4mz","slide":2,"text":""}
+{"kind":"slide","id":"sl/vujog8","slide":3,"title":"总体认知","textShapes":11}
+{"kind":"textbox","id":"sh/lkja5wjm","slide":3,"text":"总体认知","textPreview":"总体认知","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/yhsruhkv","slide":3,"text":"你提供的模块脑图：作为导航，不作为最终事实","textPreview":"你提供的模块脑图：作为导航，不作为最终事实","textChars":21,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/ji1s3mlg","slide":3,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/wva9s72p","slide":3,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/xwja1c3a","slide":3,"text":"输入：用户提供的脑图；实现细节以当前仓库源码为准","textPreview":"输入：用户提供的脑图；实现细节以当前仓库源码为准","textChars":24,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/at8rqxkz","slide":3,"text":"03 / 37","textPreview":"03 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/bu1sz2l4","slide":3,"bbox":[42,142,570,484]}
+{"kind":"shape","id":"sh/grut4b29","slide":3,"bbox":[646,150,592,116]}
+{"kind":"textbox","id":"sh/hs3adgje","slide":3,"text":"修正 1｜文档解析","textPreview":"修正 1｜文档解析","textChars":9,"textLines":1,"bbox":[664,164,556,34]}
+{"kind":"textbox","id":"sh/xkvy5cv6","slide":3,"text":"实际代码：PDF 走 PDFBox；其他格式主要由 Apache Tika AutoDetectParser 识别，而不是统一使用 POI。","textPreview":"实际代码：PDF 走 PDFBox；其他格式主要由 Apache Tika AutoDetectParser 识别，而不是统一使用 POI。","textChars":70,"textLines":1,"bbox":[664,204,556,50]}
+{"kind":"shape","id":"sh/cjmxcrel","slide":3,"bbox":[646,282,592,116]}
+{"kind":"textbox","id":"sh/bidg3md0","slide":3,"text":"修正 2｜向量化","textPreview":"修正 2｜向量化","textChars":8,"textLines":1,"bbox":[664,296,556,34]}
+{"kind":"textbox","id":"sh/ax4fahwf","slide":3,"text":"实际模型与维度由运行时 Provider 配置决定；默认 text-embedding-v4、2048 维，索引 knowledge_base。","textPreview":"实际模型与维度由运行时 Provider 配置决定；默认 text-embedding-v4、2048 维，索引 knowledge_base。","textChars":72,"textLines":1,"bbox":[664,336,556,50]}
+{"kind":"shape","id":"sh/pwvy1cvu","slide":3,"bbox":[646,414,592,116]}
+{"kind":"textbox","id":"sh/ovmx87e9","slide":3,"text":"修正 3｜聊天完成判定","textPreview":"修正 3｜聊天完成判定","textChars":11,"textLines":1,"bbox":[664,428,556,34]}
+{"kind":"textbox","id":"sh/nudgz2d4","slide":3,"text":"模型响应是流式的，但当前 ChatHandler 用“响应长度在一段时间内不再变化”来触发 completion 与历史落库。","textPreview":"模型响应是流式的，但当前 ChatHandler 用“响应长度在一段时间内不再变化”来触发 completion 与历史落库。","textChars":63,"textLines":1,"bbox":[664,468,556,50]}
+{"kind":"shape","id":"sh/2tkf6xwj","slide":3,"bbox":[42,588,1196,42]}
+{"kind":"shape","id":"sh/tsfydgve","slide":3,"bbox":[42,588,6,42]}
+{"kind":"textbox","id":"sh/8r6hkbet","slide":3,"text":"正确用法：先用脑图记住模块，再用本 PPT 的“入口文件 + 方法 + 数据去向”还原真实执行链。","textPreview":"正确用法：先用脑图记住模块，再用本 PPT 的“入口文件 + 方法 + 数据去向”还原真实执行链。","textChars":49,"textLines":1,"bbox":[60,597,1160,25]}
+{"kind":"image","id":"im/budsretk","slide":3,"name":"","alt":"用户提供的 PaiSmart 模块脑图","bbox":[54,154,546,420]}
+{"kind":"notes","id":"nt/vujog8","slide":3,"text":""}
+{"kind":"slide","id":"sl/6px688","slide":4,"title":"总体架构","textShapes":43}
+{"kind":"textbox","id":"sh/6dwnm1wf","slide":4,"text":"总体架构","textPreview":"总体架构","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/t07mhgvq","slide":4,"text":"系统全景：两条主数据链在 Elasticsearch 汇合","textPreview":"系统全景：两条主数据链在 Elasticsearch 汇合","textChars":29,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/8zy5obe5","slide":4,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/ja54b6do","slide":4,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/y9wni1w3","slide":4,"text":"配置：pom.xml；src/main/resources/application.yml；src/main/resources/elasticsearch-mapping.json","textPreview":"配置：pom.xml；src/main/resources/application.yml；src/main/resources/elasticsearch-mapping.json","textChars":91,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/lcnmdwvu","slide":4,"text":"04 / 37","textPreview":"04 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"textbox","id":"sh/kbe5kbe9","slide":4,"text":"写入链｜把文件变成可检索知识","textPreview":"写入链｜把文件变成可检索知识","textChars":14,"textLines":1,"bbox":[44,144,500,30]}
+{"kind":"shape","id":"sh/369onqds","slide":4,"bbox":[231.33,238,12,4]}
+{"kind":"shape","id":"sh/i5gnulw7","slide":4,"bbox":[42,184,189.33,112]}
+{"kind":"textbox","id":"sh/cjalc7yp","slide":4,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,196,30,26]}
+{"kind":"textbox","id":"sh/dkjmlczu","slide":4,"text":"Vue 上传","textPreview":"Vue 上传","textChars":6,"textLines":1,"bbox":[90,194,127.33,34]}
+{"kind":"textbox","id":"sh/qhs3ah0j","slide":4,"text":"计算 MD5\n切成 5MB 分片","textPreview":"计算 MD5 | 切成 5MB 分片","textChars":16,"textLines":2,"bbox":[56,234,161.33,52]}
+{"kind":"shape","id":"sh/bi14j2h4","slide":4,"bbox":[432.67,238,12,4]}
+{"kind":"shape","id":"sh/ofal87id","slide":4,"bbox":[243.33,184,189.33,112]}
+{"kind":"textbox","id":"sh/pgjmhczy","slide":4,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[257.33,196,30,26]}
+{"kind":"textbox","id":"sh/2d836x07","slide":4,"text":"Spring API","textPreview":"Spring API","textChars":10,"textLines":1,"bbox":[291.33,194,127.33,34]}
+{"kind":"textbox","id":"sh/3e14f2hs","slide":4,"text":"校验类型、大小\n组织标签与可见性","textPreview":"校验类型、大小 | 组织标签与可见性","textChars":16,"textLines":2,"bbox":[257.33,234,161.33,52]}
+{"kind":"shape","id":"sh/gbql4nih","slide":4,"bbox":[634,238,12,4]}
+{"kind":"shape","id":"sh/1czmdszm","slide":4,"bbox":[444.67,184,189.33,112]}
+{"kind":"textbox","id":"sh/h8r21orq","slide":4,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[458.67,196,30,26]}
+{"kind":"textbox","id":"sh/g7i18ja5","slide":4,"text":"MinIO + Redis","textPreview":"MinIO + Redis","textChars":13,"textLines":1,"bbox":[492.67,194,127.33,34]}
+{"kind":"textbox","id":"sh/v69kze9k","slide":4,"text":"分片对象\n上传位图 / 断点续传","textPreview":"分片对象 | 上传位图 / 断点续传","textChars":16,"textLines":2,"bbox":[458.67,234,161.33,52]}
+{"kind":"shape","id":"sh/u50j69sz","slide":4,"bbox":[835.33,238,12,4]}
+{"kind":"shape","id":"sh/tkr2x4re","slide":4,"bbox":[646,184,189.33,112]}
+{"kind":"textbox","id":"sh/8ji14ja9","slide":4,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[660,196,30,26]}
+{"kind":"textbox","id":"sh/7ipkve9o","slide":4,"text":"Kafka","textPreview":"Kafka","textChars":5,"textLines":1,"bbox":[694,194,127.33,34]}
+{"kind":"textbox","id":"sh/6hgj29s3","slide":4,"text":"合并后投递\n异步解析任务","textPreview":"合并后投递 | 异步解析任务","textChars":12,"textLines":2,"bbox":[660,234,161.33,52]}
+{"kind":"shape","id":"sh/d0b298ry","slide":4,"bbox":[1036.67,238,12,4]}
+{"kind":"shape","id":"sh/sf21g3ad","slide":4,"bbox":[847.33,184,189.33,112]}
+{"kind":"textbox","id":"sh/q9c7e14j","slide":4,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[861.33,196,30,26]}
+{"kind":"textbox","id":"sh/bal8n6l4","slide":4,"text":"Tika / PDFBox","textPreview":"Tika / PDFBox","textChars":13,"textLines":1,"bbox":[895.33,194,127.33,34]}
+{"kind":"textbox","id":"sh/cbupgbmp","slide":4,"text":"抽取文本\n页码 / 语义分块","textPreview":"抽取文本 | 页码 / 语义分块","textChars":14,"textLines":2,"bbox":[861.33,234,161.33,52]}
+{"kind":"shape","id":"sh/dc3qpg3a","slide":4,"bbox":[1048.67,184,189.33,112]}
+{"kind":"textbox","id":"sh/25s7a14n","slide":4,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1062.67,196,30,26]}
+{"kind":"textbox","id":"sh/36l8j6ls","slide":4,"text":"Embedding + ES","textPreview":"Embedding + ES","textChars":14,"textLines":1,"bbox":[1096.67,194,127.33,34]}
+{"kind":"textbox","id":"sh/o7upcbmd","slide":4,"text":"2048 维向量\n权限字段随块入索引","textPreview":"2048 维向量 | 权限字段随块入索引","textChars":18,"textLines":2,"bbox":[1062.67,234,161.33,52]}
+{"kind":"textbox","id":"sh/p83qlw3y","slide":4,"text":"读取链｜把问题变成有来源的回答","textPreview":"读取链｜把问题变成有来源的回答","textChars":15,"textLines":1,"bbox":[44,340,500,30]}
+{"kind":"shape","id":"sh/m1wrml4r","slide":4,"bbox":[231.33,434,12,4]}
+{"kind":"shape","id":"sh/n258vqlc","slide":4,"bbox":[42,380,189.33,112]}
+{"kind":"textbox","id":"sh/7ul4r2ps","slide":4,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,392,30,26]}
+{"kind":"textbox","id":"sh/6tc3ix87","slide":4,"text":"WebSocket 问题","textPreview":"WebSocket 问题","textChars":12,"textLines":1,"bbox":[90,390,127.33,34]}
+{"kind":"textbox","id":"sh/tw3mts7i","slide":4,"text":"JWT 在路径中\n心跳 / 重连","textPreview":"JWT 在路径中 | 心跳 / 重连","textChars":16,"textLines":2,"bbox":[56,430,161.33,52]}
+{"kind":"shape","id":"sh/svulknqd","slide":4,"bbox":[432.67,434,12,4]}
+{"kind":"shape","id":"sh/j614nipg","slide":4,"bbox":[243.33,380,189.33,112]}
+{"kind":"textbox","id":"sh/i5s3ed8v","slide":4,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[257.33,392,30,26]}
+{"kind":"textbox","id":"sh/5s3mps7m","slide":4,"text":"Query Embedding","textPreview":"Query Embedding","textChars":15,"textLines":1,"bbox":[291.33,390,127.33,34]}
+{"kind":"textbox","id":"sh/kralgnq1","slide":4,"text":"查询限流与额度\n生成问题向量","textPreview":"查询限流与额度 | 生成问题向量","textChars":14,"textLines":2,"bbox":[257.33,430,161.33,52]}
+{"kind":"shape","id":"sh/3254zmp0","slide":4,"bbox":[634,434,12,4]}
+{"kind":"shape","id":"sh/21wnqh8f","slide":4,"bbox":[444.67,380,189.33,112]}
+{"kind":"textbox","id":"sh/0761kj6x","slide":4,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[458.67,392,30,26]}
+{"kind":"textbox","id":"sh/l8zit4n2","slide":4,"text":"混合检索","textPreview":"混合检索","textChars":4,"textLines":1,"bbox":[492.67,390,127.33,34]}
+{"kind":"textbox","id":"sh/e5oji9or","slide":4,"text":"KNN 召回\nAND 文本 + BM25 重排","textPreview":"KNN 召回 | AND 文本 + BM25 重排","textChars":23,"textLines":2,"bbox":[458.67,430,161.33,52]}
+{"kind":"shape","id":"sh/z6x0re5c","slide":4,"bbox":[835.33,434,12,4]}
+{"kind":"shape","id":"sh/8bq1oj6t","slide":4,"bbox":[646,380,189.33,112]}
+{"kind":"textbox","id":"sh/9cz2xone","slide":4,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[660,392,30,26]}
+{"kind":"textbox","id":"sh/m98jm9on","slide":4,"text":"权限过滤","textPreview":"权限过滤","textChars":4,"textLines":1,"bbox":[694,390,127.33,34]}
+{"kind":"textbox","id":"sh/nahkve58","slide":4,"text":"本人 / 公开\n有效组织标签","textPreview":"本人 / 公开 | 有效组织标签","textChars":14,"textLines":2,"bbox":[660,430,161.33,52]}
+{"kind":"shape","id":"sh/wzq1s365","slide":4,"bbox":[1036.67,434,12,4]}
+{"kind":"shape","id":"sh/x0j21ona","slide":4,"bbox":[847.33,380,189.33,112]}
+{"kind":"textbox","id":"sh/5wfi5ofe","slide":4,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[861.33,392,30,26]}
+{"kind":"textbox","id":"sh/4v61cjy9","slide":4,"text":"Prompt","textPreview":"Prompt","textChars":6,"textLines":1,"bbox":[895.33,390,127.33,34]}
+{"kind":"textbox","id":"sh/jud03yxo","slide":4,"text":"Top 5 证据\n历史 + 引用编号","textPreview":"Top 5 证据 | 历史 + 引用编号","textChars":18,"textLines":2,"bbox":[861.33,430,161.33,52]}
+{"kind":"shape","id":"sh/it4jatg3","slide":4,"bbox":[1048.67,380,189.33,112]}
+{"kind":"textbox","id":"sh/tkf298fq","slide":4,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1062.67,392,30,26]}
+{"kind":"textbox","id":"sh/sj61g3y5","slide":4,"text":"LLM 流式回答","textPreview":"LLM 流式回答","textChars":8,"textLines":1,"bbox":[1096.67,390,127.33,34]}
+{"kind":"textbox","id":"sh/rix07yxk","slide":4,"text":"chunk 回传\nRedis 历史与引用映射","textPreview":"chunk 回传 | Redis 历史与引用映射","textChars":22,"textLines":2,"bbox":[1062.67,430,161.33,52]}
+{"kind":"shape","id":"sh/6xojetgz","slide":4,"bbox":[42,536,1196,42]}
+{"kind":"shape","id":"sh/9ovix4fm","slide":4,"bbox":[42,536,6,42]}
+{"kind":"textbox","id":"sh/8nm14zy1","slide":4,"text":"关键汇合点：Elasticsearch 中的每个文档块同时携带 vector、textContent、userId、orgTag、公开标记。","textPreview":"关键汇合点：Elasticsearch 中的每个文档块同时携带 vector、textContent、userId、orgTag、公开标记。","textChars":70,"textLines":1,"bbox":[60,545,1160,25]}
+{"kind":"notes","id":"nt/6px688","slide":4,"text":""}
+{"kind":"slide","id":"sl/d5st3v","slide":5,"title":"目录结构","textShapes":14}
+{"kind":"textbox","id":"sh/lkfupwnm","slide":5,"text":"目录结构","textPreview":"目录结构","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/yhove1ov","slide":5,"text":"先建立源码地图：同一功能跨越前后端与基础设施","textPreview":"先建立源码地图：同一功能跨越前后端与基础设施","textChars":22,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/zixcnm5g","slide":5,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/cfmdcr6p","slide":5,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/xgvulw7a","slide":5,"text":"项目根目录：C:/Users/lqhw/IdeaProjects/PaiSmart","textPreview":"项目根目录：C:/Users/lqhw/IdeaProjects/PaiSmart","textChars":41,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/at4bahoz","slide":5,"text":"05 / 37","textPreview":"05 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/bedcjmpk","slide":5,"bbox":[42,150,580,438]}
+{"kind":"textbox","id":"sh/ormt876t","slide":5,"text":"PROJECT TREE","textPreview":"PROJECT TREE","textChars":12,"textLines":1,"bbox":[60,164,544,22]}
+{"kind":"textbox","id":"sh/psvuhc7e","slide":5,"text":"PaiSmart/\n├─ frontend/src/\n│  ├─ views/                 页面入口\n│  ├─ store/modules/         Auth / KnowledgeBase / Chat 状态\n│  └─ service/               HTTP 请求封装\n├─ src/main/java/.../smartpai/\n│  ├─ controller/            REST 边界\n│  ├─ config/ + handler/     JWT / 组织权限 / WebSocket\n│  ├─ service/ + client/     业务、解析、检索、模型调用\n│  ├─ consumer/              Kafka 异步处理\n│  ├─ repository/            MySQL 数据访问\n│  └─ model/ + entity/       业务实体与 ES 文档\n└─ src/main/resources/\n   ├─ application.yml        运行参数\n   └─ elasticsearch-mapping.json","textPreview":"PaiSmart/ | ├─ frontend/src/ | │  ├─ views/                 页面入口 | │  ├─ store/modules/         Auth / KnowledgeBase / Chat 状态 | │  └─ se...","textChars":533,"textLines":15,"bbox":[60,194,544,382]}
+{"kind":"shape","id":"sh/hwn2xwzu","slide":5,"bbox":[652,150,586,94]}
+{"kind":"textbox","id":"sh/gve1ori9","slide":5,"text":"MySQL","textPreview":"MySQL","textChars":5,"textLines":1,"bbox":[670,164,550,34]}
+{"kind":"textbox","id":"sh/fu5kvmho","slide":5,"text":"用户、组织标签、上传元数据、分块文本、任务/用量。","textPreview":"用户、组织标签、上传元数据、分块文本、任务/用量。","textChars":25,"textLines":1,"bbox":[670,204,550,28]}
+{"kind":"shape","id":"sh/utwjmh0j","slide":5,"bbox":[652,258,586,94]}
+{"kind":"textbox","id":"sh/ts32tczy","slide":5,"text":"Redis","textPreview":"Redis","textChars":5,"textLines":1,"bbox":[670,272,550,34]}
+{"kind":"textbox","id":"sh/sru1krid","slide":5,"text":"JWT 有效性、上传位图、当前会话、最近 20 条消息、限流计数。","textPreview":"JWT 有效性、上传位图、当前会话、最近 20 条消息、限流计数。","textChars":33,"textLines":1,"bbox":[670,312,550,28]}
+{"kind":"shape","id":"sh/7ql0rmhs","slide":5,"bbox":[652,366,586,94]}
+{"kind":"textbox","id":"sh/6pcjih07","slide":5,"text":"MinIO","textPreview":"MinIO","textChars":5,"textLines":1,"bbox":[670,380,550,34]}
+{"kind":"textbox","id":"sh/5o3ipczm","slide":5,"text":"chunks/<md5>/<index> 临时分片；merged/<md5> 完整文件。","textPreview":"chunks/<md5>/<index> 临时分片；merged/<md5> 完整文件。","textChars":44,"textLines":1,"bbox":[670,420,550,28]}
+{"kind":"shape","id":"sh/knu1g7i1","slide":5,"bbox":[652,474,586,114]}
+{"kind":"textbox","id":"sh/wjytsbu9","slide":5,"text":"Kafka + Elasticsearch","textPreview":"Kafka + Elasticsearch","textChars":21,"textLines":1,"bbox":[670,488,550,34]}
+{"kind":"textbox","id":"sh/xkralgbu","slide":5,"text":"Kafka 把上传响应与耗时解析解耦；ES 存文本、向量、权限字段并完成混合检索。","textPreview":"Kafka 把上传响应与耗时解析解耦；ES 存文本、向量、权限字段并完成混合检索。","textChars":41,"textLines":1,"bbox":[670,528,550,48]}
+{"kind":"notes","id":"nt/d5st3v","slide":5,"text":""}
+{"kind":"slide","id":"sl/49d73r","slide":6,"title":"阅读方法","textShapes":18}
+{"kind":"textbox","id":"sh/fyxc3m1k","slide":6,"text":"阅读方法","textPreview":"阅读方法","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/gz6tcr25","slide":6,"text":"从零学习时，不要从类名开始：从一个可操作场景开始","textPreview":"从零学习时，不要从类名开始：从一个可操作场景开始","textChars":24,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/1kfu5wjq","slide":6,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/6t4b6hk3","slide":6,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/rudczm1o","slide":6,"text":"06 / 37","textPreview":"06 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"textbox","id":"sh/svmt8r29","slide":6,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[58,162,62,36]}
+{"kind":"textbox","id":"sh/twfu1wje","slide":6,"text":"注册一个用户","textPreview":"注册一个用户","textChars":6,"textLines":1,"bbox":[132,154,310,38]}
+{"kind":"textbox","id":"sh/qp8vil07","slide":6,"text":"观察 users / org tags / Redis JWT","textPreview":"观察 users / org tags / Redis JWT","textChars":31,"textLines":1,"bbox":[132,196,410,34]}
+{"kind":"shape","id":"sh/bqhcb61s","slide":6,"bbox":[58,238,500,1]}
+{"kind":"textbox","id":"sh/nilwre9o","slide":6,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[58,264,62,36]}
+{"kind":"textbox","id":"sh/2hcvy9s3","slide":6,"text":"上传一个 2 页 PDF","textPreview":"上传一个 2 页 PDF","textChars":12,"textLines":1,"bbox":[132,256,310,38]}
+{"kind":"textbox","id":"sh/p4netoru","slide":6,"text":"观察分片、合并、Kafka、页级文本","textPreview":"观察分片、合并、Kafka、页级文本","textChars":18,"textLines":1,"bbox":[132,298,410,34]}
+{"kind":"shape","id":"sh/ojud0ja9","slide":6,"bbox":[58,340,500,1]}
+{"kind":"textbox","id":"sh/b65wvy90","slide":6,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[58,366,62,36]}
+{"kind":"textbox","id":"sh/a5wv2tsf","slide":6,"text":"搜索 PDF 中一句话","textPreview":"搜索 PDF 中一句话","textChars":11,"textLines":1,"bbox":[132,358,310,38]}
+{"kind":"textbox","id":"sh/x8nexorq","slide":6,"text":"观察 query vector、ES 查询、权限 should","textPreview":"观察 query vector、ES 查询、权限 should","textChars":31,"textLines":1,"bbox":[132,400,410,34]}
+{"kind":"shape","id":"sh/c7edojal","slide":6,"bbox":[58,442,500,1]}
+{"kind":"textbox","id":"sh/ja5wzy9w","slide":6,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[58,468,62,36]}
+{"kind":"textbox","id":"sh/y9wvqtsb","slide":6,"text":"在聊天里追问并点引用","textPreview":"在聊天里追问并点引用","textChars":10,"textLines":1,"bbox":[132,460,310,38]}
+{"kind":"textbox","id":"sh/uhk7e1gv","slide":6,"text":"观察 Top5、Prompt、流式消息、reference-detail","textPreview":"观察 Top5、Prompt、流式消息、reference-detail","textChars":36,"textLines":1,"bbox":[132,502,410,34]}
+{"kind":"shape","id":"sh/fit87mxg","slide":6,"bbox":[58,544,500,1]}
+{"kind":"shape","id":"sh/gj2pgry1","slide":6,"bbox":[652,158,530,392]}
+{"kind":"textbox","id":"sh/hkbq9wfm","slide":6,"text":"REQUEST-TRACE LOOP","textPreview":"REQUEST-TRACE LOOP","textChars":18,"textLines":1,"bbox":[670,172,494,22]}
+{"kind":"textbox","id":"sh/6d07ahgz","slide":6,"text":"浏览器 Network / WS\n        ↓ 复制 URL、参数、状态码\nController 入口打断点\n        ↓ 看 request attribute 的 userId/orgTags\nService 关键分支打断点\n        ↓ 看 Redis key / MinIO object / Kafka message\nRepository 或 ES 查询\n        ↓ 验证最终落库与返回字段","textPreview":"浏览器 Network / WS |         ↓ 复制 URL、参数、状态码 | Controller 入口打断点 |         ↓ 看 request attribute 的 userId/orgTags | Service 关键分支打断点 |       ...","textChars":214,"textLines":8,"bbox":[670,202,494,336]}
+{"kind":"shape","id":"sh/7e9ojmh4","slide":6,"bbox":[42,590,1196,42]}
+{"kind":"shape","id":"sh/sfipcryp","slide":6,"bbox":[42,590,6,42]}
+{"kind":"textbox","id":"sh/tgrq5wfa","slide":6,"text":"本 PPT 每条链都给出：入口 → 关键分支 → 数据去向 → 源码位置 → 建议断点。","textPreview":"本 PPT 每条链都给出：入口 → 关键分支 → 数据去向 → 源码位置 → 建议断点。","textChars":44,"textLines":1,"bbox":[60,599,1160,25]}
+{"kind":"notes","id":"nt/49d73r","slide":6,"text":""}
+{"kind":"slide","id":"sl/e5rt9i","slide":7,"title":"01","textShapes":16}
+{"kind":"textbox","id":"sh/k7qdcvil","slide":7,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[56,42,180,120]}
+{"kind":"textbox","id":"sh/z6hcjq10","slide":7,"text":"用户管理","textPreview":"用户管理","textChars":4,"textLines":1,"bbox":[56,184,760,78]}
+{"kind":"textbox","id":"sh/y58val0f","slide":7,"text":"身份先被验证，再被编码进 JWT；后续模块都依赖这份身份与组织权限上下文。","textPreview":"身份先被验证，再被编码进 JWT；后续模块都依赖这份身份与组织权限上下文。","textChars":37,"textLines":1,"bbox":[58,278,720,64]}
+{"kind":"shape","id":"sh/9cjep0j2","slide":7,"bbox":[820,64,6,560]}
+{"kind":"textbox","id":"sh/8badgvih","slide":7,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[870,112,54,34]}
+{"kind":"textbox","id":"sh/7a1wna1w","slide":7,"text":"注册","textPreview":"注册","textChars":2,"textLines":1,"bbox":[936,102,260,34]}
+{"kind":"textbox","id":"sh/m98ve50b","slide":7,"text":"策略 / 邀请码 / BCrypt / 私有组织标签","textPreview":"策略 / 邀请码 / BCrypt / 私有组织标签","textChars":26,"textLines":1,"bbox":[936,139,268,58]}
+{"kind":"textbox","id":"sh/h0jetkjy","slide":7,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[870,238,54,34]}
+{"kind":"textbox","id":"sh/wzadkfit","slide":7,"text":"登录","textPreview":"登录","textChars":2,"textLines":1,"bbox":[936,228,260,34]}
+{"kind":"textbox","id":"sh/2ds7atsb","slide":7,"text":"access + refresh token，Redis 保存有效状态","textPreview":"access + refresh token，Redis 保存有效状态","textChars":35,"textLines":1,"bbox":[936,265,268,58]}
+{"kind":"textbox","id":"sh/3elojytg","slide":7,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[870,364,54,34]}
+{"kind":"textbox","id":"sh/ofupc3a1","slide":7,"text":"鉴权","textPreview":"鉴权","textChars":2,"textLines":1,"bbox":[936,354,260,34]}
+{"kind":"textbox","id":"sh/pg3ql8bm","slide":7,"text":"Spring Security + JWT Filter + OrgTag Filter","textPreview":"Spring Security + JWT Filter + OrgTag Filter","textChars":44,"textLines":1,"bbox":[936,391,268,58]}
+{"kind":"textbox","id":"sh/qhc7eds7","slide":7,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[870,490,54,34]}
+{"kind":"textbox","id":"sh/bil8ni9s","slide":7,"text":"授权","textPreview":"授权","textChars":2,"textLines":1,"bbox":[936,480,260,34]}
+{"kind":"textbox","id":"sh/cjupgnad","slide":7,"text":"角色、本人、公开、组织层级共同决定访问","textPreview":"角色、本人、公开、组织层级共同决定访问","textChars":19,"textLines":1,"bbox":[936,517,268,58]}
+{"kind":"textbox","id":"sh/dk3q9sry","slide":7,"text":"07 / 37","textPreview":"07 / 37","textChars":7,"textLines":1,"bbox":[1120,665,100,24]}
+{"kind":"notes","id":"nt/e5rt9i","slide":7,"text":""}
+{"kind":"slide","id":"sl/0juyh8","slide":8,"title":"用户管理","textShapes":25}
+{"kind":"textbox","id":"sh/utgfud0f","slide":8,"text":"用户管理","textPreview":"用户管理","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/hgrypszq","slide":8,"text":"注册链路：一个用户同时产生账号与默认权限边界","textPreview":"注册链路：一个用户同时产生账号与默认权限边界","textChars":22,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/gfixwni5","slide":8,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/3i9grihw","slide":8,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/2h0fyx0b","slide":8,"text":"frontend/src/views/_builtin/login/modules/register.vue；UserController.java:55；UserService.java:95","textPreview":"frontend/src/views/_builtin/login/modules/register.vue；UserController.java:55；UserService.java:95","textChars":97,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/pkrytsz2","slide":8,"text":"08 / 37","textPreview":"08 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/4jix0nih","slide":8,"bbox":[268.4,213,16,4]}
+{"kind":"shape","id":"sh/jm5wfyhs","slide":8,"bbox":[42,156,226.4,118]}
+{"kind":"textbox","id":"sh/ylwfmt07","slide":8,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,168,30,26]}
+{"kind":"textbox","id":"sh/cf2dsjm9","slide":8,"text":"注册页","textPreview":"注册页","textChars":3,"textLines":1,"bbox":[90,166,164.4,34]}
+{"kind":"textbox","id":"sh/dgbe1o3u","slide":8,"text":"username / password\ninviteCode（按策略）","textPreview":"username / password | inviteCode（按策略）","textChars":35,"textLines":2,"bbox":[56,206,198.4,58]}
+{"kind":"shape","id":"sh/qdkvq94j","slide":8,"bbox":[510.8,213,16,4]}
+{"kind":"shape","id":"sh/retwzel4","slide":8,"bbox":[284.4,156,226.4,118]}
+{"kind":"textbox","id":"sh/03mdwjml","slide":8,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[298.4,168,30,26]}
+{"kind":"textbox","id":"sh/14ve5o36","slide":8,"text":"POST /users/register","textPreview":"POST /users/register","textChars":20,"textLines":1,"bbox":[332.4,166,164.4,34]}
+{"kind":"textbox","id":"sh/e14vu94f","slide":8,"text":"UserController.register\n基本请求校验","textPreview":"UserController.register | 基本请求校验","textChars":30,"textLines":2,"bbox":[298.4,206,198.4,58]}
+{"kind":"shape","id":"sh/z2dw3el0","slide":8,"bbox":[753.2,213,16,4]}
+{"kind":"shape","id":"sh/g7idkzmh","slide":8,"bbox":[526.8,156,226.4,118]}
+{"kind":"textbox","id":"sh/h8rut43m","slide":8,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[540.8,168,30,26]}
+{"kind":"textbox","id":"sh/xsj21wbe","slide":8,"text":"注册策略","textPreview":"注册策略","textChars":4,"textLines":1,"bbox":[574.8,166,164.4,34]}
+{"kind":"textbox","id":"sh/wrq18rat","slide":8,"text":"开放 / 邀请码\n密码复杂度与唯一性","textPreview":"开放 / 邀请码 | 密码复杂度与唯一性","textChars":18,"textLines":2,"bbox":[540.8,206,198.4,58]}
+{"kind":"shape","id":"sh/vqhkzmt8","slide":8,"bbox":[995.6,213,16,4]}
+{"kind":"shape","id":"sh/ap8j6hsn","slide":8,"bbox":[769.2,156,226.4,118]}
+{"kind":"textbox","id":"sh/5wj25wra","slide":8,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[783.2,168,30,26]}
+{"kind":"textbox","id":"sh/kvalcra5","slide":8,"text":"保存账号","textPreview":"保存账号","textChars":4,"textLines":1,"bbox":[817.2,166,164.4,34]}
+{"kind":"textbox","id":"sh/ju1k3mtk","slide":8,"text":"BCrypt 哈希\nrole = USER","textPreview":"BCrypt 哈希 | role = USER","textChars":21,"textLines":2,"bbox":[783.2,206,198.4,58]}
+{"kind":"shape","id":"sh/its3a1sz","slide":8,"bbox":[1011.6,156,226.4,118]}
+{"kind":"textbox","id":"sh/tk329grm","slide":8,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1025.6,168,30,26]}
+{"kind":"textbox","id":"sh/sjulgba1","slide":8,"text":"建立权限标签","textPreview":"建立权限标签","textChars":6,"textLines":1,"bbox":[1059.6,166,164.4,34]}
+{"kind":"textbox","id":"sh/q54zud8j","slide":8,"text":"DEFAULT +\nPRIVATE_<username>","textPreview":"DEFAULT + | PRIVATE_<username>","textChars":28,"textLines":2,"bbox":[1025.6,206,198.4,58]}
+{"kind":"shape","id":"sh/r6d03i94","slide":8,"bbox":[42,320,634,260]}
+{"kind":"textbox","id":"sh/c7mhw3qp","slide":8,"text":"SOURCE EXCERPT","textPreview":"SOURCE EXCERPT","textChars":14,"textLines":1,"bbox":[60,334,598,22]}
+{"kind":"textbox","id":"sh/d8vi58ra","slide":8,"text":"// UserService.registerUser(...)\nvalidateRegistrationPolicy(username, inviteCode);\nvalidatePassword(password);\nuser.setPassword(PasswordUtil.encode(password));\nuser.setRole(\"USER\");\nuserRepository.save(user);\n\n// 为用户创建 PRIVATE_<username> 标签\nassignOrgTagsToUser(user.getId(), [\"DEFAULT\", privateTag]);\nsetPrimaryOrgTag(user.getId(), privateTag);","textPreview":"// UserService.registerUser(...) | validateRegistrationPolicy(username, inviteCode); | validatePassword(password); | user.setPassword(Pas...","textChars":344,"textLines":10,"bbox":[60,364,598,204]}
+{"kind":"shape","id":"sh/etozyd8f","slide":8,"bbox":[706,320,532,120]}
+{"kind":"textbox","id":"sh/zux07i90","slide":8,"text":"写入的数据","textPreview":"写入的数据","textChars":5,"textLines":1,"bbox":[724,334,496,34]}
+{"kind":"textbox","id":"sh/0v6h0nql","slide":8,"text":"users：账号、哈希密码、角色、orgTags、primaryOrg\norganization_tags：PRIVATE_<username> 及创建者","textPreview":"users：账号、哈希密码、角色、orgTags、primaryOrg | organization_tags：PRIVATE_<username> 及创建者","textChars":77,"textLines":2,"bbox":[724,374,496,54]}
+{"kind":"shape","id":"sh/1wfi9sr6","slide":8,"bbox":[706,456,532,124]}
+{"kind":"textbox","id":"sh/mxoz2x8r","slide":8,"text":"必须理解的点","textPreview":"必须理解的点","textChars":6,"textLines":1,"bbox":[724,470,496,34]}
+{"kind":"textbox","id":"sh/nyx0b2pc","slide":8,"text":"密码从不以明文保存；“私有组织标签”让每个用户天然拥有一个仅自己可见的上传范围。","textPreview":"密码从不以明文保存；“私有组织标签”让每个用户天然拥有一个仅自己可见的上传范围。","textChars":40,"textLines":1,"bbox":[724,510,496,58]}
+{"kind":"notes","id":"nt/0juyh8","slide":8,"text":""}
+{"kind":"slide","id":"sl/v2fe37","slide":9,"title":"用户管理","textShapes":25}
+{"kind":"textbox","id":"sh/zqd0nupw","slide":9,"text":"用户管理","textPreview":"用户管理","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/0r61wzq1","slide":9,"text":"登录链路：JWT 不只是身份证，也携带权限快照","textPreview":"登录链路：JWT 不只是身份证，也携带权限快照","textChars":23,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/1cfipk7m","slide":9,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/mdojyp87","slide":9,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/nex0rups","slide":9,"text":"frontend/src/store/modules/auth/index.ts:103；UserController.java:89；JwtUtils.java:51,296","textPreview":"frontend/src/store/modules/auth/index.ts:103；UserController.java:89；JwtUtils.java:51,296","textChars":88,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/of610zqd","slide":9,"text":"09 / 37","textPreview":"09 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/9gfit47y","slide":9,"bbox":[270,206,14,4]}
+{"kind":"shape","id":"sh/ahoj29oj","slide":9,"bbox":[42,150,228,116]}
+{"kind":"textbox","id":"sh/bix0vepo","slide":9,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,162,30,26]}
+{"kind":"textbox","id":"sh/7yhkn21k","slide":9,"text":"Pinia login","textPreview":"Pinia login","textChars":11,"textLines":1,"bbox":[90,160,166,34]}
+{"kind":"textbox","id":"sh/mx83ux0z","slide":9,"text":"POST /users/login\n拿 token 对","textPreview":"POST /users/login | 拿 token 对","textChars":27,"textLines":2,"bbox":[56,200,200,56]}
+{"kind":"shape","id":"sh/90z2pcjq","slide":9,"bbox":[512,206,14,4]}
+{"kind":"shape","id":"sh/8zqlw7i5","slide":9,"bbox":[284,150,228,116]}
+{"kind":"textbox","id":"sh/zuxkj21o","slide":9,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[298,162,30,26]}
+{"kind":"textbox","id":"sh/ytojqx03","slide":9,"text":"校验密码","textPreview":"校验密码","textChars":4,"textLines":1,"bbox":[332,160,166,34]}
+{"kind":"textbox","id":"sh/lwf2lsje","slide":9,"text":"UserService.authenticate\nBCrypt.matches","textPreview":"UserService.authenticate | BCrypt.matches","textChars":39,"textLines":2,"bbox":[298,200,200,56]}
+{"kind":"shape","id":"sh/kv6ls7it","slide":9,"bbox":[754,206,14,4]}
+{"kind":"shape","id":"sh/jq1kvm1s","slide":9,"bbox":[526,150,228,116]}
+{"kind":"textbox","id":"sh/ips32h07","slide":9,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[540,162,30,26]}
+{"kind":"textbox","id":"sh/exwfapor","slide":9,"text":"Access Token","textPreview":"Access Token","textChars":12,"textLines":1,"bbox":[574,160,166,34]}
+{"kind":"textbox","id":"sh/zy5wjupc","slide":9,"text":"1 小时\nusername / role / userId","textPreview":"1 小时 | username / role / userId","textChars":29,"textLines":2,"bbox":[540,200,200,56]}
+{"kind":"shape","id":"sh/0zexcz6h","slide":9,"bbox":[996,206,14,4]}
+{"kind":"shape","id":"sh/10nelk72","slide":9,"bbox":[768,150,228,116]}
+{"kind":"textbox","id":"sh/m1gfepon","slide":9,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[782,162,30,26]}
+{"kind":"textbox","id":"sh/n2pwnup8","slide":9,"text":"Refresh Token","textPreview":"Refresh Token","textChars":13,"textLines":1,"bbox":[816,160,166,34]}
+{"kind":"textbox","id":"sh/o3yxgz6t","slide":9,"text":"7 天\n独立 refreshTokenId","textPreview":"7 天 | 独立 refreshTokenId","textChars":21,"textLines":2,"bbox":[782,200,200,56]}
+{"kind":"shape","id":"sh/9o7ep47e","slide":9,"bbox":[1010,150,228,116]}
+{"kind":"textbox","id":"sh/i5cv25oj","slide":9,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1024,162,30,26]}
+{"kind":"textbox","id":"sh/36lwbap4","slide":9,"text":"本地 + Redis","textPreview":"本地 + Redis","textChars":10,"textLines":1,"bbox":[1058,160,166,34]}
+{"kind":"textbox","id":"sh/lkbih8rm","slide":9,"text":"前端 localStorage\n后端 jwt:* 有效性","textPreview":"前端 localStorage | 后端 jwt:* 有效性","textChars":28,"textLines":2,"bbox":[1024,200,200,56]}
+{"kind":"shape","id":"sh/kjih83q1","slide":9,"bbox":[42,310,610,266]}
+{"kind":"textbox","id":"sh/ji90fy9g","slide":9,"text":"SOURCE EXCERPT","textPreview":"SOURCE EXCERPT","textChars":14,"textLines":1,"bbox":[60,324,574,22]}
+{"kind":"textbox","id":"sh/yx0z6t8v","slide":9,"text":"String username = userService.authenticateUser(...);\nString token = jwtUtils.generateToken(username);\nString refreshToken = jwtUtils.generateRefreshToken(username);\n\n// access token claims\nrole, userId, orgTags, primaryOrg, tokenId\n\n// 前端\nlocalStg.set('token', loginToken.token);\nlocalStg.set('refreshToken', loginToken.refreshToken);","textPreview":"String username = userService.authenticateUser(...); | String token = jwtUtils.generateToken(username); | String refreshToken = jwtUtils....","textChars":334,"textLines":10,"bbox":[60,354,574,210]}
+{"kind":"shape","id":"sh/tobil8ri","slide":9,"bbox":[682,310,556,122]}
+{"kind":"textbox","id":"sh/8n2hcnqx","slide":9,"text":"为什么还要 Redis","textPreview":"为什么还要 Redis","textChars":11,"textLines":1,"bbox":[700,324,520,34]}
+{"kind":"textbox","id":"sh/7mt0ji9s","slide":9,"text":"签名合法只能证明 Token 未被篡改；Redis 的 tokenId 状态让注销、轮转、主动失效成为可能。","textPreview":"签名合法只能证明 Token 未被篡改；Redis 的 tokenId 状态让注销、轮转、主动失效成为可能。","textChars":54,"textLines":1,"bbox":[700,364,520,56]}
+{"kind":"shape","id":"sh/6lkzad87","slide":9,"bbox":[682,448,556,128]}
+{"kind":"textbox","id":"sh/9s7y9ore","slide":9,"text":"后续请求携带什么","textPreview":"后续请求携带什么","textChars":8,"textLines":1,"bbox":[700,462,520,34]}
+{"kind":"textbox","id":"sh/oryh0jqt","slide":9,"text":"HTTP：Authorization: Bearer <token>\nWebSocket：/chat/{urlEncodedToken}\nFilter 再把 userId / role / orgTags 写入安全上下文或 request attribute。","textPreview":"HTTP：Authorization: Bearer <token> | WebSocket：/chat/{urlEncodedToken} | Filter 再把 userId / role / orgTags 写入安全上下文或 request attribute。","textChars":130,"textLines":3,"bbox":[700,502,520,62]}
+{"kind":"notes","id":"nt/v2fe37","slide":9,"text":""}
+{"kind":"slide","id":"sl/9vvx7z","slide":10,"title":"用户管理","textShapes":29}
+{"kind":"textbox","id":"sh/ydcja90b","slide":10,"text":"用户管理","textPreview":"用户管理","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/lg32l4z2","slide":10,"text":"安全过滤链：先认证，再补充组织标签授权上下文","textPreview":"安全过滤链：先认证，再补充组织标签授权上下文","textChars":22,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/kfulczih","slide":10,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/725kneh8","slide":10,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/61w3e90n","slide":10,"text":"SecurityConfig.java:42-77；JwtAuthenticationFilter.java:39-78；OrgTagAuthorizationFilter.java:53-122","textPreview":"SecurityConfig.java:42-77；JwtAuthenticationFilter.java:39-78；OrgTagAuthorizationFilter.java:53-122","textChars":98,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/t4n2poze","slide":10,"text":"10 / 37","textPreview":"10 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/83elgjit","slide":10,"bbox":[270,213,14,4]}
+{"kind":"shape","id":"sh/n61kbaho","slide":10,"bbox":[42,154,228,122]}
+{"kind":"textbox","id":"sh/m5sj2p0j","slide":10,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,166,30,26]}
+{"kind":"textbox","id":"sh/wzyx8fid","slide":10,"text":"请求进入","textPreview":"请求进入","textChars":4,"textLines":1,"bbox":[90,164,166,34]}
+{"kind":"textbox","id":"sh/xk7ehkjy","slide":10,"text":"Authorization\n或允许匿名路径","textPreview":"Authorization | 或允许匿名路径","textChars":21,"textLines":2,"bbox":[56,204,200,62]}
+{"kind":"shape","id":"sh/axgf650n","slide":10,"bbox":[512,213,14,4]}
+{"kind":"shape","id":"sh/bypwfa18","slide":10,"bbox":[284,154,228,122]}
+{"kind":"textbox","id":"sh/knixczip","slide":10,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[298,166,30,26]}
+{"kind":"textbox","id":"sh/5orel4ja","slide":10,"text":"JwtAuthenticationFilter","textPreview":"JwtAuthenticationFilter","textChars":23,"textLines":1,"bbox":[332,164,166,34]}
+{"kind":"textbox","id":"sh/yl0fap0j","slide":10,"text":"Redis + 签名校验\n构造 Authentication","textPreview":"Redis + 签名校验 | 构造 Authentication","textChars":30,"textLines":2,"bbox":[298,204,200,62]}
+{"kind":"shape","id":"sh/jm9wju14","slide":10,"bbox":[754,213,14,4]}
+{"kind":"shape","id":"sh/0red0vil","slide":10,"bbox":[526,154,228,122]}
+{"kind":"textbox","id":"sh/1sne90jq","slide":10,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[540,166,30,26]}
+{"kind":"textbox","id":"sh/1ofudwbu","slide":10,"text":"SecurityConfig","textPreview":"SecurityConfig","textChars":14,"textLines":1,"bbox":[574,164,166,34]}
+{"kind":"textbox","id":"sh/gn6d4ru9","slide":10,"text":"角色规则\nanyRequest authenticated","textPreview":"角色规则 | anyRequest authenticated","textChars":29,"textLines":2,"bbox":[540,204,200,62]}
+{"kind":"shape","id":"sh/fmxcbmto","slide":10,"bbox":[996,213,14,4]}
+{"kind":"shape","id":"sh/elob2hc3","slide":10,"bbox":[768,154,228,122]}
+{"kind":"textbox","id":"sh/pszuhwbq","slide":10,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[782,166,30,26]}
+{"kind":"textbox","id":"sh/orqd8ru5","slide":10,"text":"OrgTag Filter","textPreview":"OrgTag Filter","textChars":13,"textLines":1,"bbox":[816,164,166,34]}
+{"kind":"textbox","id":"sh/3qhcf6tk","slide":10,"text":"解析 userId/role/tags\n资源级访问判断","textPreview":"解析 userId/role/tags | 资源级访问判断","textChars":27,"textLines":2,"bbox":[782,204,200,62]}
+{"kind":"shape","id":"sh/2pov61cf","slide":10,"bbox":[1010,154,228,122]}
+{"kind":"textbox","id":"sh/dgzulgb2","slide":10,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1024,166,30,26]}
+{"kind":"textbox","id":"sh/cfqdcbuh","slide":10,"text":"Controller","textPreview":"Controller","textChars":10,"textLines":1,"bbox":[1058,164,166,34]}
+{"kind":"textbox","id":"sh/u1kr6dsz","slide":10,"text":"读取 request attribute\n进入业务逻辑","textPreview":"读取 request attribute | 进入业务逻辑","textChars":27,"textLines":2,"bbox":[1024,204,200,62]}
+{"kind":"shape","id":"sh/v2tszi9k","slide":10,"bbox":[42,318,370,210]}
+{"kind":"textbox","id":"sh/wn298nap","slide":10,"text":"A","textPreview":"A","textChars":1,"textLines":1,"bbox":[58,332,42,30]}
+{"kind":"textbox","id":"sh/hoba18ra","slide":10,"text":"Token 自动刷新","textPreview":"Token 自动刷新","textChars":10,"textLines":1,"bbox":[104,330,292,34]}
+{"kind":"textbox","id":"sh/ipkradsv","slide":10,"text":"有效 Token 距过期 ≤ 5 分钟时主动刷新；过期后 10 分钟宽限期内也可尝试刷新。新 Token 通过响应头返回。","textPreview":"有效 Token 距过期 ≤ 5 分钟时主动刷新；过期后 10 分钟宽限期内也可尝试刷新。新 Token 通过响应头返回。","textChars":61,"textLines":1,"bbox":[60,372,334,144]}
+{"kind":"shape","id":"sh/jqts3i9g","slide":10,"bbox":[434,318,370,210]}
+{"kind":"textbox","id":"sh/4rm9cna1","slide":10,"text":"B","textPreview":"B","textChars":1,"textLines":1,"bbox":[450,332,42,30]}
+{"kind":"textbox","id":"sh/5sva5srm","slide":10,"text":"公开端点","textPreview":"公开端点","textChars":4,"textLines":1,"bbox":[496,330,292,34]}
+{"kind":"textbox","id":"sh/6t4rexs7","slide":10,"text":"注册、登录、refreshToken、WebSocket 路径等按 SecurityConfig 放行；真正的 WS JWT 验证在 ChatWebSocketHandler 建连时执行。","textPreview":"注册、登录、refreshToken、WebSocket 路径等按 SecurityConfig 放行；真正的 WS JWT 验证在 ChatWebSocketHandler 建连时执行。","textChars":94,"textLines":1,"bbox":[452,372,334,144]}
+{"kind":"shape","id":"sh/ruds729c","slide":10,"bbox":[826,318,412,210]}
+{"kind":"textbox","id":"sh/fyp0byxk","slide":10,"text":"C","textPreview":"C","textChars":1,"textLines":1,"bbox":[842,332,42,30]}
+{"kind":"textbox","id":"sh/exgj2twz","slide":10,"text":"阅读提醒","textPreview":"阅读提醒","textChars":4,"textLines":1,"bbox":[888,330,334,34]}
+{"kind":"textbox","id":"sh/10rid8fq","slide":10,"text":"URL 匹配规则决定哪个角色约束生效。排查 401/403 时，先看 SecurityConfig，再看两个 Filter 的路径分支和 request attribute。","textPreview":"URL 匹配规则决定哪个角色约束生效。排查 401/403 时，先看 SecurityConfig，再看两个 Filter 的路径分支和 request attribute。","textChars":87,"textLines":1,"bbox":[844,372,376,144]}
+{"kind":"shape","id":"sh/gzy143e5","slide":10,"bbox":[42,570,1196,42]}
+{"kind":"shape","id":"sh/3290fyxg","slide":10,"bbox":[42,570,6,42]}
+{"kind":"textbox","id":"sh/210j6dwv","slide":10,"text":"认证 Authentication 回答“你是谁”；组织标签过滤回答“你能看哪一份数据”。","textPreview":"认证 Authentication 回答“你是谁”；组织标签过滤回答“你能看哪一份数据”。","textChars":45,"textLines":1,"bbox":[60,579,1160,25]}
+{"kind":"notes","id":"nt/9vvx7z","slide":10,"text":""}
+{"kind":"slide","id":"sl/mhmpxn","slide":11,"title":"用户管理","textShapes":19}
+{"kind":"textbox","id":"sh/c7yhgzih","slide":11,"text":"用户管理","textPreview":"用户管理","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/r6pgnu1w","slide":11,"text":"权限模型：角色是粗粒度，组织标签是数据级边界","textPreview":"权限模型：角色是粗粒度，组织标签是数据级边界","textChars":22,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/q5gzep0b","slide":11,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/p47ylkjq","slide":11,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/43yhcf25","slide":11,"text":"OrgTagAuthorizationFilter.java；FileUploadRepository.findAccessibleFilesWithTags；HybridSearchService.searchWithPermission","textPreview":"OrgTagAuthorizationFilter.java；FileUploadRepository.findAccessibleFilesWithTags；HybridSearchService.searchWithPermission","textChars":120,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/32pgja1k","slide":11,"text":"11 / 37","textPreview":"11 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"textbox","id":"sh/21gzapkf","slide":11,"text":"一次资源访问满足以下任一条件即可","textPreview":"一次资源访问满足以下任一条件即可","textChars":16,"textLines":1,"bbox":[42,150,480,36]}
+{"kind":"shape","id":"sh/90bixoja","slide":11,"bbox":[42,204,548,64]}
+{"kind":"textbox","id":"sh/ozihojip","slide":11,"text":"OWNER","textPreview":"OWNER","textChars":5,"textLines":1,"bbox":[60,219,100,30]}
+{"kind":"textbox","id":"sh/61cnmd0z","slide":11,"text":"file.userId == 当前 userId","textPreview":"file.userId == 当前 userId","textChars":24,"textLines":1,"bbox":[166,215,398,38]}
+{"kind":"shape","id":"sh/725ovihk","slide":11,"bbox":[42,286,548,64]}
+{"kind":"textbox","id":"sh/83e5ony5","slide":11,"text":"PUBLIC","textPreview":"PUBLIC","textChars":6,"textLines":1,"bbox":[60,301,100,30]}
+{"kind":"textbox","id":"sh/t4n6xszq","slide":11,"text":"isPublic == true","textPreview":"isPublic == true","textChars":16,"textLines":1,"bbox":[166,297,398,38]}
+{"kind":"shape","id":"sh/yxcnit03","slide":11,"bbox":[42,368,548,64]}
+{"kind":"textbox","id":"sh/jyloryho","slide":11,"text":"ORG","textPreview":"ORG","textChars":3,"textLines":1,"bbox":[60,383,100,30]}
+{"kind":"textbox","id":"sh/kzu5k3i9","slide":11,"text":"file.orgTag ∈ 用户有效组织标签（含层级）","textPreview":"file.orgTag ∈ 用户有效组织标签（含层级）","textChars":27,"textLines":1,"bbox":[166,379,398,38]}
+{"kind":"shape","id":"sh/l036t8zu","slide":11,"bbox":[42,450,548,64]}
+{"kind":"textbox","id":"sh/itw7uxg7","slide":11,"text":"ADMIN","textPreview":"ADMIN","textChars":5,"textLines":1,"bbox":[60,465,100,30]}
+{"kind":"textbox","id":"sh/3upo32hs","slide":11,"text":"管理员按受保护 API 的角色规则管理","textPreview":"管理员按受保护 API 的角色规则管理","textChars":19,"textLines":1,"bbox":[166,461,398,38]}
+{"kind":"shape","id":"sh/fehkvux4","slide":11,"bbox":[628,150,610,160]}
+{"kind":"textbox","id":"sh/ed83mpgz","slide":11,"text":"组织层级扩展","textPreview":"组织层级扩展","textChars":6,"textLines":1,"bbox":[646,164,574,34]}
+{"kind":"textbox","id":"sh/1gz2x4fa","slide":11,"text":"OrgTagCacheService 会计算有效标签集合；父/子标签关系会影响文件列表与检索过滤，因此不能只比较用户表中的原始逗号字符串。","textPreview":"OrgTagCacheService 会计算有效标签集合；父/子标签关系会影响文件列表与检索过滤，因此不能只比较用户表中的原始逗号字符串。","textChars":69,"textLines":1,"bbox":[646,204,574,94]}
+{"kind":"shape","id":"sh/0fqlozyp","slide":11,"bbox":[628,330,610,160]}
+{"kind":"textbox","id":"sh/n2hkzuxg","slide":11,"text":"同一规则必须贯穿两份数据","textPreview":"同一规则必须贯穿两份数据","textChars":12,"textLines":1,"bbox":[646,344,574,34]}
+{"kind":"textbox","id":"sh/2h83qpgv","slide":11,"text":"MySQL 的 file_upload 控制列表、下载、预览；Elasticsearch 文档块也要保存 userId / orgTag / 公开标记，否则搜索结果可能越权。","textPreview":"MySQL 的 file_upload 控制列表、下载、预览；Elasticsearch 文档块也要保存 userId / orgTag / 公开标记，否则搜索结果可能越权。","textChars":87,"textLines":1,"bbox":[646,384,574,94]}
+{"kind":"shape","id":"sh/p4jm14fm","slide":11,"bbox":[628,510,610,96]}
+{"kind":"textbox","id":"sh/o3alszy1","slide":11,"text":"上传时决定权限","textPreview":"上传时决定权限","textChars":7,"textLines":1,"bbox":[646,524,574,34]}
+{"kind":"textbox","id":"sh/b6143exc","slide":11,"text":"orgTag 与 isPublic 从分片上传一直携带到 Kafka task、DocumentVector、EsDocument。","textPreview":"orgTag 与 isPublic 从分片上传一直携带到 Kafka task、DocumentVector、EsDocument。","textChars":66,"textLines":1,"bbox":[646,564,574,30]}
+{"kind":"notes","id":"nt/mhmpxn","slide":11,"text":""}
+{"kind":"slide","id":"sl/hqxxik","slide":12,"title":"用户管理","textShapes":33}
+{"kind":"textbox","id":"sh/rql0buls","slide":12,"text":"用户管理","textPreview":"用户管理","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/cruhkzmx","slide":12,"text":"用户模块源码索引与建议断点","textPreview":"用户模块源码索引与建议断点","textChars":13,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/ds3id43i","slide":12,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/etczm943","slide":12,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/zul0felo","slide":12,"text":"按表中顺序打开文件即可复现注册、登录、鉴权与授权","textPreview":"按表中顺序打开文件即可复现注册、登录、鉴权与授权","textChars":24,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/0fu1ojm9","slide":12,"text":"12 / 37","textPreview":"12 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/1g3ih43u","slide":12,"bbox":[42,142,1196,66]}
+{"kind":"textbox","id":"sh/mhcjq94f","slide":12,"text":"层次","textPreview":"层次","textChars":2,"textLines":1,"bbox":[52,150,170,50]}
+{"kind":"shape","id":"sh/ni50jelk","slide":12,"bbox":[232,142,1,66]}
+{"kind":"textbox","id":"sh/3mdcb2ps","slide":12,"text":"文件","textPreview":"文件","textChars":2,"textLines":1,"bbox":[242,150,340,50]}
+{"kind":"shape","id":"sh/2l4bixo7","slide":12,"bbox":[592,142,1,66]}
+{"kind":"textbox","id":"sh/povudc7y","slide":12,"text":"入口/方法","textPreview":"入口/方法","textChars":5,"textLines":1,"bbox":[602,150,220,50]}
+{"kind":"shape","id":"sh/4nmtk76d","slide":12,"bbox":[832,142,1,66]}
+{"kind":"textbox","id":"sh/fits7ipw","slide":12,"text":"你要观察的变量","textPreview":"你要观察的变量","textChars":7,"textLines":1,"bbox":[842,150,386,50]}
+{"kind":"shape","id":"sh/uhkbexob","slide":12,"bbox":[42,208,1196,66]}
+{"kind":"textbox","id":"sh/hkbu9s7m","slide":12,"text":"前端","textPreview":"前端","textChars":2,"textLines":1,"bbox":[52,216,170,50]}
+{"kind":"shape","id":"sh/gj2tgn6h","slide":12,"bbox":[232,208,1,66]}
+{"kind":"textbox","id":"sh/zexcjmp0","slide":12,"text":"frontend/src/store/modules/auth/index.ts","textPreview":"frontend/src/store/modules/auth/index.ts","textChars":40,"textLines":1,"bbox":[242,216,340,50]}
+{"kind":"shape","id":"sh/edobqhof","slide":12,"bbox":[592,208,1,66]}
+{"kind":"textbox","id":"sh/a98fil8n","slide":12,"text":"login() :103","textPreview":"login() :103","textChars":12,"textLines":1,"bbox":[602,216,220,50]}
+{"kind":"shape","id":"sh/vahwbq98","slide":12,"bbox":[832,208,1,66]}
+{"kind":"textbox","id":"sh/wbqxkvqt","slide":12,"text":"token、refreshToken、userInfo、角色判断","textPreview":"token、refreshToken、userInfo、角色判断","textChars":32,"textLines":1,"bbox":[842,216,386,50]}
+{"kind":"shape","id":"sh/xcjed0re","slide":12,"bbox":[42,274,1196,66]}
+{"kind":"textbox","id":"sh/idsfm58z","slide":12,"text":"注册/登录","textPreview":"注册/登录","textChars":5,"textLines":1,"bbox":[52,282,170,50]}
+{"kind":"shape","id":"sh/je1wfq94","slide":12,"bbox":[232,274,1,66]}
+{"kind":"textbox","id":"sh/kfaxovqp","slide":12,"text":"controller/UserController.java","textPreview":"controller/UserController.java","textChars":30,"textLines":1,"bbox":[242,282,340,50]}
+{"kind":"shape","id":"sh/5gjeh0ra","slide":12,"bbox":[592,274,1,66]}
+{"kind":"textbox","id":"sh/ehova18f","slide":12,"text":"register :55 / login :89","textPreview":"register :55 / login :89","textChars":24,"textLines":1,"bbox":[602,282,220,50]}
+{"kind":"shape","id":"sh/zixw3690","slide":12,"bbox":[832,274,1,66]}
+{"kind":"textbox","id":"sh/hcnip4bi","slide":12,"text":"统一响应、异常状态、JWT 对","textPreview":"统一响应、异常状态、JWT 对","textChars":15,"textLines":1,"bbox":[842,282,386,50]}
+{"kind":"shape","id":"sh/gbehgzax","slide":12,"bbox":[42,340,1196,66]}
+{"kind":"textbox","id":"sh/fal0nutc","slide":12,"text":"用户业务","textPreview":"用户业务","textChars":4,"textLines":1,"bbox":[52,348,170,50]}
+{"kind":"shape","id":"sh/u9czeps7","slide":12,"bbox":[232,340,1,66]}
+{"kind":"textbox","id":"sh/p0nitobu","slide":12,"text":"service/UserService.java","textPreview":"service/UserService.java","textChars":24,"textLines":1,"bbox":[242,348,340,50]}
+{"kind":"shape","id":"sh/4zehkja9","slide":12,"bbox":[592,340,1,66]}
+{"kind":"textbox","id":"sh/3y50reto","slide":12,"text":"registerUser :95 / authenticate :244","textPreview":"registerUser :95 / authenticate :244","textChars":36,"textLines":1,"bbox":[602,348,220,50]}
+{"kind":"shape","id":"sh/2xwzi9s3","slide":12,"bbox":[832,340,1,66]}
+{"kind":"textbox","id":"sh/543yhkba","slide":12,"text":"密码哈希、DEFAULT/PRIVATE 标签","textPreview":"密码哈希、DEFAULT/PRIVATE 标签","textChars":23,"textLines":1,"bbox":[842,348,386,50]}
+{"kind":"shape","id":"sh/k3ah8fap","slide":12,"bbox":[42,406,1196,66]}
+{"kind":"textbox","id":"sh/8b2tcryp","slide":12,"text":"Token","textPreview":"Token","textChars":5,"textLines":1,"bbox":[52,414,170,50]}
+{"kind":"shape","id":"sh/9cbu5wza","slide":12,"bbox":[232,406,1,66]}
+{"kind":"textbox","id":"sh/m9kbahgj","slide":12,"text":"utils/JwtUtils.java","textPreview":"utils/JwtUtils.java","textChars":19,"textLines":1,"bbox":[242,414,340,50]}
+{"kind":"shape","id":"sh/natc3mh4","slide":12,"bbox":[592,406,1,66]}
+{"kind":"textbox","id":"sh/07it87yt","slide":12,"text":"generateToken :51 / validate :95","textPreview":"generateToken :51 / validate :95","textChars":32,"textLines":1,"bbox":[602,414,220,50]}
+{"kind":"shape","id":"sh/l8ba1czy","slide":12,"bbox":[832,406,1,66]}
+{"kind":"textbox","id":"sh/y50b6xgn","slide":12,"text":"claims、tokenId、有效期、Redis 状态","textPreview":"claims、tokenId、有效期、Redis 状态","textChars":27,"textLines":1,"bbox":[842,414,386,50]}
+{"kind":"shape","id":"sh/z69sz2h8","slide":12,"bbox":[42,472,1196,66]}
+{"kind":"textbox","id":"sh/c3it47yh","slide":12,"text":"过滤器","textPreview":"过滤器","textChars":3,"textLines":1,"bbox":[52,480,170,50]}
+{"kind":"shape","id":"sh/d4raxsz2","slide":12,"bbox":[232,472,1,66]}
+{"kind":"textbox","id":"sh/fepc721o","slide":12,"text":"config/JwtAuthenticationFilter.java\nconfig/OrgTagAuthorizationFilter.java","textPreview":"config/JwtAuthenticationFilter.java | config/OrgTagAuthorizationFilter.java","textChars":73,"textLines":2,"bbox":[242,480,340,50]}
+{"kind":"shape","id":"sh/edgbexkj","slide":12,"bbox":[592,472,1,66]}
+{"kind":"textbox","id":"sh/107u9sju","slide":12,"text":"doFilterInternal","textPreview":"doFilterInternal","textChars":16,"textLines":1,"bbox":[602,480,220,50]}
+{"kind":"shape","id":"sh/gfytgn29","slide":12,"bbox":[832,472,1,66]}
+{"kind":"textbox","id":"sh/329cb210","slide":12,"text":"Authentication、request userId/role/orgTags","textPreview":"Authentication、request userId/role/orgTags","textChars":42,"textLines":1,"bbox":[842,480,386,50]}
+{"kind":"shape","id":"sh/210vix0f","slide":12,"bbox":[42,538,1196,66]}
+{"kind":"textbox","id":"sh/p4rudcj6","slide":12,"text":"刷新","textPreview":"刷新","textChars":2,"textLines":1,"bbox":[52,546,170,50]}
+{"kind":"shape","id":"sh/o3idk7il","slide":12,"bbox":[232,538,1,66]}
+{"kind":"textbox","id":"sh/b69cfm1w","slide":12,"text":"controller/AuthController.java","textPreview":"controller/AuthController.java","textChars":30,"textLines":1,"bbox":[242,546,340,50]}
+{"kind":"shape","id":"sh/q50vmh0b","slide":12,"bbox":[592,538,1,66]}
+{"kind":"textbox","id":"sh/m14felkj","slide":12,"text":"refreshToken :40","textPreview":"refreshToken :40","textChars":16,"textLines":1,"bbox":[602,546,220,50]}
+{"kind":"shape","id":"sh/72dw7ql4","slide":12,"bbox":[832,538,1,66]}
+{"kind":"textbox","id":"sh/83mxgb2p","slide":12,"text":"旧 refresh 失效、新 token 对轮转","textPreview":"旧 refresh 失效、新 token 对轮转","textChars":24,"textLines":1,"bbox":[842,546,386,50]}
+{"kind":"shape","id":"sh/94vy9g3a","slide":12,"bbox":[42,612,1196,42]}
+{"kind":"shape","id":"sh/yxkfa14n","slide":12,"bbox":[42,612,6,42]}
+{"kind":"textbox","id":"sh/zytw36l8","slide":12,"text":"最小练习：注册 user_a → 登录 → 查看 JWT claims → 上传私有文件 → 用 user_b 验证列表、检索、下载都不可见。","textPreview":"最小练习：注册 user_a → 登录 → 查看 JWT claims → 上传私有文件 → 用 user_b 验证列表、检索、下载都不可见。","textChars":71,"textLines":1,"bbox":[60,621,1160,25]}
+{"kind":"notes","id":"nt/hqxxik","slide":12,"text":""}
+{"kind":"slide","id":"sl/tllp8a","slide":13,"title":"02","textShapes":16}
+{"kind":"textbox","id":"sh/7qdcv2ho","slide":13,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[56,42,180,120]}
+{"kind":"textbox","id":"sh/srmto7y9","slide":13,"text":"文件上传与解析","textPreview":"文件上传与解析","textChars":7,"textLines":1,"bbox":[56,184,760,78]}
+{"kind":"textbox","id":"sh/tsvuxczu","slide":13,"text":"同步链负责可靠接收；异步链负责把完整文件转换成可检索的文本块与向量。","textPreview":"同步链负责可靠接收；异步链负责把完整文件转换成可检索的文本块与向量。","textChars":34,"textLines":1,"bbox":[58,278,720,64]}
+{"kind":"shape","id":"sh/ut4bqhgz","slide":13,"bbox":[820,64,6,560]}
+{"kind":"textbox","id":"sh/fudczmhk","slide":13,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[870,112,54,34]}
+{"kind":"textbox","id":"sh/gvmtsry5","slide":13,"text":"前端分片","textPreview":"前端分片","textChars":4,"textLines":1,"bbox":[936,102,260,34]}
+{"kind":"textbox","id":"sh/hwfu1cfq","slide":13,"text":"MD5、5MB、队列、进度与恢复","textPreview":"MD5、5MB、队列、进度与恢复","textChars":16,"textLines":1,"bbox":[936,139,268,58]}
+{"kind":"textbox","id":"sh/2xovuhgb","slide":13,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[870,238,54,34]}
+{"kind":"textbox","id":"sh/3yxc3mxw","slide":13,"text":"可靠上传","textPreview":"可靠上传","textChars":4,"textLines":1,"bbox":[936,228,260,34]}
+{"kind":"textbox","id":"sh/3ehwby5o","slide":13,"text":"MinIO 分片 + Redis 位图 + MySQL 元数据","textPreview":"MinIO 分片 + Redis 位图 + MySQL 元数据","textChars":31,"textLines":1,"bbox":[936,265,268,58]}
+{"kind":"textbox","id":"sh/2d8fito3","slide":13,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[870,364,54,34]}
+{"kind":"textbox","id":"sh/pgzed8nu","slide":13,"text":"合并投递","textPreview":"合并投递","textChars":4,"textLines":1,"bbox":[936,354,260,34]}
+{"kind":"textbox","id":"sh/4fqxk369","slide":13,"text":"状态 CAS、MinIO compose、Kafka transaction","textPreview":"状态 CAS、MinIO compose、Kafka transaction","textChars":38,"textLines":1,"bbox":[936,391,268,58]}
+{"kind":"textbox","id":"sh/fahw7e5s","slide":13,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[870,490,54,34]}
+{"kind":"textbox","id":"sh/up8fe9o7","slide":13,"text":"知识化","textPreview":"知识化","textChars":3,"textLines":1,"bbox":[936,480,260,34]}
+{"kind":"textbox","id":"sh/hcze9ony","slide":13,"text":"解析、语义分块、Embedding、ES 批量索引","textPreview":"解析、语义分块、Embedding、ES 批量索引","textChars":25,"textLines":1,"bbox":[936,517,268,58]}
+{"kind":"textbox","id":"sh/gbqxgj6d","slide":13,"text":"13 / 37","textPreview":"13 / 37","textChars":7,"textLines":1,"bbox":[1120,665,100,24]}
+{"kind":"notes","id":"nt/tllp8a","slide":13,"text":""}
+{"kind":"slide","id":"sl/3seugf","slide":14,"title":"文件上传","textShapes":25}
+{"kind":"textbox","id":"sh/9cf61872","slide":14,"text":"文件上传","textPreview":"文件上传","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/mpo76d8r","slide":14,"text":"前端分片队列：文件级并发，分片级串行","textPreview":"前端分片队列：文件级并发，分片级串行","textChars":18,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/nqxozipc","slide":14,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/wfqpcn6t","slide":14,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/xgzq5s7e","slide":14,"text":"frontend/src/constants/common.ts；frontend/src/store/modules/knowledge-base/index.ts:8-171","textPreview":"frontend/src/constants/common.ts；frontend/src/store/modules/knowledge-base/index.ts:8-171","textChars":89,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/ado7adon","slide":14,"text":"14 / 37","textPreview":"14 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/veh83ip8","slide":14,"bbox":[270,207,14,4]}
+{"kind":"shape","id":"sh/kjqpg76p","slide":14,"bbox":[42,150,228,118]}
+{"kind":"textbox","id":"sh/5kzq9s7a","slide":14,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,162,30,26]}
+{"kind":"textbox","id":"sh/hcfylsfy","slide":14,"text":"选文件","textPreview":"选文件","textChars":3,"textLines":1,"bbox":[90,160,166,34]}
+{"kind":"textbox","id":"sh/gbmhcned","slide":14,"text":"UI 默认接受\n.pdf/.doc/.docx/.txt","textPreview":"UI 默认接受 | .pdf/.doc/.docx/.txt","textChars":28,"textLines":2,"bbox":[56,200,200,58]}
+{"kind":"shape","id":"sh/vadgjixs","slide":14,"bbox":[512,207,14,4]}
+{"kind":"shape","id":"sh/u94zadwn","slide":14,"bbox":[284,150,228,118]}
+{"kind":"textbox","id":"sh/5gfypcfa","slide":14,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[298,162,30,26]}
+{"kind":"textbox","id":"sh/4f6hg7ep","slide":14,"text":"计算 MD5","textPreview":"计算 MD5","textChars":6,"textLines":1,"bbox":[332,160,166,34]}
+{"kind":"textbox","id":"sh/3exgn2x4","slide":14,"text":"作为幂等键\n标识整份文件","textPreview":"作为幂等键 | 标识整份文件","textChars":12,"textLines":2,"bbox":[298,200,200,58]}
+{"kind":"shape","id":"sh/idozexwj","slide":14,"bbox":[754,207,14,4]}
+{"kind":"shape","id":"sh/lkvyd8fq","slide":14,"bbox":[526,150,228,118]}
+{"kind":"textbox","id":"sh/kj2x43e5","slide":14,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[540,162,30,26]}
+{"kind":"textbox","id":"sh/cn6hk3m1","slide":14,"text":"加入队列","textPreview":"加入队列","textChars":4,"textLines":1,"bbox":[574,160,166,34]}
+{"kind":"textbox","id":"sh/dofyt8nm","slide":14,"text":"同一 md5 去重\n记录 task 状态","textPreview":"同一 md5 去重 | 记录 task 状态","textChars":20,"textLines":2,"bbox":[540,200,200,58]}
+{"kind":"shape","id":"sh/qlozid4b","slide":14,"bbox":[996,207,14,4]}
+{"kind":"shape","id":"sh/bmxgri5g","slide":14,"bbox":[768,150,228,118]}
+{"kind":"textbox","id":"sh/0rqhonmd","slide":14,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[782,162,30,26]}
+{"kind":"textbox","id":"sh/lszyxsny","slide":14,"text":"切 5MB","textPreview":"切 5MB","textChars":5,"textLines":1,"bbox":[816,160,166,34]}
+{"kind":"textbox","id":"sh/yp8zmd47","slide":14,"text":"file.slice(start,end)\n逐片 POST","textPreview":"file.slice(start,end) | 逐片 POST","textChars":29,"textLines":2,"bbox":[782,200,200,58]}
+{"kind":"shape","id":"sh/zqhgvi5s","slide":14,"bbox":[1010,150,228,118]}
+{"kind":"textbox","id":"sh/8vqhsnm9","slide":14,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1024,162,30,26]}
+{"kind":"textbox","id":"sh/9gzi1snu","slide":14,"text":"全部完成","textPreview":"全部完成","textChars":4,"textLines":1,"bbox":[1058,160,166,34]}
+{"kind":"textbox","id":"sh/3m5s7qt8","slide":14,"text":"POST /upload/merge\n任务置 finished","textPreview":"POST /upload/merge | 任务置 finished","textChars":31,"textLines":2,"bbox":[1024,200,200,58]}
+{"kind":"shape","id":"sh/ilcbelsn","slide":14,"bbox":[42,310,690,264]}
+{"kind":"textbox","id":"sh/5ona90be","slide":14,"text":"SOURCE EXCERPT","textPreview":"SOURCE EXCERPT","textChars":14,"textLines":1,"bbox":[60,324,654,22]}
+{"kind":"textbox","id":"sh/4netgvat","slide":14,"text":"export const chunkSize = 5 * 1024 * 1024;\n\nconst start = task.currentChunk * chunkSize;\nconst end = Math.min(task.file.size, start + chunkSize);\nformData.append('file', task.file.slice(start, end));\nawait request({ url: '/upload/chunk', method: 'post', data: formData });\n\n// 最多 3 个文件任务同时运行；每个文件的 chunk 顺序上传\nif (task.currentChunk === task.totalChunks) await mergeFile(task);","textPreview":"export const chunkSize = 5 * 1024 * 1024; |  | const start = task.currentChunk * chunkSize; | const end = Math.min(task.file.size, start ...","textChars":374,"textLines":9,"bbox":[60,354,654,208]}
+{"kind":"shape","id":"sh/vyls36tc","slide":14,"bbox":[760,310,478,124]}
+{"kind":"textbox","id":"sh/uxcbalsr","slide":14,"text":"进度来源","textPreview":"进度来源","textChars":4,"textLines":1,"bbox":[778,324,442,34]}
+{"kind":"textbox","id":"sh/h03a5gb2","slide":14,"text":"前端有 currentChunk；后端也从 Redis 位图返回已上传分片与进度。恢复上传时应以后端状态为准。","textPreview":"前端有 currentChunk；后端也从 Redis 位图返回已上传分片与进度。恢复上传时应以后端状态为准。","textChars":55,"textLines":1,"bbox":[778,364,442,58]}
+{"kind":"shape","id":"sh/gzutcbax","slide":14,"bbox":[760,450,478,124]}
+{"kind":"textbox","id":"sh/fupcfatg","slide":14,"text":"格式差异","textPreview":"格式差异","textChars":4,"textLines":1,"bbox":[778,464,442,34]}
+{"kind":"textbox","id":"sh/etgbm5sv","slide":14,"text":"前端选择器只开放 4 类；后端 FileTypeValidationService 实际支持更多 Office、ODF、HTML、JSON、CSV、EPUB 等格式。","textPreview":"前端选择器只开放 4 类；后端 FileTypeValidationService 实际支持更多 Office、ODF、HTML、JSON、CSV、EPUB 等格式。","textChars":83,"textLines":1,"bbox":[778,504,442,58]}
+{"kind":"notes","id":"nt/3seugf","slide":14,"text":""}
+{"kind":"slide","id":"sl/adwsa2","slide":15,"title":"文件上传","textShapes":29}
+{"kind":"textbox","id":"sh/ydojets7","slide":15,"text":"文件上传","textPreview":"文件上传","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/l0fi9oby","slide":15,"text":"分片上传后端：三份状态共同保证幂等与可恢复","textPreview":"分片上传后端：三份状态共同保证幂等与可恢复","textChars":21,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/kz61gjad","slide":15,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/72x0byto","slide":15,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/61ojits3","slide":15,"text":"UploadController.java:102-205；UploadService.java:70-142,329-430；FileUploadRepository.java","textPreview":"UploadController.java:102-205；UploadService.java:70-142,329-430；FileUploadRepository.java","textChars":89,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/t4zid8bu","slide":15,"text":"15 / 37","textPreview":"15 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/83q1k3a9","slide":15,"bbox":[270,209,14,4]}
+{"kind":"shape","id":"sh/v6h0fyt0","slide":15,"bbox":[42,150,228,122]}
+{"kind":"textbox","id":"sh/u58jmdsf","slide":15,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,162,30,26]}
+{"kind":"textbox","id":"sh/s7e9g7ml","slide":15,"text":"Controller 校验","textPreview":"Controller 校验","textChars":13,"textLines":1,"bbox":[90,160,166,34]}
+{"kind":"textbox","id":"sh/t8na9c36","slide":15,"text":"首片校验类型\n组织上传上限","textPreview":"首片校验类型 | 组织上传上限","textChars":13,"textLines":2,"bbox":[56,200,200,62]}
+{"kind":"shape","id":"sh/65wrex4f","slide":15,"bbox":[512,209,14,4]}
+{"kind":"shape","id":"sh/r65872l0","slide":15,"bbox":[284,150,228,122]}
+{"kind":"textbox","id":"sh/gby9472h","slide":15,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[298,162,30,26]}
+{"kind":"textbox","id":"sh/1c7adc32","slide":15,"text":"FileUpload","textPreview":"FileUpload","textChars":10,"textLines":1,"bbox":[332,160,166,34]}
+{"kind":"textbox","id":"sh/e9grih4b","slide":15,"text":"按 md5 + userId\n创建或复用元数据","textPreview":"按 md5 + userId | 创建或复用元数据","textChars":23,"textLines":2,"bbox":[298,200,200,62]}
+{"kind":"shape","id":"sh/fapsbmlw","slide":15,"bbox":[754,209,14,4]}
+{"kind":"shape","id":"sh/ofy98r2t","slide":15,"bbox":[526,150,228,122]}
+{"kind":"textbox","id":"sh/pgrahw3y","slide":15,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[540,162,30,26]}
+{"kind":"textbox","id":"sh/xwnq1wvi","slide":15,"text":"Redis 位图","textPreview":"Redis 位图","textChars":8,"textLines":1,"bbox":[574,160,166,34]}
+{"kind":"textbox","id":"sh/cve9srux","slide":15,"text":"GETBIT 判断重复\nSETBIT 标记成功","textPreview":"GETBIT 判断重复 | SETBIT 标记成功","textChars":23,"textLines":2,"bbox":[540,200,200,62]}
+{"kind":"shape","id":"sh/bul8zmdc","slide":15,"bbox":[996,209,14,4]}
+{"kind":"shape","id":"sh/atcrqhcr","slide":15,"bbox":[768,150,228,122]}
+{"kind":"textbox","id":"sh/l0na5wve","slide":15,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[782,162,30,26]}
+{"kind":"textbox","id":"sh/kze9wrut","slide":15,"text":"MinIO","textPreview":"MinIO","textChars":5,"textLines":1,"bbox":[816,160,166,34]}
+{"kind":"textbox","id":"sh/zy5s3md8","slide":15,"text":"chunks/<md5>/<index>\n保存真实字节","textPreview":"chunks/<md5>/<index> | 保存真实字节","textChars":27,"textLines":2,"bbox":[782,200,200,62]}
+{"kind":"shape","id":"sh/yxwruhcn","slide":15,"bbox":[1010,150,228,122]}
+{"kind":"textbox","id":"sh/143qtcva","slide":15,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1024,162,30,26]}
+{"kind":"textbox","id":"sh/03a9k7up","slide":15,"text":"ChunkInfo","textPreview":"ChunkInfo","textChars":9,"textLines":1,"bbox":[1058,160,166,34]}
+{"kind":"textbox","id":"sh/q98nuds7","slide":15,"text":"chunkMd5 / size\n形成可核对清单","textPreview":"chunkMd5 / size | 形成可核对清单","textChars":23,"textLines":2,"bbox":[1024,200,200,62]}
+{"kind":"shape","id":"sh/raho3yts","slide":15,"bbox":[42,316,370,218]}
+{"kind":"textbox","id":"sh/sbqpw3ad","slide":15,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[58,330,42,30]}
+{"kind":"textbox","id":"sh/dwj658by","slide":15,"text":"Redis：快","textPreview":"Redis：快","textChars":7,"textLines":1,"bbox":[104,328,292,34]}
+{"kind":"textbox","id":"sh/exs7ydsj","slide":15,"text":"key = upload:<userId>:<fileMd5>\n每一位对应一个 chunkIndex，用于快速计算进度与判断是否已上传。","textPreview":"key = upload:<userId>:<fileMd5> | 每一位对应一个 chunkIndex，用于快速计算进度与判断是否已上传。","textChars":68,"textLines":2,"bbox":[60,370,334,152]}
+{"kind":"shape","id":"sh/fy1o7it4","slide":15,"bbox":[434,316,370,218]}
+{"kind":"textbox","id":"sh/0zap0nap","slide":15,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[450,330,42,30]}
+{"kind":"textbox","id":"sh/10j69sba","slide":15,"text":"MinIO：真","textPreview":"MinIO：真","textChars":7,"textLines":1,"bbox":[496,328,292,34]}
+{"kind":"textbox","id":"sh/u1onm9cf","slide":15,"text":"只有对象 chunks/<md5>/<index> 存在，分片字节才真正落地。合并前会再次检查对象存在性。","textPreview":"只有对象 chunks/<md5>/<index> 存在，分片字节才真正落地。合并前会再次检查对象存在性。","textChars":53,"textLines":1,"bbox":[452,370,334,152]}
+{"kind":"shape","id":"sh/v2xovetk","slide":15,"bbox":[826,316,412,218]}
+{"kind":"textbox","id":"sh/bm5c3qhc","slide":15,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[842,330,42,30]}
+{"kind":"textbox","id":"sh/alwval0r","slide":15,"text":"MySQL：可追踪","textPreview":"MySQL：可追踪","textChars":9,"textLines":1,"bbox":[888,328,334,34]}
+{"kind":"textbox","id":"sh/xo7u5gzi","slide":15,"text":"file_upload 保存整文件状态；chunk_info 保存每片元数据。重复请求会先查位图/记录，避免再次写入。","textPreview":"file_upload 保存整文件状态；chunk_info 保存每片元数据。重复请求会先查位图/记录，避免再次写入。","textChars":59,"textLines":1,"bbox":[844,370,376,152]}
+{"kind":"shape","id":"sh/cnydcbix","slide":15,"bbox":[42,572,1196,42]}
+{"kind":"shape","id":"sh/jqpc7qh8","slide":15,"bbox":[42,572,6,42]}
+{"kind":"textbox","id":"sh/ypgvel03","slide":15,"text":"幂等键不是单独的 fileMd5，而是 fileMd5 + userId；数据库也用唯一约束处理并发创建。","textPreview":"幂等键不是单独的 fileMd5，而是 fileMd5 + userId；数据库也用唯一约束处理并发创建。","textChars":53,"textLines":1,"bbox":[60,581,1160,25]}
+{"kind":"notes","id":"nt/adwsa2","slide":15,"text":""}
+{"kind":"slide","id":"sl/5paoc5","slide":16,"title":"文件上传","textShapes":25}
+{"kind":"textbox","id":"sh/lkzypsb2","slide":16,"text":"文件上传","textPreview":"文件上传","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/yx8fudcb","slide":16,"text":"合并与投递：HTTP 很快返回，耗时解析移交 Kafka","textPreview":"合并与投递：HTTP 很快返回，耗时解析移交 Kafka","textChars":28,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/zyhgnitw","slide":16,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/cv6xs3ul","slide":16,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/xwzyl8b6","slide":16,"text":"UploadController.java:289-445；UploadService.java:528-653；KafkaConfig.java","textPreview":"UploadController.java:289-445；UploadService.java:528-653；KafkaConfig.java","textChars":73,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/atofqdcf","slide":16,"text":"16 / 37","textPreview":"16 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/buxgjyt0","slide":16,"bbox":[270,209,14,4]}
+{"kind":"shape","id":"sh/wrah47up","slide":16,"bbox":[42,150,228,122]}
+{"kind":"textbox","id":"sh/hsjyxcba","slide":16,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,162,30,26]}
+{"kind":"textbox","id":"sh/90fupgvm","slide":16,"text":"校验所有分片","textPreview":"校验所有分片","textChars":6,"textLines":1,"bbox":[90,160,166,34]}
+{"kind":"textbox","id":"sh/8z6dwbe1","slide":16,"text":"Redis/ChunkInfo/MinIO\n数量与对象完整","textPreview":"Redis/ChunkInfo/MinIO | 数量与对象完整","textChars":29,"textLines":2,"bbox":[56,200,200,62]}
+{"kind":"shape","id":"sh/nyxcn6dg","slide":16,"bbox":[512,209,14,4]}
+{"kind":"shape","id":"sh/mxovu1wv","slide":16,"bbox":[284,150,228,122]}
+{"kind":"textbox","id":"sh/lcfulwva","slide":16,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[298,162,30,26]}
+{"kind":"textbox","id":"sh/0b6dsre5","slide":16,"text":"状态 CAS","textPreview":"状态 CAS","textChars":6,"textLines":1,"bbox":[332,160,166,34]}
+{"kind":"textbox","id":"sh/zaxcjmdk","slide":16,"text":"UPLOADING → MERGING\n防止重复合并","textPreview":"UPLOADING → MERGING | 防止重复合并","textChars":26,"textLines":2,"bbox":[298,200,200,62]}
+{"kind":"shape","id":"sh/y9ovqhwz","slide":16,"bbox":[754,209,14,4]}
+{"kind":"shape","id":"sh/58jex0vu","slide":16,"bbox":[526,150,228,122]}
+{"kind":"textbox","id":"sh/47qd4ve9","slide":16,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[540,162,30,26]}
+{"kind":"textbox","id":"sh/oni5g3qh","slide":16,"text":"MinIO compose","textPreview":"MinIO compose","textChars":13,"textLines":1,"bbox":[574,160,166,34]}
+{"kind":"textbox","id":"sh/por6po72","slide":16,"text":"生成 merged/<md5>\n删除临时 chunks","textPreview":"生成 merged/<md5> | 删除临时 chunks","textChars":27,"textLines":2,"bbox":[540,200,200,62]}
+{"kind":"shape","id":"sh/2l0net8r","slide":16,"bbox":[996,209,14,4]}
+{"kind":"shape","id":"sh/3m9onypw","slide":16,"bbox":[768,150,228,122]}
+{"kind":"textbox","id":"sh/gji5cjql","slide":16,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[782,162,30,26]}
+{"kind":"textbox","id":"sh/1kr6lo76","slide":16,"text":"估算用量","textPreview":"估算用量","textChars":4,"textLines":1,"bbox":[816,160,166,34]}
+{"kind":"textbox","id":"sh/ehgna98f","slide":16,"text":"预估 Embedding token\n记录 chunk 数","textPreview":"预估 Embedding token | 记录 chunk 数","textChars":29,"textLines":2,"bbox":[782,200,200,62]}
+{"kind":"shape","id":"sh/fi9ojep0","slide":16,"bbox":[1010,150,228,122]}
+{"kind":"textbox","id":"sh/sfy58jq9","slide":16,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1024,162,30,26]}
+{"kind":"textbox","id":"sh/tg76h47u","slide":16,"text":"Kafka 事务发送","textPreview":"Kafka 事务发送","textChars":10,"textLines":1,"bbox":[1058,160,166,34]}
+{"kind":"textbox","id":"sh/vq5oretw","slide":16,"text":"FileProcessingTask\n权限字段一并发送","textPreview":"FileProcessingTask | 权限字段一并发送","textChars":27,"textLines":2,"bbox":[1024,200,200,62]}
+{"kind":"shape","id":"sh/upw7y9sb","slide":16,"bbox":[42,316,674,264]}
+{"kind":"textbox","id":"sh/hs76t4rm","slide":16,"text":"SOURCE EXCERPT","textPreview":"SOURCE EXCERPT","textChars":14,"textLines":1,"bbox":[60,330,638,22]}
+{"kind":"textbox","id":"sh/wryp0zah","slide":16,"text":"int changed = fileUploadRepository.updateStatusIfCurrent(\n    id, STATUS_UPLOADING, STATUS_MERGING);\nif (changed == 0) return CONFLICT;\n\nobjectUrl = uploadService.mergeChunks(md5, fileName, userId);\nFileProcessingTask task = new FileProcessingTask(\n    objectUrl, md5, userId, orgTag, isPublic);\nkafkaTemplate.executeInTransaction(ops ->\n    ops.send(fileProcessingTopic, task));","textPreview":"int changed = fileUploadRepository.updateStatusIfCurrent( |     id, STATUS_UPLOADING, STATUS_MERGING); | if (changed == 0) return CONFLIC...","textChars":379,"textLines":9,"bbox":[60,360,638,208]}
+{"kind":"shape","id":"sh/jepove9s","slide":16,"bbox":[744,316,494,126]}
+{"kind":"textbox","id":"sh/idg729s7","slide":16,"text":"为什么需要 CAS","textPreview":"为什么需要 CAS","textChars":9,"textLines":1,"bbox":[762,330,458,34]}
+{"kind":"textbox","id":"sh/5g7qxory","slide":16,"text":"两个 merge 请求同时到达时，只有一个能把状态从 UPLOADING 改为 MERGING；另一个得到冲突，避免重复 compose 与重复 Kafka 任务。","textPreview":"两个 merge 请求同时到达时，只有一个能把状态从 UPLOADING 改为 MERGING；另一个得到冲突，避免重复 compose 与重复 Kafka 任务。","textChars":82,"textLines":1,"bbox":[762,370,458,60]}
+{"kind":"shape","id":"sh/4fyp4jad","slide":16,"bbox":[744,458,494,122]}
+{"kind":"textbox","id":"sh/ri98zy94","slide":16,"text":"响应不等于知识已就绪","textPreview":"响应不等于知识已就绪","textChars":10,"textLines":1,"bbox":[762,472,458,34]}
+{"kind":"textbox","id":"sh/6hg76tsj","slide":16,"text":"merge 成功只表示完整文件已存在且任务已投递。解析、向量化、索引仍由消费者异步完成。","textPreview":"merge 成功只表示完整文件已存在且任务已投递。解析、向量化、索引仍由消费者异步完成。","textChars":44,"textLines":1,"bbox":[762,512,458,56]}
+{"kind":"notes","id":"nt/5paoc5","slide":16,"text":""}
+{"kind":"slide","id":"sl/xnm5mo","slide":17,"title":"文件上传","textShapes":26}
+{"kind":"textbox","id":"sh/69gzyxc3","slide":17,"text":"文件上传","textPreview":"文件上传","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/tc7ytcve","slide":17,"text":"Kafka 消费：下载 → 解析入 MySQL → 向量入 ES","textPreview":"Kafka 消费：下载 → 解析入 MySQL → 向量入 ES","textChars":32,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/sbyh07ut","slide":17,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/fepgv2dk","slide":17,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/edgz2xcz","slide":17,"text":"consumer/FileProcessingConsumer.java:42-80；config/KafkaConfig.java:100-151","textPreview":"consumer/FileProcessingConsumer.java:42-80；config/KafkaConfig.java:100-151","textChars":74,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/10ryxcvq","slide":17,"text":"17 / 37","textPreview":"17 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/gfih47u5","slide":17,"bbox":[270,209,14,4]}
+{"kind":"shape","id":"sh/329gzmdg","slide":17,"bbox":[42,150,228,122]}
+{"kind":"textbox","id":"sh/210z6hcb","slide":17,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,162,30,26]}
+{"kind":"textbox","id":"sh/4bmtkb61","slide":17,"text":"消费任务","textPreview":"消费任务","textChars":4,"textLines":1,"bbox":[90,160,166,34]}
+{"kind":"textbox","id":"sh/pcvudg76","slide":17,"text":"fileUrl / md5\nuserId / orgTag / public","textPreview":"fileUrl / md5 | userId / orgTag / public","textChars":38,"textLines":2,"bbox":[56,200,200,62]}
+{"kind":"shape","id":"sh/294bi1ov","slide":17,"bbox":[512,209,14,4]}
+{"kind":"shape","id":"sh/3adcb6pg","slide":17,"bbox":[284,150,228,122]}
+{"kind":"textbox","id":"sh/cfmtob6x","slide":17,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[298,162,30,26]}
+{"kind":"textbox","id":"sh/dgvuhg7i","slide":17,"text":"获取文件流","textPreview":"获取文件流","textChars":5,"textLines":1,"bbox":[332,160,166,34]}
+{"kind":"textbox","id":"sh/qd4bmlor","slide":17,"text":"预签名 URL\n或本地路径","textPreview":"预签名 URL | 或本地路径","textChars":13,"textLines":2,"bbox":[298,200,200,62]}
+{"kind":"shape","id":"sh/redcfqpc","slide":17,"bbox":[754,209,14,4]}
+{"kind":"shape","id":"sh/0j6dsv69","slide":17,"bbox":[526,150,228,122]}
+{"kind":"textbox","id":"sh/l4ful0ne","slide":17,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[540,162,30,26]}
+{"kind":"textbox","id":"sh/90bu50fi","slide":17,"text":"parseAndSave","textPreview":"parseAndSave","textChars":12,"textLines":1,"bbox":[574,160,166,34]}
+{"kind":"textbox","id":"sh/8z2tcvyd","slide":17,"text":"文本块写入\ndocument_vectors","textPreview":"文本块写入 | document_vectors","textChars":22,"textLines":2,"bbox":[540,200,200,62]}
+{"kind":"shape","id":"sh/7ytc3qxs","slide":17,"bbox":[996,209,14,4]}
+{"kind":"shape","id":"sh/mxkbalg7","slide":17,"bbox":[768,150,228,122]}
+{"kind":"textbox","id":"sh/hovu90fu","slide":17,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[782,162,30,26]}
+{"kind":"textbox","id":"sh/w3mtgvy9","slide":17,"text":"vectorizeAndStore","textPreview":"vectorizeAndStore","textChars":17,"textLines":1,"bbox":[816,160,166,34]}
+{"kind":"textbox","id":"sh/v2tc7qxo","slide":17,"text":"批量 Embedding\n构造 EsDocument","textPreview":"批量 Embedding | 构造 EsDocument","textChars":26,"textLines":2,"bbox":[782,200,200,62]}
+{"kind":"shape","id":"sh/u1kbelg3","slide":17,"bbox":[1010,150,228,122]}
+{"kind":"textbox","id":"sh/d8ruxgzq","slide":17,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1024,162,30,26]}
+{"kind":"textbox","id":"sh/c7it4by5","slide":17,"text":"完成统计","textPreview":"完成统计","textChars":4,"textLines":1,"bbox":[1058,160,166,34]}
+{"kind":"textbox","id":"sh/2dgrehwn","slide":17,"text":"实际 token / chunk\n写回 FileUpload","textPreview":"实际 token / chunk | 写回 FileUpload","textChars":30,"textLines":2,"bbox":[1024,200,200,62]}
+{"kind":"shape","id":"sh/3ep872x8","slide":17,"bbox":[42,316,620,240]}
+{"kind":"textbox","id":"sh/ozy9g7et","slide":17,"text":"SOURCE EXCERPT","textPreview":"SOURCE EXCERPT","textChars":14,"textLines":1,"bbox":[60,330,584,22]}
+{"kind":"textbox","id":"sh/p07q9cve","slide":17,"text":"@KafkaListener(topics = \"${kafka.topic.file-processing}\")\npublic void consume(FileProcessingTask task) {\n  try (InputStream fileStream = open(task.getFileUrl())) {\n    parseService.parseAndSave(task.getFileMd5(), fileStream,\n        task.getUserId(), task.getOrgTag(), task.isPublic());\n    vectorizationService.vectorizeAndStore(task.getFileMd5());\n  }\n}","textPreview":"@KafkaListener(topics = \"${kafka.topic.file-processing}\") | public void consume(FileProcessingTask task) { |   try (InputStream fileStrea...","textChars":355,"textLines":8,"bbox":[60,360,584,184]}
+{"kind":"shape","id":"sh/q1grihwz","slide":17,"bbox":[690,316,548,112]}
+{"kind":"textbox","id":"sh/b2p8bmdk","slide":17,"text":"重试","textPreview":"重试","textChars":2,"textLines":1,"bbox":[708,330,512,34]}
+{"kind":"textbox","id":"sh/c3y94re5","slide":17,"text":"DefaultErrorHandler 使用 FixedBackOff(3000ms, 4)：首次失败后最多再重试 4 次。","textPreview":"DefaultErrorHandler 使用 FixedBackOff(3000ms, 4)：首次失败后最多再重试 4 次。","textChars":62,"textLines":1,"bbox":[708,370,512,46]}
+{"kind":"shape","id":"sh/d4radwva","slide":17,"bbox":[690,444,548,112]}
+{"kind":"textbox","id":"sh/65wr6xwv","slide":17,"text":"死信","textPreview":"死信","textChars":2,"textLines":1,"bbox":[708,458,512,34]}
+{"kind":"textbox","id":"sh/r658zix0","slide":17,"text":"持续失败由 DeadLetterPublishingRecoverer 发送到 DLT，避免消费线程永久卡住。","textPreview":"持续失败由 DeadLetterPublishingRecoverer 发送到 DLT，避免消费线程永久卡住。","textChars":55,"textLines":1,"bbox":[708,498,512,46]}
+{"kind":"shape","id":"sh/7qdgnuls","slide":17,"bbox":[42,590,1196,42]}
+{"kind":"shape","id":"sh/mp4fepk7","slide":17,"bbox":[42,590,6,42]}
+{"kind":"textbox","id":"sh/9svypk3y","slide":17,"text":"排错边界：上传接口成功但搜不到内容时，应从 Kafka consumer 日志开始，而不是回到分片接口。","textPreview":"排错边界：上传接口成功但搜不到内容时，应从 Kafka consumer 日志开始，而不是回到分片接口。","textChars":52,"textLines":1,"bbox":[60,599,1160,25]}
+{"kind":"notes","id":"nt/xnm5mo","slide":17,"text":""}
+{"kind":"slide","id":"sl/o2wfl7","slide":18,"title":"文件上传","textShapes":12}
+{"kind":"textbox","id":"sh/lgfipgne","slide":18,"text":"文件上传","textPreview":"文件上传","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/ydozul4n","slide":18,"text":"解析分流：PDF 保留页码，其他格式走通用流式解析","textPreview":"解析分流：PDF 保留页码，其他格式走通用流式解析","textChars":25,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/zex0n658","slide":18,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/cbmhsbmx","slide":18,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/xcfilgn2","slide":18,"text":"service/ParseService.java:72-102,278-391；pom.xml（Tika 2.9.1 / PDFBox）","textPreview":"service/ParseService.java:72-102,278-391；pom.xml（Tika 2.9.1 / PDFBox）","textChars":69,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/a94zq1or","slide":18,"text":"18 / 37","textPreview":"18 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"textbox","id":"sh/bad0j65c","slide":18,"text":"文件流","textPreview":"文件流","textChars":3,"textLines":1,"bbox":[56,156,160,44]}
+{"kind":"shape","id":"sh/onmhor6l","slide":18,"bbox":[126,205,4,335]}
+{"kind":"shape","id":"sh/povihwn6","slide":18,"bbox":[126,270,70,4]}
+{"kind":"shape","id":"sh/pcbqdcbq","slide":18,"bbox":[126,446,70,4]}
+{"kind":"shape","id":"sh/obi9k7u5","slide":18,"bbox":[196,206,466,154]}
+{"kind":"textbox","id":"sh/3a98b2dk","slide":18,"text":"PDF 分支｜PDFBox","textPreview":"PDF 分支｜PDFBox","textChars":13,"textLines":1,"bbox":[214,220,430,34]}
+{"kind":"textbox","id":"sh/2p07ihcz","slide":18,"text":"读取 PDDocument；逐页提取文本；清理页眉页脚/空白；每个子块保存 pageNumber，便于聊天引用直接定位到“第 N 页”。","textPreview":"读取 PDDocument；逐页提取文本；清理页眉页脚/空白；每个子块保存 pageNumber，便于聊天引用直接定位到“第 N 页”。","textChars":68,"textLines":1,"bbox":[214,260,430,88]}
+{"kind":"shape","id":"sh/1orq9cve","slide":18,"bbox":[196,382,466,154]}
+{"kind":"textbox","id":"sh/gnipg7ut","slide":18,"text":"通用分支｜Apache Tika","textPreview":"通用分支｜Apache Tika","textChars":16,"textLines":1,"bbox":[214,396,430,34]}
+{"kind":"textbox","id":"sh/fm9872do","slide":18,"text":"AutoDetectParser + BodyContentHandler；支持 Office、文本、HTML 等多种格式；先流式生成较大的父块，再做语义子分块。","textPreview":"AutoDetectParser + BodyContentHandler；支持 Office、文本、HTML 等多种格式；先流式生成较大的父块，再做语义子分块。","textChars":81,"textLines":1,"bbox":[214,436,430,88]}
+{"kind":"shape","id":"sh/el07exc3","slide":18,"bbox":[702,174,536,344]}
+{"kind":"textbox","id":"sh/tkrqlsvi","slide":18,"text":"SOURCE EXCERPT","textPreview":"SOURCE EXCERPT","textChars":14,"textLines":1,"bbox":[720,188,500,22]}
+{"kind":"textbox","id":"sh/sjypcnux","slide":18,"text":"buffered.mark(8);\nbyte[] header = buffered.readNBytes(5);\nbuffered.reset();\n\nif (new String(header).startsWith(\"%PDF-\")) {\n  parsePdfAndSave(...);       // 保留页码\n} else {\n  AutoDetectParser parser = new AutoDetectParser();\n  parser.parse(stream, handler, metadata, context);\n}","textPreview":"buffered.mark(8); | byte[] header = buffered.readNBytes(5); | buffered.reset(); |  | if (new String(header).startsWith(\"%PDF-\")) { |   pa...","textChars":275,"textLines":10,"bbox":[720,218,500,288]}
+{"kind":"shape","id":"sh/k329s72t","slide":18,"bbox":[42,574,1196,42]}
+{"kind":"shape","id":"sh/54bq1s3e","slide":18,"bbox":[42,574,6,42]}
+{"kind":"textbox","id":"sh/i1krqxkn","slide":18,"text":"与脑图的差异：当前实现并非“所有 Office 都由 POI 手写解析”；Tika 是通用入口，PDF 才单独走 PDFBox。","textPreview":"与脑图的差异：当前实现并非“所有 Office 都由 POI 手写解析”；Tika 是通用入口，PDF 才单独走 PDFBox。","textChars":64,"textLines":1,"bbox":[60,583,1160,25]}
+{"kind":"notes","id":"nt/o2wfl7","slide":18,"text":""}
+{"kind":"slide","id":"sl/93yd6g","slide":19,"title":"文件上传","textShapes":29}
+{"kind":"textbox","id":"sh/8bmpkjqd","slide":19,"text":"文件上传","textPreview":"文件上传","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/7adore98","slide":19,"text":"语义分块：优先保留段落和句子，再退化到字符切分","textPreview":"语义分块：优先保留段落和句子，再退化到字符切分","textChars":23,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/m947i98n","slide":19,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/l8v6por2","slide":19,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/k7mpgjqh","slide":19,"text":"ParseService.java:500-643；application.yml file.chunk.text-size=512","textPreview":"ParseService.java:500-643；application.yml file.chunk.text-size=512","textChars":66,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/z6done9w","slide":19,"text":"19 / 37","textPreview":"19 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/y547e98b","slide":19,"bbox":[270,206,14,4]}
+{"kind":"shape","id":"sh/x4b6l4rq","slide":19,"bbox":[42,150,228,116]}
+{"kind":"textbox","id":"sh/c32pczq5","slide":19,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,162,30,26]}
+{"kind":"textbox","id":"sh/e90321cf","slide":19,"text":"父块","textPreview":"父块","textChars":2,"textLines":1,"bbox":[90,160,166,34]}
+{"kind":"textbox","id":"sh/fatkv6tk","slide":19,"text":"通用解析先形成\n约 1MB 文本段","textPreview":"通用解析先形成 | 约 1MB 文本段","textChars":17,"textLines":2,"bbox":[56,200,200,56]}
+{"kind":"shape","id":"sh/gb2l4bu5","slide":19,"bbox":[512,206,14,4]}
+{"kind":"shape","id":"sh/1cb2xgbq","slide":19,"bbox":[284,150,228,116]}
+{"kind":"textbox","id":"sh/6l03yhc3","slide":19,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[298,162,30,26]}
+{"kind":"textbox","id":"sh/rm9krmto","slide":19,"text":"段落","textPreview":"段落","textChars":2,"textLines":1,"bbox":[332,160,166,34]}
+{"kind":"textbox","id":"sh/s7il0ru9","slide":19,"text":"按空行 / 换行\n尽量保持结构","textPreview":"按空行 / 换行 | 尽量保持结构","textChars":15,"textLines":2,"bbox":[298,200,200,56]}
+{"kind":"shape","id":"sh/t8r2twbu","slide":19,"bbox":[754,206,14,4]}
+{"kind":"shape","id":"sh/ihg3uhc7","slide":19,"bbox":[526,150,228,116]}
+{"kind":"textbox","id":"sh/jipknmts","slide":19,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[540,162,30,26]}
+{"kind":"textbox","id":"sh/7m50vi9k","slide":19,"text":"句子","textPreview":"句子","textChars":2,"textLines":1,"bbox":[574,160,166,34]}
+{"kind":"textbox","id":"sh/mlwz2dsz","slide":19,"text":"标点拆分\n不超过目标长度","textPreview":"标点拆分 | 不超过目标长度","textChars":12,"textLines":2,"bbox":[540,200,200,56]}
+{"kind":"shape","id":"sh/9onixsra","slide":19,"bbox":[996,206,14,4]}
+{"kind":"shape","id":"sh/8neh4nap","slide":19,"bbox":[768,150,228,116]}
+{"kind":"textbox","id":"sh/vq50zi9g","slide":19,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[782,162,30,26]}
+{"kind":"textbox","id":"sh/upwz6xsv","slide":19,"text":"HanLP","textPreview":"HanLP","textChars":5,"textLines":1,"bbox":[816,160,166,34]}
+{"kind":"textbox","id":"sh/hs7i1srm","slide":19,"text":"中文分词辅助\n控制边界","textPreview":"中文分词辅助 | 控制边界","textChars":11,"textLines":2,"bbox":[782,200,200,56]}
+{"kind":"shape","id":"sh/wry18na1","slide":19,"bbox":[1010,150,228,116]}
+{"kind":"textbox","id":"sh/bul0ny9c","slide":19,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1024,162,30,26]}
+{"kind":"textbox","id":"sh/qtczutsr","slide":19,"text":"字符退化","textPreview":"字符退化","textChars":4,"textLines":1,"bbox":[1058,160,166,34]}
+{"kind":"textbox","id":"sh/gzqx4zq9","slide":19,"text":"极长无标点文本\n强制切到 512","textPreview":"极长无标点文本 | 强制切到 512","textChars":16,"textLines":2,"bbox":[1024,200,200,56]}
+{"kind":"shape","id":"sh/10jex47u","slide":19,"bbox":[42,310,370,230]}
+{"kind":"textbox","id":"sh/ex8f2p8j","slide":19,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[58,324,42,30]}
+{"kind":"textbox","id":"sh/fyhwvup4","slide":19,"text":"为什么不是固定截断","textPreview":"为什么不是固定截断","textChars":9,"textLines":1,"bbox":[104,322,292,34]}
+{"kind":"textbox","id":"sh/svqx0fqd","slide":19,"text":"固定每 512 字符切开会把标题、句子或语义单元从中间截断，降低向量语义质量，也让引用证据难以阅读。","textPreview":"固定每 512 字符切开会把标题、句子或语义单元从中间截断，降低向量语义质量，也让引用证据难以阅读。","textChars":50,"textLines":1,"bbox":[60,364,334,164]}
+{"kind":"shape","id":"sh/twzetk7y","slide":19,"bbox":[434,310,370,230]}
+{"kind":"textbox","id":"sh/6t8fyp87","slide":19,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[450,324,42,30]}
+{"kind":"textbox","id":"sh/ruhwraps","slide":19,"text":"每块保存什么","textPreview":"每块保存什么","textChars":6,"textLines":1,"bbox":[496,322,292,34]}
+{"kind":"textbox","id":"sh/craxcjqh","slide":19,"text":"fileMd5、chunkId、textContent、pageNumber、anchorText，以及 userId / orgTag / isPublic。权限字段从这一层开始与文本绑定。","textPreview":"fileMd5、chunkId、textContent、pageNumber、anchorText，以及 userId / orgTag / isPublic。权限字段从这一层开始与文本绑定。","textChars":96,"textLines":1,"bbox":[452,364,334,164]}
+{"kind":"shape","id":"sh/ds3y5o72","slide":19,"bbox":[826,310,412,230]}
+{"kind":"textbox","id":"sh/9cvuxgne","slide":19,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[842,324,42,30]}
+{"kind":"textbox","id":"sh/8bmtob69","slide":19,"text":"调参影响","textPreview":"调参影响","textChars":4,"textLines":1,"bbox":[888,322,334,34]}
+{"kind":"textbox","id":"sh/7adcv65o","slide":19,"text":"chunk 太小：上下文碎、请求多、成本高。\nchunk 太大：召回不精确、Prompt 膨胀。\n改 text-size 后应重建知识库并做检索评估。","textPreview":"chunk 太小：上下文碎、请求多、成本高。 | chunk 太大：召回不精确、Prompt 膨胀。 | 改 text-size 后应重建知识库并做检索评估。","textChars":75,"textLines":3,"bbox":[844,364,376,164]}
+{"kind":"shape","id":"sh/m94b21o3","slide":19,"bbox":[42,580,1196,42]}
+{"kind":"shape","id":"sh/h0vu1gnq","slide":19,"bbox":[42,580,6,42]}
+{"kind":"textbox","id":"sh/wzmtsb65","slide":19,"text":"默认目标文本块大小为 512；PDF 分页信息会随块保留。","textPreview":"默认目标文本块大小为 512；PDF 分页信息会随块保留。","textChars":29,"textLines":1,"bbox":[60,589,1160,25]}
+{"kind":"notes","id":"nt/93yd6g","slide":19,"text":""}
+{"kind":"slide","id":"sl/ci8fz0","slide":20,"title":"文件上传","textShapes":14}
+{"kind":"textbox","id":"sh/axgni10b","slide":20,"text":"文件上传","textPreview":"文件上传","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/xk76tgjm","slide":20,"text":"向量化与索引：同一文本块在 MySQL 与 ES 各有一份职责","textPreview":"向量化与索引：同一文本块在 MySQL 与 ES 各有一份职责","textChars":31,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/cjy5kbi1","slide":20,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/zm9ov61s","slide":20,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/ylgnml07","slide":20,"text":"VectorizationService.java:47-96；EmbeddingClient.java:77-103；ElasticsearchService.java:34-68","textPreview":"VectorizationService.java:47-96；EmbeddingClient.java:77-103；ElasticsearchService.java:34-68","textChars":91,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/lor6xgjy","slide":20,"text":"20 / 37","textPreview":"20 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"textbox","id":"sh/knipobid","slide":20,"text":"MySQL document_vectors","textPreview":"MySQL document_vectors","textChars":22,"textLines":1,"bbox":[42,148,400,32]}
+{"kind":"textbox","id":"sh/7q9ozq1o","slide":20,"text":"Elasticsearch knowledge_base","textPreview":"Elasticsearch knowledge_base","textChars":28,"textLines":1,"bbox":[714,148,480,32]}
+{"kind":"shape","id":"sh/mp07ql0j","slide":20,"bbox":[42,198,430,276]}
+{"kind":"textbox","id":"sh/gfi5o3e9","slide":20,"text":"可追踪的原始分块","textPreview":"可追踪的原始分块","textChars":8,"textLines":1,"bbox":[60,212,394,34]}
+{"kind":"textbox","id":"sh/hgbmx8fu","slide":20,"text":"• fileMd5 / chunkId\n• textContent\n• pageNumber / anchorText\n• userId / orgTag / isPublic\n\n便于重新向量化、审计与关系查询。","textPreview":"• fileMd5 / chunkId | • textContent | • pageNumber / anchorText | • userId / orgTag / isPublic |  | 便于重新向量化、审计与关系查询。","textChars":106,"textLines":6,"bbox":[60,252,394,210]}
+{"kind":"shape","id":"sh/ud0nmtwj","slide":20,"bbox":[492,330,188,4]}
+{"kind":"textbox","id":"sh/fe94vyx4","slide":20,"text":"EmbeddingClient","textPreview":"EmbeddingClient","textChars":15,"textLines":1,"bbox":[505,268,160,34]}
+{"kind":"textbox","id":"sh/4325snel","slide":20,"text":"批量请求\n限流 / 额度预留\n失败回滚","textPreview":"批量请求 | 限流 / 额度预留 | 失败回滚","textChars":19,"textLines":3,"bbox":[514,352,142,84]}
+{"kind":"shape","id":"sh/p4b618f6","slide":20,"bbox":[706,198,532,276]}
+{"kind":"textbox","id":"sh/21knqdwf","slide":20,"text":"用于检索的索引文档","textPreview":"用于检索的索引文档","textChars":9,"textLines":1,"bbox":[724,212,496,34]}
+{"kind":"textbox","id":"sh/32tozix0","slide":20,"text":"• textContent（IK 分词）\n• vector（dense_vector, 2048, cosine）\n• fileMd5 / chunkId / pageNumber\n• userId / orgTag / 公开标记\n\nbulkIndex 一次批量写入多个块。","textPreview":"• textContent（IK 分词） | • vector（dense_vector, 2048, cosine） | • fileMd5 / chunkId / pageNumber | • userId / orgTag / 公开标记 |  | bulkIndex ...","textChars":137,"textLines":6,"bbox":[724,252,496,210]}
+{"kind":"shape","id":"sh/c725wneh","slide":20,"bbox":[42,494,1196,116]}
+{"kind":"textbox","id":"sh/d8v65sf2","slide":20,"text":"CORE LOOP","textPreview":"CORE LOOP","textChars":9,"textLines":1,"bbox":[60,508,1160,22]}
+{"kind":"textbox","id":"sh/lorm9s76","slide":20,"text":"float[] vector = embeddingClient.embedWithUsage(text, DOCUMENT, requesterId);\nesDocuments.add(new EsDocument(text, vector, userId, orgTag, isPublic));\nelasticsearchService.bulkIndex(esDocuments);","textPreview":"float[] vector = embeddingClient.embedWithUsage(text, DOCUMENT, requesterId); | esDocuments.add(new EsDocument(text, vector, userId, orgT...","textChars":195,"textLines":3,"bbox":[60,538,1160,60]}
+{"kind":"notes","id":"nt/ci8fz0","slide":20,"text":""}
+{"kind":"slide","id":"sl/g68tg1","slide":21,"title":"文件上传","textShapes":29}
+{"kind":"textbox","id":"sh/1wrid4jq","slide":21,"text":"文件上传","textPreview":"文件上传","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/et0zipkz","slide":21,"text":"上传状态、存储键与排错入口","textPreview":"上传状态、存储键与排错入口","textChars":13,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/fu90bulk","slide":21,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/oj2hoj21","slide":21,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/pkbih4jm","slide":21,"text":"UploadService / UploadController / FileProcessingConsumer / elasticsearch-mapping.json","textPreview":"UploadService / UploadController / FileProcessingConsumer / elasticsearch-mapping.json","textChars":86,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/2hkzm9kv","slide":21,"text":"21 / 37","textPreview":"21 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/nit0fe1g","slide":21,"bbox":[42,144,1196,76]}
+{"kind":"textbox","id":"sh/wn21sj2d","slide":21,"text":"阶段","textPreview":"阶段","textChars":2,"textLines":1,"bbox":[52,152,185,60]}
+{"kind":"shape","id":"sh/xoviloji","slide":21,"bbox":[247,144,1,76]}
+{"kind":"textbox","id":"sh/xkfe9cva","slide":21,"text":"关键状态/键","textPreview":"关键状态/键","textChars":6,"textLines":1,"bbox":[257,152,280,60]}
+{"kind":"shape","id":"sh/cj6dg7u5","slide":21,"bbox":[547,144,1,76]}
+{"kind":"textbox","id":"sh/bidw72dk","slide":21,"text":"主要文件","textPreview":"主要文件","textChars":4,"textLines":1,"bbox":[557,152,310,60]}
+{"kind":"shape","id":"sh/ah4vexcz","slide":21,"bbox":[877,144,1,76]}
+{"kind":"textbox","id":"sh/lofedcvm","slide":21,"text":"失败时先看","textPreview":"失败时先看","textChars":5,"textLines":1,"bbox":[887,152,341,60]}
+{"kind":"shape","id":"sh/kn6dk7u1","slide":21,"bbox":[42,220,1196,76]}
+{"kind":"textbox","id":"sh/zmxwbmdg","slide":21,"text":"分片","textPreview":"分片","textChars":2,"textLines":1,"bbox":[52,228,185,60]}
+{"kind":"shape","id":"sh/ylovihcv","slide":21,"bbox":[247,220,1,76]}
+{"kind":"textbox","id":"sh/1svu1svi","slide":21,"text":"upload:<userId>:<md5> 位图\nchunks/<md5>/<index>","textPreview":"upload:<userId>:<md5> 位图 | chunks/<md5>/<index>","textChars":45,"textLines":2,"bbox":[257,228,280,60]}
+{"kind":"shape","id":"sh/0r2d8nex","slide":21,"bbox":[547,220,1,76]}
+{"kind":"textbox","id":"sh/sb6donmt","slide":21,"text":"UploadController / UploadService","textPreview":"UploadController / UploadService","textChars":32,"textLines":1,"bbox":[557,228,310,60]}
+{"kind":"shape","id":"sh/tcfehs3y","slide":21,"bbox":[877,220,1,76]}
+{"kind":"textbox","id":"sh/69ovmd4n","slide":21,"text":"HTTP 返回、Redis 位、MinIO 对象、chunk_info","textPreview":"HTTP 返回、Redis 位、MinIO 对象、chunk_info","textChars":35,"textLines":1,"bbox":[887,228,341,60]}
+{"kind":"shape","id":"sh/raxwfil8","slide":21,"bbox":[42,296,1196,76]}
+{"kind":"textbox","id":"sh/gzqds7mp","slide":21,"text":"合并","textPreview":"合并","textChars":2,"textLines":1,"bbox":[52,304,185,60]}
+{"kind":"shape","id":"sh/10zelc3a","slide":21,"bbox":[247,296,1,76]}
+{"kind":"textbox","id":"sh/ex8vqx4j","slide":21,"text":"UPLOADING → MERGING → COMPLETED\nmerged/<md5>","textPreview":"UPLOADING → MERGING → COMPLETED | merged/<md5>","textChars":44,"textLines":2,"bbox":[257,304,280,60]}
+{"kind":"shape","id":"sh/fyhwj2l4","slide":21,"bbox":[547,296,1,76]}
+{"kind":"textbox","id":"sh/o3qxw721","slide":21,"text":"UploadController.mergeFile\nUploadService.mergeChunks","textPreview":"UploadController.mergeFile | UploadService.mergeChunks","textChars":52,"textLines":2,"bbox":[557,304,310,60]}
+{"kind":"shape","id":"sh/p4jepc36","slide":21,"bbox":[877,296,1,76]}
+{"kind":"textbox","id":"sh/za58ba9k","slide":21,"text":"CAS 返回值、分片数量、compose 异常","textPreview":"CAS 返回值、分片数量、compose 异常","textChars":23,"textLines":1,"bbox":[887,304,341,60]}
+{"kind":"shape","id":"sh/y9w725sf","slide":21,"bbox":[42,372,1196,76]}
+{"kind":"textbox","id":"sh/lcnqd0rq","slide":21,"text":"投递","textPreview":"投递","textChars":2,"textLines":1,"bbox":[52,380,185,60]}
+{"kind":"shape","id":"sh/kbep4fa5","slide":21,"bbox":[247,372,1,76]}
+{"kind":"textbox","id":"sh/b6l87q9o","slide":21,"text":"file-processing-topic1","textPreview":"file-processing-topic1","textChars":22,"textLines":1,"bbox":[257,380,280,60]}
+{"kind":"shape","id":"sh/a5c7yls3","slide":21,"bbox":[547,372,1,76]}
+{"kind":"textbox","id":"sh/x83q90ru","slide":21,"text":"KafkaConfig\nFileProcessingTask","textPreview":"KafkaConfig | FileProcessingTask","textChars":30,"textLines":2,"bbox":[557,380,310,60]}
+{"kind":"shape","id":"sh/c7up0va9","slide":21,"bbox":[877,372,1,76]}
+{"kind":"textbox","id":"sh/v2p8ju9s","slide":21,"text":"生产者事务、topic、序列化、消费者组","textPreview":"生产者事务、topic、序列化、消费者组","textChars":20,"textLines":1,"bbox":[887,380,341,60]}
+{"kind":"shape","id":"sh/u1g7ap87","slide":21,"bbox":[42,448,1196,76]}
+{"kind":"textbox","id":"sh/2pwbe9or","slide":21,"text":"解析","textPreview":"解析","textChars":2,"textLines":1,"bbox":[52,456,185,60]}
+{"kind":"shape","id":"sh/3q5c7e5c","slide":21,"bbox":[247,448,1,76]}
+{"kind":"textbox","id":"sh/4betgj6x","slide":21,"text":"document_vectors","textPreview":"document_vectors","textChars":16,"textLines":1,"bbox":[257,456,280,60]}
+{"kind":"shape","id":"sh/pcnu9on2","slide":21,"bbox":[547,448,1,76]}
+{"kind":"textbox","id":"sh/ulcba9of","slide":21,"text":"FileProcessingConsumer\nParseService","textPreview":"FileProcessingConsumer | ParseService","textChars":35,"textLines":2,"bbox":[557,456,310,60]}
+{"kind":"shape","id":"sh/vmls3e50","slide":21,"bbox":[877,448,1,76]}
+{"kind":"textbox","id":"sh/gnutcj6l","slide":21,"text":"下载 URL、格式探测、分块数量、页码","textPreview":"下载 URL、格式探测、分块数量、页码","textChars":19,"textLines":1,"bbox":[887,456,341,60]}
+{"kind":"shape","id":"sh/honu5on6","slide":21,"bbox":[42,524,1196,76]}
+{"kind":"textbox","id":"sh/ehgbmtoz","slide":21,"text":"索引","textPreview":"索引","textChars":2,"textLines":1,"bbox":[52,532,185,60]}
+{"kind":"shape","id":"sh/zipcfy5k","slide":21,"bbox":[247,524,1,76]}
+{"kind":"textbox","id":"sh/9cre5s7m","slide":21,"text":"knowledge_base","textPreview":"knowledge_base","textChars":14,"textLines":1,"bbox":[257,532,280,60]}
+{"kind":"shape","id":"sh/obixc7q1","slide":21,"bbox":[547,524,1,76]}
+{"kind":"textbox","id":"sh/na9w32pg","slide":21,"text":"VectorizationService\nElasticsearchService","textPreview":"VectorizationService | ElasticsearchService","textChars":41,"textLines":2,"bbox":[557,532,310,60]}
+{"kind":"shape","id":"sh/m90vax8v","slide":21,"bbox":[877,524,1,76]}
+{"kind":"textbox","id":"sh/18re1s7a","slide":21,"text":"Embedding 响应维度、bulk error、索引 mapping","textPreview":"Embedding 响应维度、bulk error、索引 mapping","textChars":36,"textLines":1,"bbox":[887,532,341,60]}
+{"kind":"shape","id":"sh/07id8nq5","slide":21,"bbox":[42,610,1196,42]}
+{"kind":"shape","id":"sh/z6pwzipk","slide":21,"bbox":[42,610,6,42]}
+{"kind":"textbox","id":"sh/e5gv6d8z","slide":21,"text":"判断“上传完成”要区分：文件合并完成 vs 文本解析完成 vs 向量索引完成。","textPreview":"判断“上传完成”要区分：文件合并完成 vs 文本解析完成 vs 向量索引完成。","textChars":39,"textLines":1,"bbox":[60,619,1160,25]}
+{"kind":"notes","id":"nt/g68tg1","slide":21,"text":""}
+{"kind":"slide","id":"sl/58j6eg","slide":22,"title":"03","textShapes":16}
+{"kind":"textbox","id":"sh/lgfaxs3a","slide":22,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[56,42,180,120]}
+{"kind":"textbox","id":"sh/ydormxkz","slide":22,"text":"文件知识检索","textPreview":"文件知识检索","textChars":6,"textLines":1,"bbox":[56,184,760,78]}
+{"kind":"textbox","id":"sh/zexsv2l4","slide":22,"text":"先把问题向量化，再同时要求语义相似与关键词匹配，最后把权限条件下推到 ES。","textPreview":"先把问题向量化，再同时要求语义相似与关键词匹配，最后把权限条件下推到 ES。","textChars":38,"textLines":1,"bbox":[58,278,720,64]}
+{"kind":"shape","id":"sh/crm9kn2t","slide":22,"bbox":[820,64,6,560]}
+{"kind":"textbox","id":"sh/xcfats3e","slide":22,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[870,112,54,34]}
+{"kind":"textbox","id":"sh/ap4ridkn","slide":22,"text":"请求入口","textPreview":"请求入口","textChars":4,"textLines":1,"bbox":[936,102,260,34]}
+{"kind":"textbox","id":"sh/bqdsril8","slide":22,"text":"GET /api/v1/search/hybrid?query&topK","textPreview":"GET /api/v1/search/hybrid?query&topK","textChars":36,"textLines":1,"bbox":[936,139,268,58]}
+{"kind":"textbox","id":"sh/w7qtw72x","slide":22,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[870,238,54,34]}
+{"kind":"textbox","id":"sh/h8za5c3i","slide":22,"text":"查询向量","textPreview":"查询向量","textChars":4,"textLines":1,"bbox":[936,228,260,34]}
+{"kind":"textbox","id":"sh/tsr69gry","slide":22,"text":"QUERY 类型 Embedding，独立限流与额度","textPreview":"QUERY 类型 Embedding，独立限流与额度","textChars":26,"textLines":1,"bbox":[936,265,268,58]}
+{"kind":"textbox","id":"sh/8ri5gbad","slide":22,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[870,364,54,34]}
+{"kind":"textbox","id":"sh/7q9o769s","slide":22,"text":"混合排序","textPreview":"混合排序","textChars":4,"textLines":1,"bbox":[936,354,260,34]}
+{"kind":"textbox","id":"sh/6pgne1s7","slide":22,"text":"KNN 大召回 + AND match + BM25 rescore","textPreview":"KNN 大召回 + AND match + BM25 rescore","textChars":34,"textLines":1,"bbox":[936,391,268,58]}
+{"kind":"textbox","id":"sh/lo765wrm","slide":22,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[870,490,54,34]}
+{"kind":"textbox","id":"sh/kny5cba1","slide":22,"text":"权限与证据","textPreview":"权限与证据","textChars":5,"textLines":1,"bbox":[936,480,260,34]}
+{"kind":"textbox","id":"sh/jmpo369w","slide":22,"text":"本人 / 公开 / 组织；补充文件名与页码","textPreview":"本人 / 公开 / 组织；补充文件名与页码","textChars":21,"textLines":1,"bbox":[936,517,268,58]}
+{"kind":"textbox","id":"sh/ylgna1sb","slide":22,"text":"22 / 37","textPreview":"22 / 37","textChars":7,"textLines":1,"bbox":[1120,665,100,24]}
+{"kind":"notes","id":"nt/58j6eg","slide":22,"text":""}
+{"kind":"slide","id":"sl/mvb7x0","slide":23,"title":"知识检索","textShapes":25}
+{"kind":"textbox","id":"sh/edg7e9wj","slide":23,"text":"知识检索","textPreview":"知识检索","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/1g7qpofa","slide":23,"text":"检索请求链：前端传 query，身份来自 Filter 而不是可信参数","textPreview":"检索请求链：前端传 query，身份来自 Filter 而不是可信参数","textChars":35,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/gfypgjep","slide":23,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/7a5ojexs","slide":23,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/6pw7a9gn","slide":23,"text":"frontend/src/views/knowledge-base/modules/search-dialog.vue；SearchController.java:47；HybridSearchService.java:63","textPreview":"frontend/src/views/knowledge-base/modules/search-dialog.vue；SearchController.java:47；HybridSearchService.java:63","textChars":112,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/tc76lofy","slide":23,"text":"23 / 37","textPreview":"23 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/sbepcjyd","slide":23,"bbox":[270,210,14,4]}
+{"kind":"shape","id":"sh/jm5ofuxw","slide":23,"bbox":[42,150,228,124]}
+{"kind":"textbox","id":"sh/ilw76pgb","slide":23,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,162,30,26]}
+{"kind":"textbox","id":"sh/gbi1crex","slide":23,"text":"SearchDialog","textPreview":"SearchDialog","textChars":12,"textLines":1,"bbox":[90,160,166,34]}
+{"kind":"textbox","id":"sh/1crilcvi","slide":23,"text":"query / topK\n展示 score、来源","textPreview":"query / topK | 展示 score、来源","textChars":24,"textLines":2,"bbox":[56,200,200,64]}
+{"kind":"shape","id":"sh/e90jahw7","slide":23,"bbox":[512,210,14,4]}
+{"kind":"shape","id":"sh/fa90jmdc","slide":23,"bbox":[284,150,228,124]}
+{"kind":"textbox","id":"sh/s7i187e1","slide":23,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[298,162,30,26]}
+{"kind":"textbox","id":"sh/t8rihcfm","slide":23,"text":"GET /search/hybrid","textPreview":"GET /search/hybrid","textChars":18,"textLines":1,"bbox":[332,160,166,34]}
+{"kind":"textbox","id":"sh/65gj6xwv","slide":23,"text":"Authorization header\nuserId 参数不应作为信任源","textPreview":"Authorization header | userId 参数不应作为信任源","textChars":37,"textLines":2,"bbox":[298,200,200,64]}
+{"kind":"shape","id":"sh/r690f2xg","slide":23,"bbox":[754,210,14,4]}
+{"kind":"shape","id":"sh/c321kbe5","slide":23,"bbox":[526,150,228,124]}
+{"kind":"textbox","id":"sh/d4b2twvq","slide":23,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[540,162,30,26]}
+{"kind":"textbox","id":"sh/l87ahcji","slide":23,"text":"OrgTag Filter","textPreview":"OrgTag Filter","textChars":13,"textLines":1,"bbox":[574,160,166,34]}
+{"kind":"textbox","id":"sh/07y9o72d","slide":23,"text":"从 JWT 提取身份\n放入 request attributes","textPreview":"从 JWT 提取身份 | 放入 request attributes","textChars":32,"textLines":2,"bbox":[540,200,200,64]}
+{"kind":"shape","id":"sh/z65sf21s","slide":23,"bbox":[996,210,14,4]}
+{"kind":"shape","id":"sh/ylwrmxk7","slide":23,"bbox":[768,150,228,124]}
+{"kind":"textbox","id":"sh/dknadsjm","slide":23,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[782,162,30,26]}
+{"kind":"textbox","id":"sh/cje9kn21","slide":23,"text":"SearchController","textPreview":"SearchController","textChars":16,"textLines":1,"bbox":[816,160,166,34]}
+{"kind":"textbox","id":"sh/bi5sbi1g","slide":23,"text":"读取 userId\n调用 permission 版本","textPreview":"读取 userId | 调用 permission 版本","textChars":26,"textLines":2,"bbox":[782,200,200,64]}
+{"kind":"shape","id":"sh/qhwrixkv","slide":23,"bbox":[1010,150,228,124]}
+{"kind":"textbox","id":"sh/pgna9sjq","slide":23,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1024,162,30,26]}
+{"kind":"textbox","id":"sh/ofu9gn25","slide":23,"text":"HybridSearch","textPreview":"HybridSearch","textChars":12,"textLines":1,"bbox":[1058,160,166,34]}
+{"kind":"textbox","id":"sh/els7at0n","slide":23,"text":"向量、ES 查询\n结果补文件名","textPreview":"向量、ES 查询 | 结果补文件名","textChars":15,"textLines":2,"bbox":[1024,200,200,64]}
+{"kind":"shape","id":"sh/fm1ojyh8","slide":23,"bbox":[42,322,586,230]}
+{"kind":"textbox","id":"sh/gnapcjit","slide":23,"text":"SOURCE EXCERPT","textPreview":"SOURCE EXCERPT","textChars":14,"textLines":1,"bbox":[60,336,550,22]}
+{"kind":"textbox","id":"sh/1o36loze","slide":23,"text":"@GetMapping(\"/hybrid\")\npublic Map<String,Object> hybridSearch(\n    @RequestParam String query,\n    @RequestParam(defaultValue=\"10\") int topK,\n    HttpServletRequest request) {\n  String userId = (String) request.getAttribute(\"userId\");\n  return searchWithPermission(query, userId, topK);\n}","textPreview":"@GetMapping(\"/hybrid\") | public Map<String,Object> hybridSearch( |     @RequestParam String query, |     @RequestParam(defaultValue=\"10\")...","textChars":288,"textLines":8,"bbox":[60,366,550,174]}
+{"kind":"shape","id":"sh/6hs7690r","slide":23,"bbox":[658,322,580,112]}
+{"kind":"textbox","id":"sh/ri1ofehc","slide":23,"text":"为什么不信任前端 userId","textPreview":"为什么不信任前端 userId","textChars":15,"textLines":1,"bbox":[676,336,544,34]}
+{"kind":"textbox","id":"sh/sjap8jix","slide":23,"text":"任何用户都能修改 query string；授权身份必须来自已验证 JWT。前端传 userId 只能算兼容信息，不能成为权限依据。","textPreview":"任何用户都能修改 query string；授权身份必须来自已验证 JWT。前端传 userId 只能算兼容信息，不能成为权限依据。","textChars":66,"textLines":1,"bbox":[676,376,544,46]}
+{"kind":"shape","id":"sh/tkj6hoz2","slide":23,"bbox":[658,450,580,102]}
+{"kind":"textbox","id":"sh/it87290f","slide":23,"text":"降级分支","textPreview":"降级分支","textChars":4,"textLines":1,"bbox":[676,464,544,34]}
+{"kind":"textbox","id":"sh/juhobeh0","slide":23,"text":"如果查询 Embedding 失败，服务会退回带同样权限过滤的 TEXT_ONLY 文本检索。","textPreview":"如果查询 Embedding 失败，服务会退回带同样权限过滤的 TEXT_ONLY 文本检索。","textChars":47,"textLines":1,"bbox":[676,504,544,36]}
+{"kind":"notes","id":"nt/mvb7x0","slide":23,"text":""}
+{"kind":"slide","id":"sl/8mc2zn","slide":24,"title":"知识检索","textShapes":29}
+{"kind":"textbox","id":"sh/cvuhwvul","slide":24,"text":"知识检索","textPreview":"知识检索","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/bulg3qd0","slide":24,"text":"混合检索不是“向量分 + 关键词分”简单相加","textPreview":"混合检索不是“向量分 + 关键词分”简单相加","textChars":22,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/qtczu5cf","slide":24,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/psjy10vu","slide":24,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/oraxsvu9","slide":24,"text":"HybridSearchService.java:63-171；elasticsearch-mapping.json","textPreview":"HybridSearchService.java:63-171；elasticsearch-mapping.json","textChars":58,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/3q1gzqdo","slide":24,"text":"24 / 37","textPreview":"24 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/2psfqlc3","slide":24,"bbox":[270,208,14,4]}
+{"kind":"shape","id":"sh/1ojyxgvy","slide":24,"bbox":[42,150,228,120]}
+{"kind":"textbox","id":"sh/gnaxobud","slide":24,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,162,30,26]}
+{"kind":"textbox","id":"sh/qd0b2l4n","slide":24,"text":"Query Embedding","textPreview":"Query Embedding","textChars":15,"textLines":1,"bbox":[90,160,166,34]}
+{"kind":"textbox","id":"sh/re9sv658","slide":24,"text":"问题 → 2048 维\n用途类型 QUERY","textPreview":"问题 → 2048 维 | 用途类型 QUERY","textChars":22,"textLines":2,"bbox":[56,200,200,60]}
+{"kind":"shape","id":"sh/czit4bmt","slide":24,"bbox":[512,208,14,4]}
+{"kind":"shape","id":"sh/d0raxgne","slide":24,"bbox":[284,150,228,120]}
+{"kind":"textbox","id":"sh/29gby14r","slide":24,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[298,162,30,26]}
+{"kind":"textbox","id":"sh/3a9sr65c","slide":24,"text":"KNN recall","textPreview":"KNN recall","textChars":10,"textLines":1,"bbox":[332,160,166,34]}
+{"kind":"textbox","id":"sh/4bit0bmh","slide":24,"text":"k = topK × 30\n扩大候选集","textPreview":"k = topK × 30 | 扩大候选集","textChars":19,"textLines":2,"bbox":[298,200,200,60]}
+{"kind":"shape","id":"sh/pcratgn2","slide":24,"bbox":[754,208,14,4]}
+{"kind":"shape","id":"sh/u5gbuh4f","slide":24,"bbox":[526,150,228,120]}
+{"kind":"textbox","id":"sh/f6psnm50","slide":24,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[540,162,30,26]}
+{"kind":"textbox","id":"sh/ja58vils","slide":24,"text":"AND match","textPreview":"AND match","textChars":9,"textLines":1,"bbox":[574,160,166,34]}
+{"kind":"textbox","id":"sh/ipc72xk7","slide":24,"text":"textContent 必须\n匹配查询词","textPreview":"textContent 必须 | 匹配查询词","textChars":20,"textLines":2,"bbox":[540,200,200,60]}
+{"kind":"shape","id":"sh/5cnqxs3y","slide":24,"bbox":[996,208,14,4]}
+{"kind":"shape","id":"sh/kbep4n2d","slide":24,"bbox":[768,150,228,120]}
+{"kind":"textbox","id":"sh/7e58z2l4","slide":24,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[782,162,30,26]}
+{"kind":"textbox","id":"sh/6dw76xkj","slide":24,"text":"BM25 rescore","textPreview":"BM25 rescore","textChars":12,"textLines":1,"bbox":[816,160,166,34]}
+{"kind":"textbox","id":"sh/tgnq1c3u","slide":24,"text":"window = recallK\nqueryWeight=.2","textPreview":"window = recallK | queryWeight=.2","textChars":31,"textLines":2,"bbox":[782,200,200,60]}
+{"kind":"shape","id":"sh/sfep8729","slide":24,"bbox":[1010,150,228,120]}
+{"kind":"textbox","id":"sh/ni18nylk","slide":24,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1024,162,30,26]}
+{"kind":"textbox","id":"sh/mhs7udkz","slide":24,"text":"TopK","textPreview":"TopK","textChars":4,"textLines":1,"bbox":[1058,160,166,34]}
+{"kind":"textbox","id":"sh/sb6d8fel","slide":24,"text":"按最终 _score\n输出证据块","textPreview":"按最终 _score | 输出证据块","textChars":16,"textLines":2,"bbox":[1024,200,200,60]}
+{"kind":"shape","id":"sh/dcfehkf6","slide":24,"bbox":[42,314,382,226]}
+{"kind":"textbox","id":"sh/q9ov65wv","slide":24,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[58,328,42,30]}
+{"kind":"textbox","id":"sh/raxwfax0","slide":24,"text":"第一阶段：大召回","textPreview":"第一阶段：大召回","textChars":8,"textLines":1,"bbox":[104,326,304,34]}
+{"kind":"textbox","id":"sh/4n6d4vep","slide":24,"text":"KNN 用向量相似度找语义相关候选；recallK 放大到 topK 的 30 倍，为后续关键词重排留空间。","textPreview":"KNN 用向量相似度找语义相关候选；recallK 放大到 topK 的 30 倍，为后续关键词重排留空间。","textChars":54,"textLines":1,"bbox":[60,368,346,160]}
+{"kind":"shape","id":"sh/5ofed0fa","slide":24,"bbox":[448,314,382,226]}
+{"kind":"textbox","id":"sh/il4v25wj","slide":24,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[464,328,42,30]}
+{"kind":"textbox","id":"sh/3mxwbqx4","slide":24,"text":"硬约束：关键词 AND","textPreview":"硬约束：关键词 AND","textChars":11,"textLines":1,"bbox":[510,326,304,34]}
+{"kind":"textbox","id":"sh/ojqxgzet","slide":24,"text":"bool.must.match(operator=AND) 让候选仍需满足文本匹配，避免只有语义相近但缺少关键实体的块。","textPreview":"bool.must.match(operator=AND) 让候选仍需满足文本匹配，避免只有语义相近但缺少关键实体的块。","textChars":60,"textLines":1,"bbox":[466,368,346,160]}
+{"kind":"shape","id":"sh/p4zep4fe","slide":24,"bbox":[854,314,384,226]}
+{"kind":"textbox","id":"sh/lobahwvq","slide":24,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[870,328,42,30]}
+{"kind":"textbox","id":"sh/kn2t8ru5","slide":24,"text":"第二阶段：BM25 重排","textPreview":"第二阶段：BM25 重排","textChars":12,"textLines":1,"bbox":[916,326,306,34]}
+{"kind":"textbox","id":"sh/jm9sfmd0","slide":24,"text":"rescore 对候选窗口重新计算关键词相关度；最终 score 融合原始查询权重 0.2 与 rescore 权重 1.0。","textPreview":"rescore 对候选窗口重新计算关键词相关度；最终 score 融合原始查询权重 0.2 与 rescore 权重 1.0。","textChars":63,"textLines":1,"bbox":[872,368,348,160]}
+{"kind":"shape","id":"sh/yl0b6hcf","slide":24,"bbox":[42,578,1196,42]}
+{"kind":"shape","id":"sh/tsbalwv2","slide":24,"bbox":[42,578,6,42]}
+{"kind":"textbox","id":"sh/8r2tcruh","slide":24,"text":"TEXT_ONLY 降级仍会设置 minimumScore，并标记 retrievalMode=TEXT_ONLY。","textPreview":"TEXT_ONLY 降级仍会设置 minimumScore，并标记 retrievalMode=TEXT_ONLY。","textChars":58,"textLines":1,"bbox":[60,587,1160,25]}
+{"kind":"notes","id":"nt/8mc2zn","slide":24,"text":""}
+{"kind":"slide","id":"sl/u2d5bt","slide":25,"title":"知识检索","textShapes":13}
+{"kind":"textbox","id":"sh/0rit03yl","slide":25,"text":"知识检索","textPreview":"知识检索","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/zq9sryh0","slide":25,"text":"权限过滤下推 ES：召回之前就排除无权文档块","textPreview":"权限过滤下推 ES：召回之前就排除无权文档块","textChars":22,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/ypgbytgv","slide":25,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/do7apoza","slide":25,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/cnytwjyp","slide":25,"text":"HybridSearchService.searchWithPermission；OrgTagCacheService；EsDocument / elasticsearch-mapping.json","textPreview":"HybridSearchService.searchWithPermission；OrgTagCacheService；EsDocument / elasticsearch-mapping.json","textChars":99,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/bmpsneh4","slide":25,"text":"25 / 37","textPreview":"25 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/qlgru9gj","slide":25,"bbox":[42,154,520,318]}
+{"kind":"textbox","id":"sh/pk7al4zy","slide":25,"text":"ES BOOL FILTER (概念化自源码)","textPreview":"ES BOOL FILTER (概念化自源码)","textChars":23,"textLines":1,"bbox":[60,168,484,22]}
+{"kind":"textbox","id":"sh/ozy9sjyd","slide":25,"text":"permission.should(\n  term(userId == currentDbUserId),\n  term(public == true),\n  terms(orgTag in effectiveOrgTags)\n).minimumShouldMatch(\"1\");\n\nquery.bool.must(\n  match(textContent, query, operator=AND),\n  permission\n);","textPreview":"permission.should( |   term(userId == currentDbUserId), |   term(public == true), |   terms(orgTag in effectiveOrgTags) | ).minimumShould...","textChars":217,"textLines":10,"bbox":[60,198,484,262]}
+{"kind":"shape","id":"sh/a1orm14r","slide":25,"bbox":[594,154,644,124]}
+{"kind":"textbox","id":"sh/v2x8f65c","slide":25,"text":"effectiveOrgTags","textPreview":"effectiveOrgTags","textChars":16,"textLines":1,"bbox":[612,168,608,34]}
+{"kind":"textbox","id":"sh/w369obmx","slide":25,"text":"由用户原始组织标签经过层级扩展得到；搜索与文件列表必须复用同一口径，否则会出现“列表可见但搜不到”或相反。","textPreview":"由用户原始组织标签经过层级扩展得到；搜索与文件列表必须复用同一口径，否则会出现“列表可见但搜不到”或相反。","textChars":53,"textLines":1,"bbox":[612,208,608,58]}
+{"kind":"shape","id":"sh/x4fqhgni","slide":25,"bbox":[594,296,644,124]}
+{"kind":"textbox","id":"sh/mx47i14v","slide":25,"text":"为什么要在查询阶段过滤","textPreview":"为什么要在查询阶段过滤","textChars":11,"textLines":1,"bbox":[612,310,608,34]}
+{"kind":"textbox","id":"sh/nyd8b65g","slide":25,"text":"先召回全部再在 Java 里删除，会浪费 topK 名额，也存在越权数据短暂进入应用层内存与日志的风险。","textPreview":"先召回全部再在 Java 里删除，会浪费 topK 名额，也存在越权数据短暂进入应用层内存与日志的风险。","textChars":52,"textLines":1,"bbox":[612,350,608,58]}
+{"kind":"shape","id":"sh/8zmpkbml","slide":25,"bbox":[594,438,644,116]}
+{"kind":"textbox","id":"sh/90vqdgn6","slide":25,"text":"需要核对的字段命名","textPreview":"需要核对的字段命名","textChars":9,"textLines":1,"bbox":[612,452,608,34]}
+{"kind":"textbox","id":"sh/y9k7eh4j","slide":25,"text":"mapping 使用 isPublic，而查询/JavaBeans 序列化处出现 public 字段写法；重建索引或升级序列化器时应验证实际 _source 字段名与查询一致。","textPreview":"mapping 使用 isPublic，而查询/JavaBeans 序列化处出现 public 字段写法；重建索引或升级序列化器时应验证实际 _source 字段名与查询一致。","textChars":88,"textLines":1,"bbox":[612,492,608,50]}
+{"kind":"shape","id":"sh/zad87m54","slide":25,"bbox":[42,588,1196,42]}
+{"kind":"shape","id":"sh/3e9ofilw","slide":25,"bbox":[42,588,6,42]}
+{"kind":"textbox","id":"sh/2d0n6dkb","slide":25,"text":"安全底线：如果 userId 没有被 Filter 注入，不应回退到“无权限过滤的搜索”。","textPreview":"安全底线：如果 userId 没有被 Filter 注入，不应回退到“无权限过滤的搜索”。","textChars":45,"textLines":1,"bbox":[60,597,1160,25]}
+{"kind":"notes","id":"nt/u2d5bt","slide":25,"text":""}
+{"kind":"slide","id":"sl/2hwaxv","slide":26,"title":"知识检索","textShapes":33}
+{"kind":"textbox","id":"sh/6pobuxg3","slide":26,"text":"知识检索","textPreview":"知识检索","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/tszu5czu","slide":26,"text":"检索结果既是排序结果，也是聊天引用证据的数据源","textPreview":"检索结果既是排序结果，也是聊天引用证据的数据源","textChars":23,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/srqtw7y9","slide":26,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/fehc7mh0","slide":26,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/et8byhgf","slide":26,"text":"SearchResult.java；HybridSearchService.attachFileNames :480；search-dialog.vue","textPreview":"SearchResult.java；HybridSearchService.attachFileNames :480；search-dialog.vue","textChars":76,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/1gzu9wf6","slide":26,"text":"26 / 37","textPreview":"26 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/gfqt0ryl","slide":26,"bbox":[42,146,1196,64]}
+{"kind":"textbox","id":"sh/3i1cbmxw","slide":26,"text":"字段","textPreview":"字段","textChars":2,"textLines":1,"bbox":[52,154,210,48]}
+{"kind":"shape","id":"sh/2hsb2hgb","slide":26,"bbox":[272,146,1,64]}
+{"kind":"textbox","id":"sh/g7mtkjq1","slide":26,"text":"来源","textPreview":"来源","textChars":2,"textLines":1,"bbox":[282,154,280,48]}
+{"kind":"shape","id":"sh/18vato7m","slide":26,"bbox":[572,146,1,64]}
+{"kind":"textbox","id":"sh/el4bit8v","slide":26,"text":"用途","textPreview":"用途","textChars":2,"textLines":1,"bbox":[582,154,260,48]}
+{"kind":"shape","id":"sh/f6dsrepg","slide":26,"bbox":[852,146,1,64]}
+{"kind":"textbox","id":"sh/obmto3qx","slide":26,"text":"进入聊天后的作用","textPreview":"进入聊天后的作用","textChars":8,"textLines":1,"bbox":[862,154,366,48]}
+{"kind":"shape","id":"sh/pcvux87i","slide":26,"bbox":[42,210,1196,64]}
+{"kind":"textbox","id":"sh/294bmt8r","slide":26,"text":"textContent","textPreview":"textContent","textChars":11,"textLines":1,"bbox":[52,218,210,48]}
+{"kind":"shape","id":"sh/3adsvypc","slide":26,"bbox":[272,210,1,64]}
+{"kind":"textbox","id":"sh/cf6ts3q9","slide":26,"text":"ES 文档块","textPreview":"ES 文档块","textChars":6,"textLines":1,"bbox":[282,218,280,48]}
+{"kind":"shape","id":"sh/dgfu187u","slide":26,"bbox":[572,210,1,64]}
+{"kind":"textbox","id":"sh/lkr2p4vm","slide":26,"text":"搜索列表正文","textPreview":"搜索列表正文","textChars":6,"textLines":1,"bbox":[582,218,260,48]}
+{"kind":"shape","id":"sh/0ji1wju1","slide":26,"bbox":[852,210,1,64]}
+{"kind":"textbox","id":"sh/zi9knedg","slide":26,"text":"截断为上下文 snippet","textPreview":"截断为上下文 snippet","textChars":14,"textLines":1,"bbox":[862,218,366,48]}
+{"kind":"shape","id":"sh/yh0ju9cv","slide":26,"bbox":[42,274,1196,64]}
+{"kind":"textbox","id":"sh/9ob2tovi","slide":26,"text":"score / retrievalMode","textPreview":"score / retrievalMode","textChars":21,"textLines":1,"bbox":[52,282,210,48]}
+{"kind":"shape","id":"sh/8n210jux","slide":26,"bbox":[272,274,1,64]}
+{"kind":"textbox","id":"sh/nmtkreds","slide":26,"text":"ES _score / 降级分支","textPreview":"ES _score / 降级分支","textChars":16,"textLines":1,"bbox":[282,282,280,48]}
+{"kind":"shape","id":"sh/ml0jy9c7","slide":26,"bbox":[572,274,1,64]}
+{"kind":"textbox","id":"sh/ps72hkve","slide":26,"text":"说明排序与模式","textPreview":"说明排序与模式","textChars":7,"textLines":1,"bbox":[582,282,260,48]}
+{"kind":"shape","id":"sh/ory1ozet","slide":26,"bbox":[852,274,1,64]}
+{"kind":"textbox","id":"sh/exwzilsr","slide":26,"text":"生成 retrievalLabel、证据解释","textPreview":"生成 retrievalLabel、证据解释","textChars":22,"textLines":1,"bbox":[862,282,366,48]}
+{"kind":"shape","id":"sh/fy5grqtc","slide":26,"bbox":[42,338,1196,64]}
+{"kind":"textbox","id":"sh/gzehkvax","slide":26,"text":"fileMd5 / fileName","textPreview":"fileMd5 / fileName","textChars":18,"textLines":1,"bbox":[52,346,210,48]}
+{"kind":"shape","id":"sh/10nyt0b2","slide":26,"bbox":[272,338,1,64]}
+{"kind":"textbox","id":"sh/2lwzm5sn","slide":26,"text":"ES + MySQL file_upload","textPreview":"ES + MySQL file_upload","textChars":22,"textLines":1,"bbox":[282,346,280,48]}
+{"kind":"shape","id":"sh/3m50vat8","slide":26,"bbox":[572,338,1,64]}
+{"kind":"textbox","id":"sh/onyhofat","slide":26,"text":"展示来源","textPreview":"展示来源","textChars":4,"textLines":1,"bbox":[582,346,260,48]}
+{"kind":"shape","id":"sh/po7ixkbe","slide":26,"bbox":[852,338,1,64]}
+{"kind":"textbox","id":"sh/i5cza1cj","slide":26,"text":"引用编号映射与预览定位","textPreview":"引用编号映射与预览定位","textChars":11,"textLines":1,"bbox":[862,346,366,48]}
+{"kind":"shape","id":"sh/jqlgj6t4","slide":26,"bbox":[42,402,1196,64]}
+{"kind":"textbox","id":"sh/jmdwn2ls","slide":26,"text":"pageNumber / anchorText","textPreview":"pageNumber / anchorText","textChars":23,"textLines":1,"bbox":[52,410,210,48]}
+{"kind":"shape","id":"sh/yl4fex47","slide":26,"bbox":[272,402,1,64]}
+{"kind":"textbox","id":"sh/lovepc3y","slide":26,"text":"ParseService","textPreview":"ParseService","textChars":12,"textLines":1,"bbox":[282,410,280,48]}
+{"kind":"shape","id":"sh/knmxg7md","slide":26,"bbox":[572,402,1,64]}
+{"kind":"textbox","id":"sh/7qdwr2l4","slide":26,"text":"定位页和语义锚点","textPreview":"定位页和语义锚点","textChars":8,"textLines":1,"bbox":[582,410,260,48]}
+{"kind":"shape","id":"sh/6p4fih4j","slide":26,"bbox":[852,402,1,64]}
+{"kind":"textbox","id":"sh/tsfetc3u","slide":26,"text":"来源#N: 文件 | 第N页；证据摘要","textPreview":"来源#N: 文件 | 第N页；证据摘要","textChars":19,"textLines":1,"bbox":[862,410,366,48]}
+{"kind":"shape","id":"sh/8r6xk7m9","slide":26,"bbox":[42,466,1196,64]}
+{"kind":"textbox","id":"sh/vexwvml0","slide":26,"text":"matchedChunkText / chunkId","textPreview":"matchedChunkText / chunkId","textChars":26,"textLines":1,"bbox":[52,474,210,48]}
+{"kind":"shape","id":"sh/utofmh4f","slide":26,"bbox":[272,466,1,64]}
+{"kind":"textbox","id":"sh/sjqdcrit","slide":26,"text":"HybridSearchService","textPreview":"HybridSearchService","textChars":19,"textLines":1,"bbox":[282,474,280,48]}
+{"kind":"shape","id":"sh/dkze5wje","slide":26,"bbox":[572,466,1,64]}
+{"kind":"textbox","id":"sh/qhovah0n","slide":26,"text":"保留命中块","textPreview":"保留命中块","textChars":5,"textLines":1,"bbox":[582,474,260,48]}
+{"kind":"shape","id":"sh/rihwjm18","slide":26,"bbox":[852,466,1,64]}
+{"kind":"textbox","id":"sh/4v6d87ih","slide":26,"text":"引用详情页显示完整匹配证据","textPreview":"引用详情页显示完整匹配证据","textChars":13,"textLines":1,"bbox":[862,474,366,48]}
+{"kind":"shape","id":"sh/5gfehcj2","slide":26,"bbox":[42,530,1196,64]}
+{"kind":"textbox","id":"sh/itov6h0b","slide":26,"text":"userId/orgTag/public","textPreview":"userId/orgTag/public","textChars":20,"textLines":1,"bbox":[52,538,210,48]}
+{"kind":"shape","id":"sh/3uxwfm1w","slide":26,"bbox":[272,530,1,64]}
+{"kind":"textbox","id":"sh/gr6d47il","slide":26,"text":"索引权限字段","textPreview":"索引权限字段","textChars":6,"textLines":1,"bbox":[282,538,280,48]}
+{"kind":"shape","id":"sh/hsfedcj6","slide":26,"bbox":[572,530,1,64]}
+{"kind":"textbox","id":"sh/xcn2l47i","slide":26,"text":"不直接展示","textPreview":"不直接展示","textChars":5,"textLines":1,"bbox":[582,538,260,48]}
+{"kind":"shape","id":"sh/cbelszqx","slide":26,"bbox":[852,530,1,64]}
+{"kind":"textbox","id":"sh/ba5kjupc","slide":26,"text":"决定是否能被召回和预览","textPreview":"决定是否能被召回和预览","textChars":11,"textLines":1,"bbox":[862,538,366,48]}
+{"kind":"shape","id":"sh/a9c3qp87","slide":26,"bbox":[42,610,1196,42]}
+{"kind":"shape","id":"sh/p832h47m","slide":26,"bbox":[42,610,6,42]}
+{"kind":"textbox","id":"sh/o7ulozq1","slide":26,"text":"建议调试：搜索同一句话，分别记录 query vector 是否成功、retrievalMode、TopK score、文件名补全与页码。","textPreview":"建议调试：搜索同一句话，分别记录 query vector 是否成功、retrievalMode、TopK score、文件名补全与页码。","textChars":69,"textLines":1,"bbox":[60,619,1160,25]}
+{"kind":"notes","id":"nt/2hwaxv","slide":26,"text":""}
+{"kind":"slide","id":"sl/ercary","slide":27,"title":"04","textShapes":16}
+{"kind":"textbox","id":"sh/gv29o3uh","slide":27,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[56,42,180,120]}
+{"kind":"textbox","id":"sh/fu9svytw","slide":27,"text":"聊天助手","textPreview":"聊天助手","textChars":4,"textLines":1,"bbox":[56,184,760,78]}
+{"kind":"textbox","id":"sh/ut0rmdcb","slide":27,"text":"聊天链把“身份、检索、历史、提示词、模型流、引用预览”串成一个长期 WebSocket 会话。","textPreview":"聊天链把“身份、检索、历史、提示词、模型流、引用预览”串成一个长期 WebSocket 会话。","textChars":47,"textLines":1,"bbox":[58,278,720,64]}
+{"kind":"shape","id":"sh/tsrat8bq","slide":27,"bbox":[820,64,6,560]}
+{"kind":"textbox","id":"sh/sri9k3u5","slide":27,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[870,112,54,34]}
+{"kind":"textbox","id":"sh/7q9srytk","slide":27,"text":"建连","textPreview":"建连","textChars":2,"textLines":1,"bbox":[936,102,260,34]}
+{"kind":"textbox","id":"sh/6p0ritcf","slide":27,"text":"JWT 路径鉴权、20s 心跳、失败重连策略","textPreview":"JWT 路径鉴权、20s 心跳、失败重连策略","textChars":22,"textLines":1,"bbox":[936,139,268,58]}
+{"kind":"textbox","id":"sh/dova5sbu","slide":27,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[870,238,54,34]}
+{"kind":"textbox","id":"sh/cnmtwnup","slide":27,"text":"RAG","textPreview":"RAG","textChars":3,"textLines":1,"bbox":[936,228,260,34]}
+{"kind":"textbox","id":"sh/694vu5wb","slide":27,"text":"限流 → 历史 → 带权限 Top5 → 上下文","textPreview":"限流 → 历史 → 带权限 Top5 → 上下文","textChars":24,"textLines":1,"bbox":[936,265,268,58]}
+{"kind":"textbox","id":"sh/raxwnaxw","slide":27,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[870,364,54,34]}
+{"kind":"textbox","id":"sh/sb6dwfe1","slide":27,"text":"流式回答","textPreview":"流式回答","textChars":4,"textLines":1,"bbox":[936,354,260,34]}
+{"kind":"textbox","id":"sh/tcfepkfm","slide":27,"text":"OpenAI 风格 /chat/completions，chunk 回传","textPreview":"OpenAI 风格 /chat/completions，chunk 回传","textChars":36,"textLines":1,"bbox":[936,391,268,58]}
+{"kind":"textbox","id":"sh/il4vq5wz","slide":27,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[870,490,54,34]}
+{"kind":"textbox","id":"sh/jmdcjaxk","slide":27,"text":"可追溯","textPreview":"可追溯","textChars":3,"textLines":1,"bbox":[936,480,260,34]}
+{"kind":"textbox","id":"sh/4nmdsve5","slide":27,"text":"Redis 保存历史与引用映射；点击预览原文","textPreview":"Redis 保存历史与引用映射；点击预览原文","textChars":22,"textLines":1,"bbox":[936,517,268,58]}
+{"kind":"textbox","id":"sh/58vel0fq","slide":27,"text":"27 / 37","textPreview":"27 / 37","textChars":7,"textLines":1,"bbox":[1120,665,100,24]}
+{"kind":"notes","id":"nt/ercary","slide":27,"text":""}
+{"kind":"slide","id":"sl/sgh0td","slide":28,"title":"聊天助手","textShapes":25}
+{"kind":"textbox","id":"sh/0vator6h","slide":28,"text":"聊天助手","textPreview":"聊天助手","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/fu1sfm5w","slide":28,"text":"WebSocket 建连与协议：HTTP 鉴权被拆成“路径 Token + 握手校验”","textPreview":"WebSocket 建连与协议：HTTP 鉴权被拆成“路径 Token + 握手校验”","textChars":43,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/etsbmhob","slide":28,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/dsjadcnq","slide":28,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/sratkr65","slide":28,"text":"frontend/src/store/modules/chat/index.ts:23-79；WebSocketConfig.java:25；ChatWebSocketHandler.java:48-163","textPreview":"frontend/src/store/modules/chat/index.ts:23-79；WebSocketConfig.java:25；ChatWebSocketHandler.java:48-163","textChars":103,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/rq1sbm50","slide":28,"text":"28 / 37","textPreview":"28 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/qp8rihof","slide":28,"bbox":[270,209,14,4]}
+{"kind":"shape","id":"sh/xo3apgna","slide":28,"bbox":[42,150,228,122]}
+{"kind":"textbox","id":"sh/cnutwbmp","slide":28,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,162,30,26]}
+{"kind":"textbox","id":"sh/mhcza1sr","slide":28,"text":"计算 URL","textPreview":"计算 URL","textChars":6,"textLines":1,"bbox":[90,160,166,34]}
+{"kind":"textbox","id":"sh/nilg369c","slide":28,"text":"/proxy-ws/chat/{JWT}\nToken 先 URL 编码","textPreview":"/proxy-ws/chat/{JWT} | Token 先 URL 编码","textChars":35,"textLines":2,"bbox":[56,200,200,62]}
+{"kind":"shape","id":"sh/ojuhcbax","slide":28,"bbox":[512,209,14,4]}
+{"kind":"shape","id":"sh/9k3y5wri","slide":28,"bbox":[284,150,228,122]}
+{"kind":"textbox","id":"sh/etsz6hsv","slide":28,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[298,162,30,26]}
+{"kind":"textbox","id":"sh/ze1gzm9g","slide":28,"text":"握手","textPreview":"握手","textChars":2,"textLines":1,"bbox":[332,160,166,34]}
+{"kind":"textbox","id":"sh/0fah8ra1","slide":28,"text":"后端 /chat/{token}\n校验 origin","textPreview":"后端 /chat/{token} | 校验 origin","textChars":26,"textLines":2,"bbox":[298,200,200,62]}
+{"kind":"shape","id":"sh/1g3y1wrm","slide":28,"bbox":[754,209,14,4]}
+{"kind":"shape","id":"sh/y9wzil8z","slide":28,"bbox":[526,150,228,122]}
+{"kind":"textbox","id":"sh/ja5gbq9k","slide":28,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[540,162,30,26]}
+{"kind":"textbox","id":"sh/fuxw3ipw","slide":28,"text":"JWT 校验","textPreview":"JWT 校验","textChars":6,"textLines":1,"bbox":[574,160,166,34]}
+{"kind":"textbox","id":"sh/utovad8r","slide":28,"text":"validateToken\n失败 close 1008","textPreview":"validateToken | 失败 close 1008","textChars":27,"textLines":2,"bbox":[540,200,200,62]}
+{"kind":"shape","id":"sh/hwfe5872","slide":28,"bbox":[996,209,14,4]}
+{"kind":"shape","id":"sh/gv6dcnqh","slide":28,"bbox":[768,150,228,122]}
+{"kind":"textbox","id":"sh/3yhw7ip8","slide":28,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[782,162,30,26]}
+{"kind":"textbox","id":"sh/2x8ved8n","slide":28,"text":"连接确认","textPreview":"连接确认","textChars":4,"textLines":1,"bbox":[816,160,166,34]}
+{"kind":"textbox","id":"sh/pkze9s7e","slide":28,"text":"{type:connection,\nsessionId}","textPreview":"{type:connection, | sessionId}","textChars":28,"textLines":2,"bbox":[782,200,200,62]}
+{"kind":"shape","id":"sh/4zqdgnqt","slide":28,"bbox":[1010,150,228,122]}
+{"kind":"textbox","id":"sh/rmhwb2p4","slide":28,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1024,162,30,26]}
+{"kind":"textbox","id":"sh/ql8vix8j","slide":28,"text":"长连接保活","textPreview":"长连接保活","textChars":5,"textLines":1,"bbox":[1058,160,166,34]}
+{"kind":"textbox","id":"sh/orads7mx","slide":28,"text":"每 20s ping\n10s 等 pong","textPreview":"每 20s ping | 10s 等 pong","textChars":21,"textLines":2,"bbox":[1024,200,200,62]}
+{"kind":"shape","id":"sh/9sju1cni","slide":28,"bbox":[42,316,548,246]}
+{"kind":"textbox","id":"sh/mpsvqx4r","slide":28,"text":"SOURCE EXCERPT","textPreview":"SOURCE EXCERPT","textChars":14,"textLines":1,"bbox":[60,330,512,22]}
+{"kind":"textbox","id":"sh/nq1cz25c","slide":28,"text":"useWebSocket(socketUrl, {\n  heartbeat: {\n    message: '__chat_ping__',\n    responseMessage: '__chat_pong__',\n    interval: 20_000,\n    pongTimeout: 10_000\n  },\n  autoReconnect: { delay: 1500, ... }\n});","textPreview":"useWebSocket(socketUrl, { |   heartbeat: { |     message: '__chat_ping__', |     responseMessage: '__chat_pong__', |     interval: 20_000...","textChars":201,"textLines":9,"bbox":[60,360,512,190]}
+{"kind":"shape","id":"sh/0nqdonml","slide":28,"bbox":[620,316,618,112]}
+{"kind":"textbox","id":"sh/1ojuxsn6","slide":28,"text":"sessionId 的用途","textPreview":"sessionId 的用途","textChars":13,"textLines":1,"bbox":[638,330,582,34]}
+{"kind":"textbox","id":"sh/el8vmx4v","slide":28,"text":"它不是用户 ID，而是本次 WebSocket 连接 ID。ChatHandler 用它保存流式响应构建器、停止标记与“引用编号 → 文件证据”映射。","textPreview":"它不是用户 ID，而是本次 WebSocket 连接 ID。ChatHandler 用它保存流式响应构建器、停止标记与“引用编号 → 文件证据”映射。","textChars":75,"textLines":1,"bbox":[638,370,582,46]}
+{"kind":"shape","id":"sh/zmhcvi5g","slide":28,"bbox":[620,444,618,118]}
+{"kind":"textbox","id":"sh/czqdknmp","slide":28,"text":"鉴权失败不盲目重连","textPreview":"鉴权失败不盲目重连","textChars":9,"textLines":1,"bbox":[638,458,582,34]}
+{"kind":"textbox","id":"sh/d0zutsna","slide":28,"text":"前端在 1002/1003/1007/1008 或握手前关闭时停止自动重试，并提示重新登录，避免用同一失效 Token 无限重连。","textPreview":"前端在 1002/1003/1007/1008 或握手前关闭时停止自动重试，并提示重新登录，避免用同一失效 Token 无限重连。","textChars":65,"textLines":1,"bbox":[638,498,582,52]}
+{"kind":"notes","id":"nt/sgh0td","slide":28,"text":""}
+{"kind":"slide","id":"sl/tgjyqo","slide":29,"title":"聊天助手","textShapes":28}
+{"kind":"textbox","id":"sh/ul0fqd8f","slide":29,"text":"聊天助手","textPreview":"聊天助手","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/hoby18r6","slide":29,"text":"ChatHandler：RAG 的真正编排中心","textPreview":"ChatHandler：RAG 的真正编排中心","textChars":23,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/wn2xs3ql","slide":29,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/7i9gvy9o","slide":29,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/mh0fmt8j","slide":29,"text":"service/ChatHandler.java:69-118,197-348","textPreview":"service/ChatHandler.java:69-118,197-348","textChars":39,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/9kryx8ru","slide":29,"text":"29 / 37","textPreview":"29 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/8jixo3q9","slide":29,"bbox":[233,205,10,4]}
+{"kind":"shape","id":"sh/redg7298","slide":29,"bbox":[42,146,191,122]}
+{"kind":"textbox","id":"sh/6dkzyx8n","slide":29,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,158,30,26]}
+{"kind":"textbox","id":"sh/srah0ryp","slide":29,"text":"限流","textPreview":"限流","textChars":2,"textLines":1,"bbox":[90,156,129,34]}
+{"kind":"textbox","id":"sh/dsjitwfa","slide":29,"text":"checkChatByUser\n超限回 429 + retryAfter","textPreview":"checkChatByUser | 超限回 429 + retryAfter","textChars":36,"textLines":2,"bbox":[56,196,163,62]}
+{"kind":"shape","id":"sh/qp8zyhgz","slide":29,"bbox":[434,205,10,4]}
+{"kind":"shape","id":"sh/rq10rmx4","slide":29,"bbox":[243,146,191,122]}
+{"kind":"textbox","id":"sh/4nqhwryt","slide":29,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[257,158,30,26]}
+{"kind":"textbox","id":"sh/5ozypcfe","slide":29,"text":"会话","textPreview":"会话","textChars":2,"textLines":1,"bbox":[291,156,129,34]}
+{"kind":"textbox","id":"sh/il8zuhgn","slide":29,"text":"user:<id>:current_conversation\n7 天 TTL","textPreview":"user:<id>:current_conversation | 7 天 TTL","textChars":38,"textLines":2,"bbox":[257,196,163,62]}
+{"kind":"shape","id":"sh/3mhgnmx8","slide":29,"bbox":[635,205,10,4]}
+{"kind":"shape","id":"sh/gjqhs7yh","slide":29,"bbox":[444,146,191,122]}
+{"kind":"textbox","id":"sh/hkzylcf2","slide":29,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[458,158,30,26]}
+{"kind":"textbox","id":"sh/x476943u","slide":29,"text":"历史","textPreview":"历史","textChars":2,"textLines":1,"bbox":[492,156,129,34]}
+{"kind":"textbox","id":"sh/w3y50zm9","slide":29,"text":"conversation:<uuid>\n最近 20 条消息","textPreview":"conversation:<uuid> | 最近 20 条消息","textChars":29,"textLines":2,"bbox":[458,196,163,62]}
+{"kind":"shape","id":"sh/b2po7ulo","slide":29,"bbox":[836,205,10,4]}
+{"kind":"shape","id":"sh/a1gnyp43","slide":29,"bbox":[645,146,191,122]}
+{"kind":"textbox","id":"sh/90n6543i","slide":29,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[659,158,30,26]}
+{"kind":"textbox","id":"sh/oze5wzmx","slide":29,"text":"Top 5 检索","textPreview":"Top 5 检索","textChars":8,"textLines":1,"bbox":[693,156,129,34]}
+{"kind":"textbox","id":"sh/ne5o3uls","slide":29,"text":"searchWithPermission\n问题本身作为 query","textPreview":"searchWithPermission | 问题本身作为 query","textChars":33,"textLines":2,"bbox":[659,196,163,62]}
+{"kind":"shape","id":"sh/mdwnup47","slide":29,"bbox":[1037,205,10,4]}
+{"kind":"shape","id":"sh/twr6ho32","slide":29,"bbox":[846,146,191,122]}
+{"kind":"textbox","id":"sh/8vip8jmh","slide":29,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[860,158,30,26]}
+{"kind":"textbox","id":"sh/qhs32lkz","slide":29,"text":"上下文 + 引用","textPreview":"上下文 + 引用","textChars":8,"textLines":1,"bbox":[894,156,129,34]}
+{"kind":"textbox","id":"sh/ril4bq1k","slide":29,"text":"[1] 文件 | 页码\nsession 引用映射","textPreview":"[1] 文件 | 页码 | session 引用映射","textChars":24,"textLines":2,"bbox":[860,196,163,62]}
+{"kind":"shape","id":"sh/sjul4v2p","slide":29,"bbox":[1047,146,191,122]}
+{"kind":"textbox","id":"sh/dk3md0ja","slide":29,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1061,158,30,26]}
+{"kind":"textbox","id":"sh/ids3y1kn","slide":29,"text":"LLM 流","textPreview":"LLM 流","textChars":5,"textLines":1,"bbox":[1095,156,129,34]}
+{"kind":"textbox","id":"sh/3e1k76l8","slide":29,"text":"streamResponse\n每块发 WebSocket","textPreview":"streamResponse | 每块发 WebSocket","textChars":28,"textLines":2,"bbox":[1061,196,163,62]}
+{"kind":"shape","id":"sh/4fal0b2t","slide":29,"bbox":[42,310,718,264]}
+{"kind":"textbox","id":"sh/5gj29gje","slide":29,"text":"SOURCE EXCERPT","textPreview":"SOURCE EXCERPT","textChars":14,"textLines":1,"bbox":[60,324,682,22]}
+{"kind":"textbox","id":"sh/m9w3a5k7","slide":29,"text":"rateLimitService.checkChatByUser(userId);\nString conversationId = getOrCreateConversationId(userId);\nList<Map<String,String>> history = getConversationHistory(conversationId);\nList<SearchResult> hits = searchService.searchWithPermission(\n    userMessage, userId, 5);\nString context = buildContext(hits, session.getId(), userMessage);\nllmProviderRouter.streamResponse(userId, userMessage,\n    context, history, this::sendChunk, this::handleError);","textPreview":"rateLimitService.checkChatByUser(userId); | String conversationId = getOrCreateConversationId(userId); | List<Map<String,String>> history...","textChars":446,"textLines":8,"bbox":[60,354,682,208]}
+{"kind":"shape","id":"sh/na54ja1s","slide":29,"bbox":[790,310,448,124]}
+{"kind":"textbox","id":"sh/7210z25s","slide":29,"text":"无检索结果","textPreview":"无检索结果","textChars":5,"textLines":1,"bbox":[808,324,412,34]}
+{"kind":"textbox","id":"sh/m1sz6xon","slide":29,"text":"buildContext 返回空串；LLM Provider 在系统提示词中插入 no-result-text，要求模型明确说明没有找到知识库依据。","textPreview":"buildContext 返回空串；LLM Provider 在系统提示词中插入 no-result-text，要求模型明确说明没有找到知识库依据。","textChars":74,"textLines":1,"bbox":[808,364,412,58]}
+{"kind":"shape","id":"sh/943i1cny","slide":29,"bbox":[790,450,448,124]}
+{"kind":"textbox","id":"sh/83uh876d","slide":29,"text":"上下文长度","textPreview":"上下文长度","textChars":5,"textLines":1,"bbox":[808,464,412,34]}
+{"kind":"textbox","id":"sh/zy1gv25w","slide":29,"text":"每条检索 snippet 最多 300 字；匹配块用于引用详情最多 800 字；证据摘要最多 160 字。","textPreview":"每条检索 snippet 最多 300 字；匹配块用于引用详情最多 800 字；证据摘要最多 160 字。","textChars":53,"textLines":1,"bbox":[808,504,412,58]}
+{"kind":"notes","id":"nt/tgjyqo","slide":29,"text":""}
+{"kind":"slide","id":"sl/d5al8g","slide":30,"title":"聊天助手","textShapes":17}
+{"kind":"textbox","id":"sh/b6xwv6tc","slide":30,"text":"聊天助手","textPreview":"聊天助手","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/w76dobax","slide":30,"text":"Prompt 与模型流：规则、证据、历史、当前问题按顺序组装","textPreview":"Prompt 与模型流：规则、证据、历史、当前问题按顺序组装","textChars":30,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/x8fexgbi","slide":30,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/y9ovqls3","slide":30,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/jaxwz6to","slide":30,"text":"LlmProviderRouter.java:41-210；application.yml ai.prompt / ai.generation","textPreview":"LlmProviderRouter.java:41-210；application.yml ai.prompt / ai.generation","textChars":71,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/kb6dsba9","slide":30,"text":"30 / 37","textPreview":"30 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"textbox","id":"sh/lcze1gbe","slide":30,"text":"messages[] 顺序","textPreview":"messages[] 顺序","textChars":13,"textLines":1,"bbox":[42,148,300,32]}
+{"kind":"shape","id":"sh/ed4vehsj","slide":30,"bbox":[42,200,520,82]}
+{"kind":"textbox","id":"sh/zedwnmt4","slide":30,"text":"SYSTEM","textPreview":"SYSTEM","textChars":6,"textLines":1,"bbox":[62,220,100,28]}
+{"kind":"textbox","id":"sh/7mxsn29o","slide":30,"text":"rules + <<REF>> + Top5 context + <<END>>","textPreview":"rules + <<REF>> + Top5 context + <<END>>","textChars":40,"textLines":1,"bbox":[170,210,370,50]}
+{"kind":"shape","id":"sh/6loruxsj","slide":30,"bbox":[42,304,520,82]}
+{"kind":"textbox","id":"sh/tozapsru","slide":30,"text":"HISTORY","textPreview":"HISTORY","textChars":7,"textLines":1,"bbox":[62,324,100,28]}
+{"kind":"textbox","id":"sh/8n69wna9","slide":30,"text":"Redis 中最近 20 条 user/assistant 消息","textPreview":"Redis 中最近 20 条 user/assistant 消息","textChars":32,"textLines":1,"bbox":[170,314,370,50]}
+{"kind":"shape","id":"sh/jixsji9s","slide":30,"bbox":[42,408,520,82]}
+{"kind":"textbox","id":"sh/yhorqds7","slide":30,"text":"USER","textPreview":"USER","textChars":4,"textLines":1,"bbox":[62,428,100,28]}
+{"kind":"textbox","id":"sh/lkfalsry","slide":30,"text":"本轮 userMessage","textPreview":"本轮 userMessage","textChars":14,"textLines":1,"bbox":[170,418,370,50]}
+{"kind":"shape","id":"sh/kj69snad","slide":30,"bbox":[604,154,634,340]}
+{"kind":"textbox","id":"sh/bud8fitw","slide":30,"text":"SOURCE EXCERPT","textPreview":"SOURCE EXCERPT","textChars":14,"textLines":1,"bbox":[622,168,598,22]}
+{"kind":"textbox","id":"sh/at4rmdsb","slide":30,"text":"request.put(\"model\", provider.model());\nrequest.put(\"messages\", buildMessages(...));\nrequest.put(\"stream\", true);\nrequest.put(\"stream_options\", { include_usage: true });\n\nPOST {provider.apiBaseUrl}/chat/completions\nbodyToFlux(String.class)\n  → 解析 data: JSON\n  → choices[0].delta.content\n  → onChunk.accept(content)","textPreview":"request.put(\"model\", provider.model()); | request.put(\"messages\", buildMessages(...)); | request.put(\"stream\", true); | request.put(\"stre...","textChars":314,"textLines":10,"bbox":[622,198,598,284]}
+{"kind":"shape","id":"sh/ep4bydc3","slide":30,"bbox":[42,508,566,96]}
+{"kind":"textbox","id":"sh/zqds7ydo","slide":30,"text":"Provider 可切换","textPreview":"Provider 可切换","textChars":12,"textLines":1,"bbox":[60,522,530,34]}
+{"kind":"textbox","id":"sh/0rmt03u9","slide":30,"text":"ModelProviderConfigService 选择当前 LLM；协议保持 OpenAI 风格。","textPreview":"ModelProviderConfigService 选择当前 LLM；协议保持 OpenAI 风格。","textChars":51,"textLines":1,"bbox":[60,562,530,30]}
+{"kind":"shape","id":"sh/1sva98vu","slide":30,"bbox":[630,508,608,96]}
+{"kind":"textbox","id":"sh/md4b2dcz","slide":30,"text":"用量结算","textPreview":"用量结算","textChars":4,"textLines":1,"bbox":[648,522,572,34]}
+{"kind":"textbox","id":"sh/nedsbidk","slide":30,"text":"先按 prompt + max completion 预留；流结束后按 usage 或估算值结算。","textPreview":"先按 prompt + max completion 预留；流结束后按 usage 或估算值结算。","textChars":49,"textLines":1,"bbox":[648,562,572,30]}
+{"kind":"notes","id":"nt/d5al8g","slide":30,"text":""}
+{"kind":"slide","id":"sl/edyoyd","slide":31,"title":"聊天助手","textShapes":14}
+{"kind":"textbox","id":"sh/u5onytor","slide":31,"text":"聊天助手","textPreview":"聊天助手","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/h8z6t8ni","slide":31,"text":"完成、停止与历史：当前实现的三套状态不能混为一谈","textPreview":"完成、停止与历史：当前实现的三套状态不能混为一谈","textChars":24,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/g7q5036x","slide":31,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/3ahovi5o","slide":31,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/2987mdo3","slide":31,"text":"ChatHandler.java:130-185,351-455；input-box.vue:68-147；ConversationController.java","textPreview":"ChatHandler.java:130-185,351-455；input-box.vue:68-147；ConversationController.java","textChars":81,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/pwz6x8ne","slide":31,"text":"31 / 37","textPreview":"31 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/obqpo36t","slide":31,"bbox":[42,150,370,394]}
+{"kind":"textbox","id":"sh/jexoje54","slide":31,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[58,164,42,30]}
+{"kind":"textbox","id":"sh/id4nq9oj","slide":31,"text":"流式输出状态","textPreview":"流式输出状态","textChars":6,"textLines":1,"bbox":[104,162,292,34]}
+{"kind":"textbox","id":"sh/4bqx4ned","slide":31,"text":"responseBuilders[sessionId] 累积文本。每个模型 chunk 包装为 {chunk: ...} 发送。前端把最后一条 assistant 从 pending → loading，并持续追加 content。","textPreview":"responseBuilders[sessionId] 累积文本。每个模型 chunk 包装为 {chunk: ...} 发送。前端把最后一条 assistant 从 pending → loading，并持续追加 content。","textChars":116,"textLines":1,"bbox":[60,204,334,328]}
+{"kind":"shape","id":"sh/5czedsvy","slide":31,"bbox":[434,150,370,394]}
+{"kind":"textbox","id":"sh/i9ov2dwn","slide":31,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[450,164,42,30]}
+{"kind":"textbox","id":"sh/jaxwbid8","slide":31,"text":"完成判定","textPreview":"完成判定","textChars":4,"textLines":1,"bbox":[496,162,292,34]}
+{"kind":"textbox","id":"sh/szqx8nep","slide":31,"text":"后台监控线程先等待 3s，再观察长度；若连续一段时间不再增长，发送 {type: completion, status: finished}，随后把问答与引用写入 Redis。","textPreview":"后台监控线程先等待 3s，再观察长度；若连续一段时间不再增长，发送 {type: completion, status: finished}，随后把问答与引用写入 Redis。","textChars":88,"textLines":1,"bbox":[452,204,334,328]}
+{"kind":"shape","id":"sh/t0zehsva","slide":31,"bbox":[826,150,412,394]}
+{"kind":"textbox","id":"sh/6d8f6xwj","slide":31,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[842,164,42,30]}
+{"kind":"textbox","id":"sh/rehwf2d4","slide":31,"text":"停止按钮","textPreview":"停止按钮","textChars":4,"textLines":1,"bbox":[888,162,334,34]}
+{"kind":"textbox","id":"sh/83mdw3e5","slide":31,"text":"前端先调用 /chat/websocket-token 获取内部 cmdToken，再发送 {type: stop}。后端 stopFlags 只阻止继续向 WS 发送；底层 LLM HTTP 流并未被显式取消。","textPreview":"前端先调用 /chat/websocket-token 获取内部 cmdToken，再发送 {type: stop}。后端 stopFlags 只阻止继续向 WS 发送；底层 LLM HTTP 流并未被显式取消。","textChars":106,"textLines":1,"bbox":[844,204,376,328]}
+{"kind":"shape","id":"sh/94fe58vq","slide":31,"bbox":[42,582,1196,42]}
+{"kind":"shape","id":"sh/pon2d0ji","slide":31,"bbox":[42,582,6,42]}
+{"kind":"textbox","id":"sh/onelkv2x","slide":31,"text":"历史：user:<id>:current_conversation → UUID；conversation:<UUID> → 最多 20 条消息，TTL 7 天。","textPreview":"历史：user:<id>:current_conversation → UUID；conversation:<UUID> → 最多 20 条消息，TTL 7 天。","textChars":81,"textLines":1,"bbox":[60,591,1160,25]}
+{"kind":"notes","id":"nt/edyoyd","slide":31,"text":""}
+{"kind":"slide","id":"sl/yehxn0","slide":32,"title":"聊天助手","textShapes":27}
+{"kind":"textbox","id":"sh/qtg76pgb","slide":32,"text":"聊天助手","textPreview":"聊天助手","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/dwrqh4fm","slide":32,"text":"可点击引用：回答中的“来源#N”如何回到原文","textPreview":"可点击引用：回答中的“来源#N”如何回到原文","textChars":22,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/svyp8zy1","slide":32,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/36p8buhk","slide":32,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/i5g72pgz","slide":32,"text":"ChatHandler.java:306-348,491-582；chat-message.vue:129-287；DocumentController.java:679-740","textPreview":"ChatHandler.java:306-348,491-582；chat-message.vue:129-287；DocumentController.java:679-740","textChars":89,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/5s7qdkzq","slide":32,"text":"32 / 37","textPreview":"32 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/47yp4zy5","slide":32,"bbox":[233,206,10,4]}
+{"kind":"shape","id":"sh/n298nexo","slide":32,"bbox":[42,146,191,124]}
+{"kind":"textbox","id":"sh/210re9gj","slide":32,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[56,158,30,26]}
+{"kind":"textbox","id":"sh/snqh4jyl","slide":32,"text":"构造上下文","textPreview":"构造上下文","textChars":5,"textLines":1,"bbox":[90,156,129,34]}
+{"kind":"textbox","id":"sh/dozix4z6","slide":32,"text":"[1] (file.pdf | 第5页)\n文本摘要","textPreview":"[1] (file.pdf | 第5页) | 文本摘要","textChars":25,"textLines":2,"bbox":[56,196,163,64]}
+{"kind":"shape","id":"sh/qloz29gv","slide":32,"bbox":[434,206,10,4]}
+{"kind":"shape","id":"sh/rmh0vehg","slide":32,"bbox":[243,146,191,124]}
+{"kind":"textbox","id":"sh/4z6h0zyp","slide":32,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[257,158,30,26]}
+{"kind":"textbox","id":"sh/5kfit4za","slide":32,"text":"模型输出","textPreview":"模型输出","textChars":4,"textLines":1,"bbox":[291,156,129,34]}
+{"kind":"textbox","id":"sh/ixozypgj","slide":32,"text":"要求使用\n来源#1: file.pdf | 第5页","textPreview":"要求使用 | 来源#1: file.pdf | 第5页","textChars":25,"textLines":2,"bbox":[257,196,163,64]}
+{"kind":"shape","id":"sh/3yx0ruh4","slide":32,"bbox":[635,206,10,4]}
+{"kind":"shape","id":"sh/gv6hwzyt","slide":32,"bbox":[444,146,191,124]}
+{"kind":"textbox","id":"sh/hwfypkzy","slide":32,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[458,158,30,26]}
+{"kind":"textbox","id":"sh/xs7ytgr2","slide":32,"text":"前端正则识别","textPreview":"前端正则识别","textChars":6,"textLines":1,"bbox":[492,156,129,34]}
+{"kind":"textbox","id":"sh/wryx0bah","slide":32,"text":"source-file-link\n记录 referenceNumber","textPreview":"source-file-link | 记录 referenceNumber","textChars":35,"textLines":2,"bbox":[458,196,163,64]}
+{"kind":"shape","id":"sh/vqpwr69w","slide":32,"bbox":[836,206,10,4]}
+{"kind":"shape","id":"sh/apwfylsb","slide":32,"bbox":[645,146,191,124]}
+{"kind":"textbox","id":"sh/9onepgrq","slide":32,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[659,158,30,26]}
+{"kind":"textbox","id":"sh/8nexwba5","slide":32,"text":"引用详情","textPreview":"引用详情","textChars":4,"textLines":1,"bbox":[693,156,129,34]}
+{"kind":"textbox","id":"sh/nm5wn690","slide":32,"text":"GET documents/reference-detail\nsessionId + #N","textPreview":"GET documents/reference-detail | sessionId + #N","textChars":45,"textLines":2,"bbox":[659,196,163,64]}
+{"kind":"shape","id":"sh/mlwfu1sf","slide":32,"bbox":[1037,206,10,4]}
+{"kind":"shape","id":"sh/tkry10ra","slide":32,"bbox":[846,146,191,124]}
+{"kind":"textbox","id":"sh/sjix8vqp","slide":32,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[860,158,30,26]}
+{"kind":"textbox","id":"sh/qpsv2x87","slide":32,"text":"权限再校验","textPreview":"权限再校验","textChars":5,"textLines":1,"bbox":[894,156,129,34]}
+{"kind":"textbox","id":"sh/bq1cv2ps","slide":32,"text":"getAccessibleFiles\n禁止越权预览","textPreview":"getAccessibleFiles | 禁止越权预览","textChars":25,"textLines":2,"bbox":[860,196,163,64]}
+{"kind":"shape","id":"sh/crud47qx","slide":32,"bbox":[1047,146,191,124]}
+{"kind":"textbox","id":"sh/ds3uxc7i","slide":32,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1061,158,30,26]}
+{"kind":"textbox","id":"sh/21sbyx8v","slide":32,"text":"预览定位","textPreview":"预览定位","textChars":4,"textLines":1,"bbox":[1095,156,129,34]}
+{"kind":"textbox","id":"sh/321cripg","slide":32,"text":"PDF 单页 / 文本\n展示命中块和证据","textPreview":"PDF 单页 / 文本 | 展示命中块和证据","textChars":20,"textLines":2,"bbox":[1061,196,163,64]}
+{"kind":"shape","id":"sh/o3at0nq1","slide":32,"bbox":[42,316,566,228]}
+{"kind":"textbox","id":"sh/pojuts7m","slide":32,"text":"ReferenceInfo 保存的证据","textPreview":"ReferenceInfo 保存的证据","textChars":19,"textLines":1,"bbox":[60,330,530,34]}
+{"kind":"textbox","id":"sh/mxcvahof","slide":32,"text":"fileMd5、fileName、pageNumber、anchorText、retrievalMode/Label、retrievalQuery、matchedChunkText、evidenceSnippet、score、chunkId。","textPreview":"fileMd5、fileName、pageNumber、anchorText、retrievalMode/Label、retrievalQuery、matchedChunkText、evidenceSnippet、score、chunkId。","textChars":121,"textLines":1,"bbox":[60,370,530,162]}
+{"kind":"shape","id":"sh/nylc3mpk","slide":32,"bbox":[632,316,606,228]}
+{"kind":"textbox","id":"sh/7q18zet0","slide":32,"text":"两种引用映射","textPreview":"两种引用映射","textChars":6,"textLines":1,"bbox":[650,330,570,34]}
+{"kind":"textbox","id":"sh/6psr6tsf","slide":32,"text":"实时会话：sessionReferenceMappings[sessionId]，连接关闭会清理。\n历史消息：referenceMappings 随 assistant 消息持久化到 Redis，之后仍可展示与预览。","textPreview":"实时会话：sessionReferenceMappings[sessionId]，连接关闭会清理。 | 历史消息：referenceMappings 随 assistant 消息持久化到 Redis，之后仍可展示与预览。","textChars":108,"textLines":2,"bbox":[650,370,570,162]}
+{"kind":"shape","id":"sh/tcjq1ob6","slide":32,"bbox":[42,582,1196,42]}
+{"kind":"shape","id":"sh/8ba98jal","slide":32,"bbox":[42,582,6,42]}
+{"kind":"textbox","id":"sh/jm18vet4","slide":32,"text":"引用不是模型随口生成的文件名：编号先由检索结果建立映射，预览接口还会再次做文件权限校验。","textPreview":"引用不是模型随口生成的文件名：编号先由检索结果建立映射，预览接口还会再次做文件权限校验。","textChars":44,"textLines":1,"bbox":[60,591,1160,25]}
+{"kind":"notes","id":"nt/yehxn0","slide":32,"text":""}
+{"kind":"slide","id":"sl/ubfr0s","slide":33,"title":"聊天助手","textShapes":33}
+{"kind":"textbox","id":"sh/kraxwze5","slide":33,"text":"聊天助手","textPreview":"聊天助手","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/jq1w3exk","slide":33,"text":"聊天模块源码索引与调试顺序","textPreview":"聊天模块源码索引与调试顺序","textChars":13,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/y5sfu9wz","slide":33,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/tw3y9ofm","slide":33,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/8vax0je1","slide":33,"text":"建议按 WebSocket 帧顺序逐层打断点","textPreview":"建议按 WebSocket 帧顺序逐层打断点","textChars":22,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/7u1g7exg","slide":33,"text":"33 / 37","textPreview":"33 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/6tsfy9wb","slide":33,"bbox":[42,144,1196,66]}
+{"kind":"textbox","id":"sh/h03ydovy","slide":33,"text":"环节","textPreview":"环节","textChars":2,"textLines":1,"bbox":[52,152,168,50]}
+{"kind":"shape","id":"sh/gzux4jed","slide":33,"bbox":[230,144,1,66]}
+{"kind":"textbox","id":"sh/qlg7e58r","slide":33,"text":"文件","textPreview":"文件","textChars":2,"textLines":1,"bbox":[240,152,360,50]}
+{"kind":"shape","id":"sh/rmponqpc","slide":33,"bbox":[610,144,1,66]}
+{"kind":"textbox","id":"sh/snypgvqx","slide":33,"text":"入口/方法","textPreview":"入口/方法","textChars":5,"textLines":1,"bbox":[620,152,226,50]}
+{"kind":"shape","id":"sh/d876p07i","slide":33,"bbox":[856,144,1,66]}
+{"kind":"textbox","id":"sh/e9g7i58n","slide":33,"text":"观察点","textPreview":"观察点","textChars":3,"textLines":1,"bbox":[866,152,362,50]}
+{"kind":"shape","id":"sh/fa9orap8","slide":33,"bbox":[42,210,1196,66]}
+{"kind":"textbox","id":"sh/0bipkfqt","slide":33,"text":"前端连接","textPreview":"前端连接","textChars":4,"textLines":1,"bbox":[52,218,168,50]}
+{"kind":"shape","id":"sh/1cr6tk7e","slide":33,"bbox":[230,210,1,66]}
+{"kind":"textbox","id":"sh/udwn618j","slide":33,"text":"frontend/src/store/modules/chat/index.ts","textPreview":"frontend/src/store/modules/chat/index.ts","textChars":40,"textLines":1,"bbox":[240,218,360,50]}
+{"kind":"shape","id":"sh/ve5of6p4","slide":33,"bbox":[610,210,1,66]}
+{"kind":"textbox","id":"sh/jy14n25w","slide":33,"text":"useWebSocket :39","textPreview":"useWebSocket :39","textChars":16,"textLines":1,"bbox":[620,218,226,50]}
+{"kind":"shape","id":"sh/yxs3ehob","slide":33,"bbox":[856,210,1,66]}
+{"kind":"textbox","id":"sh/lk3mpcn2","slide":33,"text":"socketUrl、握手、心跳、关闭码、sessionId","textPreview":"socketUrl、握手、心跳、关闭码、sessionId","textChars":29,"textLines":1,"bbox":[866,218,362,50]}
+{"kind":"shape","id":"sh/kjulg76h","slide":33,"bbox":[42,276,1196,66]}
+{"kind":"textbox","id":"sh/bu14j25k","slide":33,"text":"前端消息","textPreview":"前端消息","textChars":4,"textLines":1,"bbox":[52,284,168,50]}
+{"kind":"shape","id":"sh/ats3axof","slide":33,"bbox":[230,276,1,66]}
+{"kind":"textbox","id":"sh/xwjmlcnq","slide":33,"text":"views/chat/modules/input-box.vue","textPreview":"views/chat/modules/input-box.vue","textChars":32,"textLines":1,"bbox":[240,284,360,50]}
+{"kind":"shape","id":"sh/wvalc765","slide":33,"bbox":[610,276,1,66]}
+{"kind":"textbox","id":"sh/vq54vm54","slide":33,"text":"handleSend / watch(wsData)","textPreview":"handleSend / watch(wsData)","textChars":26,"textLines":1,"bbox":[620,284,226,50]}
+{"kind":"shape","id":"sh/upc3m1oj","slide":33,"bbox":[856,276,1,66]}
+{"kind":"textbox","id":"sh/sjm90zip","slide":33,"text":"pending/loading/finished/error、429 倒计时","textPreview":"pending/loading/finished/error、429 倒计时","textChars":38,"textLines":1,"bbox":[866,284,362,50]}
+{"kind":"shape","id":"sh/tkvat4za","slide":33,"bbox":[42,342,1196,66]}
+{"kind":"textbox","id":"sh/6x4ryp0j","slide":33,"text":"WS 后端","textPreview":"WS 后端","textChars":5,"textLines":1,"bbox":[52,350,168,50]}
+{"kind":"shape","id":"sh/ridsruh4","slide":33,"bbox":[230,342,1,66]}
+{"kind":"textbox","id":"sh/0n694zi1","slide":33,"text":"handler/ChatWebSocketHandler.java","textPreview":"handler/ChatWebSocketHandler.java","textChars":33,"textLines":1,"bbox":[240,350,360,50]}
+{"kind":"shape","id":"sh/1ofax4z6","slide":33,"bbox":[610,342,1,66]}
+{"kind":"textbox","id":"sh/el4r290v","slide":33,"text":"afterConnectionEstablished :48\nhandleTextMessage :92","textPreview":"afterConnectionEstablished :48 | handleTextMessage :92","textChars":52,"textLines":2,"bbox":[620,350,226,50]}
+{"kind":"shape","id":"sh/fmxsvuhg","slide":33,"bbox":[856,342,1,66]}
+{"kind":"textbox","id":"sh/or698jix","slide":33,"text":"JWT、ping/pong、stop、普通消息","textPreview":"JWT、ping/pong、stop、普通消息","textChars":23,"textLines":1,"bbox":[866,350,362,50]}
+{"kind":"shape","id":"sh/psfa1ozi","slide":33,"bbox":[42,408,1196,66]}
+{"kind":"textbox","id":"sh/907ah43i","slide":33,"text":"RAG 编排","textPreview":"RAG 编排","textChars":6,"textLines":1,"bbox":[52,416,168,50]}
+{"kind":"shape","id":"sh/8zy9ozmx","slide":33,"bbox":[230,408,1,66]}
+{"kind":"textbox","id":"sh/nypsfuls","slide":33,"text":"service/ChatHandler.java","textPreview":"service/ChatHandler.java","textChars":24,"textLines":1,"bbox":[240,416,360,50]}
+{"kind":"shape","id":"sh/mxgrm947","slide":33,"bbox":[610,408,1,66]}
+{"kind":"textbox","id":"sh/lwnad4nm","slide":33,"text":"processMessage :69\nbuildContext :306","textPreview":"processMessage :69 | buildContext :306","textChars":36,"textLines":2,"bbox":[620,416,226,50]}
+{"kind":"shape","id":"sh/0ve9kzm1","slide":33,"bbox":[856,408,1,66]}
+{"kind":"textbox","id":"sh/zu5sbu5g","slide":33,"text":"历史、Top5、context、引用映射","textPreview":"历史、Top5、context、引用映射","textChars":20,"textLines":1,"bbox":[866,416,362,50]}
+{"kind":"shape","id":"sh/ytwrip4v","slide":33,"bbox":[42,474,1196,66]}
+{"kind":"textbox","id":"sh/5srapo3q","slide":33,"text":"模型流","textPreview":"模型流","textChars":3,"textLines":1,"bbox":[52,482,168,50]}
+{"kind":"shape","id":"sh/kritwjm5","slide":33,"bbox":[230,474,1,66]}
+{"kind":"textbox","id":"sh/2xc7alkn","slide":33,"text":"service/LlmProviderRouter.java","textPreview":"service/LlmProviderRouter.java","textChars":30,"textLines":1,"bbox":[240,482,360,50]}
+{"kind":"shape","id":"sh/3yl8jq18","slide":33,"bbox":[610,474,1,66]}
+{"kind":"textbox","id":"sh/4zupcv2t","slide":33,"text":"streamResponse :41\nprocessChunk :142","textPreview":"streamResponse :41 | processChunk :142","textChars":36,"textLines":2,"bbox":[620,482,226,50]}
+{"kind":"shape","id":"sh/p03ql0je","slide":33,"bbox":[856,474,1,66]}
+{"kind":"textbox","id":"sh/u9s76lkr","slide":33,"text":"Provider、messages、SSE payload、usage","textPreview":"Provider、messages、SSE payload、usage","textChars":35,"textLines":1,"bbox":[866,482,362,50]}
+{"kind":"shape","id":"sh/fa1ofqlc","slide":33,"bbox":[42,540,1196,66]}
+{"kind":"textbox","id":"sh/gbap8b2x","slide":33,"text":"引用预览","textPreview":"引用预览","textChars":4,"textLines":1,"bbox":[52,548,168,50]}
+{"kind":"shape","id":"sh/hwj6hg32","slide":33,"bbox":[230,540,1,66]}
+{"kind":"textbox","id":"sh/e5w7i5kv","slide":33,"text":"controller/DocumentController.java\nchat-message.vue","textPreview":"controller/DocumentController.java | chat-message.vue","textChars":51,"textLines":2,"bbox":[240,548,360,50]}
+{"kind":"shape","id":"sh/z658ra1g","slide":33,"bbox":[610,540,1,66]}
+{"kind":"textbox","id":"sh/bydwnixg","slide":33,"text":"reference-detail :679\nhandleSourceFileClick","textPreview":"reference-detail :679 | handleSourceFileClick","textChars":43,"textLines":2,"bbox":[620,548,226,50]}
+{"kind":"shape","id":"sh/ax4vudwb","slide":33,"bbox":[856,540,1,66]}
+{"kind":"textbox","id":"sh/x0vep8fm","slide":33,"text":"引用编号、文件权限、页码与 evidence","textPreview":"引用编号、文件权限、页码与 evidence","textChars":22,"textLines":1,"bbox":[866,548,362,50]}
+{"kind":"shape","id":"sh/wzmdw3e1","slide":33,"bbox":[42,612,1196,42]}
+{"kind":"shape","id":"sh/j2xwrids","slide":33,"bbox":[42,612,6,42]}
+{"kind":"textbox","id":"sh/y1ovydw7","slide":33,"text":"WS 调试最重要的证据是 Frames：connection → chunk... → completion / 429 / error / stop。","textPreview":"WS 调试最重要的证据是 Frames：connection → chunk... → completion / 429 / error / stop。","textChars":76,"textLines":1,"bbox":[60,621,1160,25]}
+{"kind":"notes","id":"nt/ubfr0s","slide":33,"text":""}
+{"kind":"slide","id":"sl/3btnbv","slide":34,"title":"端到端链路","textShapes":26}
+{"kind":"textbox","id":"sh/z618valc","slide":34,"text":"端到端链路","textPreview":"端到端链路","textChars":5,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/07a94fmx","slide":34,"text":"跨模块复盘：上传一份 PDF，再问一个问题","textPreview":"跨模块复盘：上传一份 PDF，再问一个问题","textChars":21,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/l83qxk32","slide":34,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/m9cr6p4n","slide":34,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/nal8zul8","slide":34,"text":"这是整套系统最重要的一条可演示链路","textPreview":"这是整套系统最重要的一条可演示链路","textChars":17,"textLines":1,"bbox":[42,675,1085,25]}
+{"kind":"textbox","id":"sh/8bu98zmt","slide":34,"text":"34 / 37","textPreview":"34 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/9c3a143e","slide":34,"bbox":[42,148,580,92]}
+{"kind":"textbox","id":"sh/2d8rul4j","slide":34,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[60,168,42,38]}
+{"kind":"textbox","id":"sh/3eh8nql4","slide":34,"text":"登录","textPreview":"登录","textChars":2,"textLines":1,"bbox":[120,162,152,34]}
+{"kind":"textbox","id":"sh/fitsnedg","slide":34,"text":"获得带 userId/orgTags 的 JWT","textPreview":"获得带 userId/orgTags 的 JWT","textChars":24,"textLines":1,"bbox":[278,163,324,58]}
+{"kind":"shape","id":"sh/uhkrutwv","slide":34,"bbox":[42,260,580,92]}
+{"kind":"textbox","id":"sh/hkvapov6","slide":34,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[60,280,42,38]}
+{"kind":"textbox","id":"sh/gj29wje1","slide":34,"text":"上传","textPreview":"上传","textChars":2,"textLines":1,"bbox":[120,274,152,34]}
+{"kind":"textbox","id":"sh/7etszed4","slide":34,"text":"5MB 分片 → Redis/MinIO/MySQL","textPreview":"5MB 分片 → Redis/MinIO/MySQL","textChars":26,"textLines":1,"bbox":[278,275,324,58]}
+{"kind":"shape","id":"sh/6dkrq9wj","slide":34,"bbox":[42,372,580,92]}
+{"kind":"textbox","id":"sh/tgbalova","slide":34,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[60,392,42,38]}
+{"kind":"textbox","id":"sh/sf29sjep","slide":34,"text":"异步知识化","textPreview":"异步知识化","textChars":5,"textLines":1,"bbox":[120,386,152,34]}
+{"kind":"textbox","id":"sh/jq98vud8","slide":34,"text":"Kafka → PDFBox → chunk → Embedding → ES","textPreview":"Kafka → PDFBox → chunk → Embedding → ES","textChars":39,"textLines":1,"bbox":[278,387,324,58]}
+{"kind":"shape","id":"sh/yp0rmpwn","slide":34,"bbox":[42,484,580,92]}
+{"kind":"textbox","id":"sh/mlgbypgf","slide":34,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[60,504,42,38]}
+{"kind":"textbox","id":"sh/nm9s7uh0","slide":34,"text":"提问","textPreview":"提问","textChars":2,"textLines":1,"bbox":[120,498,152,34]}
+{"kind":"textbox","id":"sh/onit0zyl","slide":34,"text":"WebSocket 携 JWT，ChatHandler 取最近历史","textPreview":"WebSocket 携 JWT，ChatHandler 取最近历史","textChars":33,"textLines":1,"bbox":[278,499,324,58]}
+{"kind":"shape","id":"sh/9ora94z6","slide":34,"bbox":[658,148,580,92]}
+{"kind":"textbox","id":"sh/ap0b29gr","slide":34,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[676,168,42,38]}
+{"kind":"textbox","id":"sh/ba9sbehw","slide":34,"text":"检索","textPreview":"检索","textChars":2,"textLines":1,"bbox":[736,162,152,34]}
+{"kind":"textbox","id":"sh/wbit4jyh","slide":34,"text":"query vector → KNN + AND + BM25 + 权限","textPreview":"query vector → KNN + AND + BM25 + 权限","textChars":36,"textLines":1,"bbox":[894,163,324,58]}
+{"kind":"shape","id":"sh/xcrad4z2","slide":34,"bbox":[658,260,580,92]}
+{"kind":"textbox","id":"sh/ydkb69gn","slide":34,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[676,280,42,38]}
+{"kind":"textbox","id":"sh/jetsfex8","slide":34,"text":"回答","textPreview":"回答","textChars":2,"textLines":1,"bbox":[736,274,152,34]}
+{"kind":"textbox","id":"sh/tkfmlcnm","slide":34,"text":"Prompt 引用 Top5，LLM chunk 流式回传","textPreview":"Prompt 引用 Top5，LLM chunk 流式回传","textChars":29,"textLines":1,"bbox":[894,275,324,58]}
+{"kind":"shape","id":"sh/sj6ls7m1","slide":34,"bbox":[658,372,580,92]}
+{"kind":"textbox","id":"sh/rix4j25g","slide":34,"text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[676,392,42,38]}
+{"kind":"textbox","id":"sh/6h43qx4v","slide":34,"text":"追溯","textPreview":"追溯","textChars":2,"textLines":1,"bbox":[736,386,152,34]}
+{"kind":"textbox","id":"sh/1ofmpcni","slide":34,"text":"点击来源#N → 权限复核 → 第 N 页预览","textPreview":"点击来源#N → 权限复核 → 第 N 页预览","textChars":23,"textLines":1,"bbox":[894,387,324,58]}
+{"kind":"shape","id":"sh/gn65wrmd","slide":34,"bbox":[42,600,1196,42]}
+{"kind":"shape","id":"sh/fmx4nm5s","slide":34,"bbox":[42,600,6,42]}
+{"kind":"textbox","id":"sh/elonuh47","slide":34,"text":"如果最终回答没有引用，沿反方向排查：Prompt 是否含证据 ← SearchResult 是否有 Top5 ← ES 是否已有该文件块。","textPreview":"如果最终回答没有引用，沿反方向排查：Prompt 是否含证据 ← SearchResult 是否有 Top5 ← ES 是否已有该文件块。","textChars":69,"textLines":1,"bbox":[60,609,1160,25]}
+{"kind":"notes","id":"nt/3btnbv","slide":34,"text":""}
+{"kind":"slide","id":"sl/48yv10","slide":35,"title":"学习计划","textShapes":25}
+{"kind":"textbox","id":"sh/cbmx8ne9","slide":35,"text":"学习计划","textPreview":"学习计划","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/badgfixo","slide":35,"text":"建议的 7 天学习路线","textPreview":"建议的 7 天学习路线","textChars":11,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/a94f6dw3","slide":35,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/p8ved8fi","slide":35,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/o7mx43ex","slide":35,"text":"35 / 37","textPreview":"35 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/n6dwbyxc","slide":35,"bbox":[42,142,588,94]}
+{"kind":"textbox","id":"sh/254f2twr","slide":35,"text":"DAY 1","textPreview":"DAY 1","textChars":5,"textLines":1,"bbox":[60,156,86,24]}
+{"kind":"textbox","id":"sh/94zypsvm","slide":35,"text":"跑起来","textPreview":"跑起来","textChars":3,"textLines":1,"bbox":[154,153,144,30]}
+{"kind":"textbox","id":"sh/836xg7eh","slide":35,"text":"准备 MySQL/Redis/MinIO/Kafka/ES；登录前后端；看 Network。","textPreview":"准备 MySQL/Redis/MinIO/Kafka/ES；登录前后端；看 Network。","textChars":46,"textLines":1,"bbox":[154,187,452,40]}
+{"kind":"shape","id":"sh/qhsr6twz","slide":35,"bbox":[42,254,588,94]}
+{"kind":"textbox","id":"sh/ri18zyxk","slide":35,"text":"DAY 2","textPreview":"DAY 2","textChars":5,"textLines":1,"bbox":[60,268,86,24]}
+{"kind":"textbox","id":"sh/cja983e5","slide":35,"text":"用户与安全","textPreview":"用户与安全","textChars":5,"textLines":1,"bbox":[154,265,144,30]}
+{"kind":"textbox","id":"sh/dkjq1ofa","slide":35,"text":"注册/登录；解码 JWT；走一遍 JwtFilter 与 OrgTagFilter。","textPreview":"注册/登录；解码 JWT；走一遍 JwtFilter 与 OrgTagFilter。","textChars":42,"textLines":1,"bbox":[154,299,452,40]}
+{"kind":"shape","id":"sh/it8729wn","slide":35,"bbox":[42,366,588,94]}
+{"kind":"textbox","id":"sh/3uh8vex8","slide":35,"text":"DAY 3","textPreview":"DAY 3","textChars":5,"textLines":1,"bbox":[60,380,86,24]}
+{"kind":"textbox","id":"sh/4fq94jet","slide":35,"text":"上传同步链","textPreview":"上传同步链","textChars":5,"textLines":1,"bbox":[154,377,144,30]}
+{"kind":"textbox","id":"sh/5gzqxofe","slide":35,"text":"上传小文件；核对 Redis 位图、MinIO chunk、file_upload。","textPreview":"上传小文件；核对 Redis 位图、MinIO chunk、file_upload。","textChars":42,"textLines":1,"bbox":[154,411,452,40]}
+{"kind":"shape","id":"sh/mpcredw7","slide":35,"bbox":[42,478,588,94]}
+{"kind":"textbox","id":"sh/nal87ixs","slide":35,"text":"DAY 4","textPreview":"DAY 4","textChars":5,"textLines":1,"bbox":[60,492,86,24]}
+{"kind":"textbox","id":"sh/judozad4","slide":35,"text":"解析异步链","textPreview":"解析异步链","textChars":5,"textLines":1,"bbox":[154,489,144,30]}
+{"kind":"textbox","id":"sh/yt4n65wj","slide":35,"text":"看 Kafka 消费；断点 ParseService；核对 document_vectors 与页码。","textPreview":"看 Kafka 消费；断点 ParseService；核对 document_vectors 与页码。","textChars":51,"textLines":1,"bbox":[154,523,452,40]}
+{"kind":"shape","id":"sh/lwv61kva","slide":35,"bbox":[650,142,588,94]}
+{"kind":"textbox","id":"sh/kvm58fup","slide":35,"text":"DAY 5","textPreview":"DAY 5","textChars":5,"textLines":1,"bbox":[668,156,86,24]}
+{"kind":"textbox","id":"sh/7yxo3ad0","slide":35,"text":"Embedding 与检索","textPreview":"Embedding 与检索","textChars":13,"textLines":1,"bbox":[762,153,144,30]}
+{"kind":"textbox","id":"sh/6x4na5cf","slide":35,"text":"核对 ES mapping；手工请求 hybrid；比较 HYBRID/TEXT_ONLY。","textPreview":"核对 ES mapping；手工请求 hybrid；比较 HYBRID/TEXT_ONLY。","textChars":46,"textLines":1,"bbox":[762,187,452,40]}
+{"kind":"shape","id":"sh/t0f65kv6","slide":35,"bbox":[650,254,588,94]}
+{"kind":"textbox","id":"sh/8z65cful","slide":35,"text":"DAY 6","textPreview":"DAY 6","textChars":5,"textLines":1,"bbox":[668,268,86,24]}
+{"kind":"textbox","id":"sh/vmxo7udc","slide":35,"text":"聊天与引用","textPreview":"聊天与引用","textChars":5,"textLines":1,"bbox":[762,265,144,30]}
+{"kind":"textbox","id":"sh/ulonepcr","slide":35,"text":"看 WS Frames；断点 ChatHandler；点击来源预览。","textPreview":"看 WS Frames；断点 ChatHandler；点击来源预览。","textChars":34,"textLines":1,"bbox":[762,299,452,40]}
+{"kind":"shape","id":"sh/srq5ozap","slide":35,"bbox":[650,366,588,94]}
+{"kind":"textbox","id":"sh/dszmx4ba","slide":35,"text":"DAY 7","textPreview":"DAY 7","textChars":5,"textLines":1,"bbox":[668,380,86,24]}
+{"kind":"textbox","id":"sh/qp8nmpsz","slide":35,"text":"权限与故障","textPreview":"权限与故障","textChars":5,"textLines":1,"bbox":[762,377,144,30]}
+{"kind":"textbox","id":"sh/rqh4vut4","slide":35,"text":"两用户/两组织测试；模拟 Kafka/Embedding/ES 失败并写排错记录。","textPreview":"两用户/两组织测试；模拟 Kafka/Embedding/ES 失败并写排错记录。","textChars":41,"textLines":1,"bbox":[762,411,452,40]}
+{"kind":"shape","id":"sh/4n65kfat","slide":35,"bbox":[42,596,1196,42]}
+{"kind":"shape","id":"sh/5ofmtkbe","slide":35,"bbox":[42,596,6,42]}
+{"kind":"textbox","id":"sh/i1onipsn","slide":35,"text":"每天都保留一份“输入 → 关键变量 → 存储变化 → 输出”的观察笔记；一周后你会拥有自己的运行时地图。","textPreview":"每天都保留一份“输入 → 关键变量 → 存储变化 → 输出”的观察笔记；一周后你会拥有自己的运行时地图。","textChars":52,"textLines":1,"bbox":[60,605,1160,25]}
+{"kind":"notes","id":"nt/48yv10","slide":35,"text":""}
+{"kind":"slide","id":"sl/y36kej","slide":36,"title":"调试清单","textShapes":32}
+{"kind":"textbox","id":"sh/qh8vy9gj","slide":36,"text":"调试清单","textPreview":"调试清单","textChars":4,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/d4ze9oza","slide":36,"text":"最有价值的断点与可观测证据","textPreview":"最有价值的断点与可观测证据","textChars":13,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/c3qx0jyp","slide":36,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/z61wbyh0","slide":36,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/e58f2tgv","slide":36,"text":"36 / 37","textPreview":"36 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"shape","id":"sh/18jed8z6","slide":36,"bbox":[42,144,1196,66]}
+{"kind":"textbox","id":"sh/07ax43yl","slide":36,"text":"场景","textPreview":"场景","textChars":2,"textLines":1,"bbox":[52,152,190,50]}
+{"kind":"shape","id":"sh/na1wfyhc","slide":36,"bbox":[252,144,1,66]}
+{"kind":"textbox","id":"sh/m9sf6tgr","slide":36,"text":"首选断点","textPreview":"首选断点","textChars":4,"textLines":1,"bbox":[262,152,390,50]}
+{"kind":"shape","id":"sh/obql0vyp","slide":36,"bbox":[662,144,1,66]}
+{"kind":"textbox","id":"sh/pczmt0za","slide":36,"text":"外部证据","textPreview":"外部证据","textChars":4,"textLines":1,"bbox":[672,152,280,50]}
+{"kind":"shape","id":"sh/2983y5gz","slide":36,"bbox":[962,144,1,66]}
+{"kind":"textbox","id":"sh/nah4rah4","slide":36,"text":"常见结论","textPreview":"常见结论","textChars":4,"textLines":1,"bbox":[972,152,256,50]}
+{"kind":"shape","id":"sh/cfql4fy1","slide":36,"bbox":[42,210,1196,66]}
+{"kind":"textbox","id":"sh/x0zmxkzm","slide":36,"text":"401 / 403","textPreview":"401 / 403","textChars":9,"textLines":1,"bbox":[52,218,190,50]}
+{"kind":"shape","id":"sh/ad8325gv","slide":36,"bbox":[252,210,1,66]}
+{"kind":"textbox","id":"sh/beh4vahg","slide":36,"text":"JwtAuthenticationFilter\nOrgTagAuthorizationFilter","textPreview":"JwtAuthenticationFilter | OrgTagAuthorizationFilter","textChars":49,"textLines":2,"bbox":[262,218,390,50]}
+{"kind":"shape","id":"sh/k3al8fyx","slide":36,"bbox":[662,210,1,66]}
+{"kind":"textbox","id":"sh/l4jm1kzi","slide":36,"text":"Authorization、JWT claims、request attrs","textPreview":"Authorization、JWT claims、request attrs","textChars":38,"textLines":1,"bbox":[672,218,280,50]}
+{"kind":"shape","id":"sh/9ovu503a","slide":36,"bbox":[962,210,1,66]}
+{"kind":"textbox","id":"sh/8nmdwvm5","slide":36,"text":"Token 失效 / 角色不符 / 标签未扩展","textPreview":"Token 失效 / 角色不符 / 标签未扩展","textChars":23,"textLines":1,"bbox":[972,218,256,50]}
+{"kind":"shape","id":"sh/7mdc3qlk","slide":36,"bbox":[42,276,1196,66]}
+{"kind":"textbox","id":"sh/ml4vul4z","slide":36,"text":"分片卡住","textPreview":"分片卡住","textChars":4,"textLines":1,"bbox":[52,284,190,50]}
+{"kind":"shape","id":"sh/hcfu903m","slide":36,"bbox":[252,276,1,66]}
+{"kind":"textbox","id":"sh/wb6d0vm1","slide":36,"text":"UploadService.uploadChunk","textPreview":"UploadService.uploadChunk","textChars":25,"textLines":1,"bbox":[262,284,390,50]}
+{"kind":"shape","id":"sh/vaxc7qlg","slide":36,"bbox":[662,276,1,66]}
+{"kind":"textbox","id":"sh/u94vyl4v","slide":36,"text":"Redis GETBIT、MinIO chunk、chunk_info","textPreview":"Redis GETBIT、MinIO chunk、chunk_info","textChars":35,"textLines":1,"bbox":[672,284,280,50]}
+{"kind":"shape","id":"sh/xgbuxgni","slide":36,"bbox":[962,276,1,66]}
+{"kind":"textbox","id":"sh/cf2tobmx","slide":36,"text":"位图与对象状态不一致","textPreview":"位图与对象状态不一致","textChars":10,"textLines":1,"bbox":[972,284,256,50]}
+{"kind":"shape","id":"sh/2l0ryhkf","slide":36,"bbox":[42,342,1196,66]}
+{"kind":"textbox","id":"sh/nm9s7210","slide":36,"text":"合并冲突","textPreview":"合并冲突","textChars":4,"textLines":1,"bbox":[52,350,190,50]}
+{"kind":"shape","id":"sh/oni9072l","slide":36,"bbox":[252,342,1,66]}
+{"kind":"textbox","id":"sh/pora9cj6","slide":36,"text":"UploadController.mergeFile","textPreview":"UploadController.mergeFile","textChars":26,"textLines":1,"bbox":[262,350,390,50]}
+{"kind":"shape","id":"sh/ap0r2hkr","slide":36,"bbox":[662,342,1,66]}
+{"kind":"textbox","id":"sh/bq9sbm1c","slide":36,"text":"file_upload.status、CAS 行数","textPreview":"file_upload.status、CAS 行数","textChars":25,"textLines":1,"bbox":[672,350,280,50]}
+{"kind":"shape","id":"sh/cr294r2x","slide":36,"bbox":[962,342,1,66]}
+{"kind":"textbox","id":"sh/xsbadwj2","slide":36,"text":"重复 merge 或状态未回滚","textPreview":"重复 merge 或状态未回滚","textChars":15,"textLines":1,"bbox":[972,350,256,50]}
+{"kind":"shape","id":"sh/6tgrqxkn","slide":36,"bbox":[42,408,1196,66]}
+{"kind":"textbox","id":"sh/rup8zils","slide":36,"text":"上传后搜不到","textPreview":"上传后搜不到","textChars":6,"textLines":1,"bbox":[52,416,190,50]}
+{"kind":"shape","id":"sh/7qh83edw","slide":36,"bbox":[252,408,1,66]}
+{"kind":"textbox","id":"sh/6p87u9cb","slide":36,"text":"FileProcessingConsumer.consume","textPreview":"FileProcessingConsumer.consume","textChars":30,"textLines":1,"bbox":[262,416,390,50]}
+{"kind":"shape","id":"sh/tczq5ovm","slide":36,"bbox":[662,408,1,66]}
+{"kind":"textbox","id":"sh/8rqpwjuh","slide":36,"text":"Kafka offset/DLT、document_vectors、ES bulk","textPreview":"Kafka offset/DLT、document_vectors、ES bulk","textChars":41,"textLines":1,"bbox":[672,416,280,50]}
+{"kind":"shape","id":"sh/veh87yds","slide":36,"bbox":[962,408,1,66]}
+{"kind":"textbox","id":"sh/ud87ytc7","slide":36,"text":"异步链某一步失败","textPreview":"异步链某一步失败","textChars":8,"textLines":1,"bbox":[972,416,256,50]}
+{"kind":"shape","id":"sh/hgjqtovy","slide":36,"bbox":[42,474,1196,66]}
+{"kind":"textbox","id":"sh/gfap03ud","slide":36,"text":"搜索不准","textPreview":"搜索不准","textChars":4,"textLines":1,"bbox":[52,482,190,50]}
+{"kind":"shape","id":"sh/3i18vyd4","slide":36,"bbox":[252,474,1,66]}
+{"kind":"textbox","id":"sh/ihs72tcj","slide":36,"text":"HybridSearchService.searchWithPermission","textPreview":"HybridSearchService.searchWithPermission","textChars":40,"textLines":1,"bbox":[262,482,390,50]}
+{"kind":"shape","id":"sh/0nups3ah","slide":36,"bbox":[662,474,1,66]}
+{"kind":"textbox","id":"sh/1o36l8r2","slide":36,"text":"query vector、recallK、_score、mode","textPreview":"query vector、recallK、_score、mode","textChars":32,"textLines":1,"bbox":[672,482,280,50]}
+{"kind":"shape","id":"sh/els7qtsr","slide":36,"bbox":[962,474,1,66]}
+{"kind":"textbox","id":"sh/fm1ojy9w","slide":36,"text":"分块/查询词/重排参数不合适","textPreview":"分块/查询词/重排参数不合适","textChars":14,"textLines":1,"bbox":[972,482,256,50]}
+{"kind":"shape","id":"sh/sjapo3al","slide":36,"bbox":[42,540,1196,66]}
+{"kind":"textbox","id":"sh/dkj6h8r6","slide":36,"text":"聊天无响应","textPreview":"聊天无响应","textChars":5,"textLines":1,"bbox":[52,548,190,50]}
+{"kind":"shape","id":"sh/qhsnmtsf","slide":36,"bbox":[252,540,1,66]}
+{"kind":"textbox","id":"sh/ri1ofy90","slide":36,"text":"ChatWebSocketHandler / LlmProviderRouter","textPreview":"ChatWebSocketHandler / LlmProviderRouter","textChars":40,"textLines":1,"bbox":[262,548,390,50]}
+{"kind":"shape","id":"sh/4fa5kja9","slide":36,"bbox":[662,540,1,66]}
+{"kind":"textbox","id":"sh/5gj6dobu","slide":36,"text":"WS Frames、Provider SSE、completion","textPreview":"WS Frames、Provider SSE、completion","textChars":33,"textLines":1,"bbox":[672,548,280,50]}
+{"kind":"shape","id":"sh/l0re1gzm","slide":36,"bbox":[962,540,1,66]}
+{"kind":"textbox","id":"sh/kzidsby1","slide":36,"text":"鉴权、限流、模型流或完成判定问题","textPreview":"鉴权、限流、模型流或完成判定问题","textChars":16,"textLines":1,"bbox":[972,548,256,50]}
+{"kind":"shape","id":"sh/jy9cz6hg","slide":36,"bbox":[42,612,1196,42]}
+{"kind":"shape","id":"sh/yxgvqlgv","slide":36,"bbox":[42,612,6,42]}
+{"kind":"textbox","id":"sh/xw7uxgza","slide":36,"text":"不要只看一条应用日志：每个模块至少关联一种外部证据（Redis/MinIO/Kafka/ES/WS Frames）。","textPreview":"不要只看一条应用日志：每个模块至少关联一种外部证据（Redis/MinIO/Kafka/ES/WS Frames）。","textChars":58,"textLines":1,"bbox":[60,621,1160,25]}
+{"kind":"notes","id":"nt/y36kej","slide":36,"text":""}
+{"kind":"slide","id":"sl/p6axe0","slide":37,"title":"结论","textShapes":14}
+{"kind":"textbox","id":"sh/4jy9c32t","slide":37,"text":"结论","textPreview":"结论","textChars":2,"textLines":1,"bbox":[42,28,260,22]}
+{"kind":"textbox","id":"sh/3ip8jyl8","slide":37,"text":"你现在应该能用 5 句话描述 PaiSmart","textPreview":"你现在应该能用 5 句话描述 PaiSmart","textChars":23,"textLines":1,"bbox":[42,54,1160,62]}
+{"kind":"shape","id":"sh/2hgratkn","slide":37,"bbox":[42,114,96,5]}
+{"kind":"shape","id":"sh/d8raps3a","slide":37,"bbox":[42,665,1196,1]}
+{"kind":"textbox","id":"sh/c7i9gn2p","slide":37,"text":"37 / 37","textPreview":"37 / 37","textChars":7,"textLines":1,"bbox":[1140,674,98,25]}
+{"kind":"textbox","id":"sh/rmpsnilk","slide":37,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[74,154,60,32]}
+{"kind":"textbox","id":"sh/qlgredkz","slide":37,"text":"用户登录后，JWT 同时携带身份、角色和组织权限快照。","textPreview":"用户登录后，JWT 同时携带身份、角色和组织权限快照。","textChars":27,"textLines":1,"bbox":[154,143,1010,54]}
+{"kind":"shape","id":"sh/tcnqdo36","slide":37,"bbox":[74,210,1090,1]}
+{"kind":"textbox","id":"sh/sbe94j2l","slide":37,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[74,238,60,32]}
+{"kind":"textbox","id":"sh/yl4f2xc3","slide":37,"text":"文件通过分片可靠上传，合并后由 Kafka 异步变成文本块和向量。","textPreview":"文件通过分片可靠上传，合并后由 Kafka 异步变成文本块和向量。","textChars":33,"textLines":1,"bbox":[154,227,1010,54]}
+{"kind":"shape","id":"sh/jmxwb2do","slide":37,"bbox":[74,294,1090,1]}
+{"kind":"textbox","id":"sh/kn6x47ut","slide":37,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[74,322,60,32]}
+{"kind":"textbox","id":"sh/lofedcve","slide":37,"text":"知识检索用 Query Embedding + KNN + AND 关键词 + BM25 重排。","textPreview":"知识检索用 Query Embedding + KNN + AND 关键词 + BM25 重排。","textChars":48,"textLines":1,"bbox":[154,311,1010,54]}
+{"kind":"shape","id":"sh/6pof6hcz","slide":37,"bbox":[74,378,1090,1]}
+{"kind":"textbox","id":"sh/7qxgf2dk","slide":37,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[74,406,60,32]}
+{"kind":"textbox","id":"sh/8r6x87u5","slide":37,"text":"权限条件在 MySQL 文件访问和 ES 文档块召回两处都必须生效。","textPreview":"权限条件在 MySQL 文件访问和 ES 文档块召回两处都必须生效。","textChars":34,"textLines":1,"bbox":[154,395,1010,54]}
+{"kind":"shape","id":"sh/tsfyhcvq","slide":37,"bbox":[74,462,1090,1]}
+{"kind":"textbox","id":"sh/ut8fahcb","slide":37,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[74,490,60,32]}
+{"kind":"textbox","id":"sh/vuhgjmtg","slide":37,"text":"聊天通过 WebSocket 串联历史、Top5 证据、Prompt、流式模型和可点击引用。","textPreview":"聊天通过 WebSocket 串联历史、Top5 证据、Prompt、流式模型和可点击引用。","textChars":46,"textLines":1,"bbox":[154,479,1010,54]}
+{"kind":"shape","id":"sh/ryhwrm9o","slide":37,"bbox":[74,546,1090,1]}
+{"kind":"shape","id":"sh/qx8vyhs3","slide":37,"bbox":[42,592,1196,42]}
+{"kind":"shape","id":"sh/dkjetwru","slide":37,"bbox":[42,592,6,42]}
+{"kind":"textbox","id":"sh/cjqx0ra9","slide":37,"text":"下一步建议：亲自完成“两个用户 + 一个私有 PDF + 一次引用点击”的最小闭环，并按第 36 页逐项留证。","textPreview":"下一步建议：亲自完成“两个用户 + 一个私有 PDF + 一次引用点击”的最小闭环，并按第 36 页逐项留证。","textChars":55,"textLines":1,"bbox":[60,601,1160,25]}
+{"kind":"notes","id":"nt/p6axe0","slide":37,"text":""}
