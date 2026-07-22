@@ -61,7 +61,6 @@ public class OrgTagCacheService {
      * @param username 用户名
      * @return 组织标签列表
      */
-    @SuppressWarnings("unchecked")
     public List<String> getUserOrgTags(String username) {
         try {
             String key = USER_ORG_TAGS_KEY_PREFIX + username;
