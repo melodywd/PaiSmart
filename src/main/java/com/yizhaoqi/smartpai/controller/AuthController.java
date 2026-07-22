@@ -122,5 +122,5 @@ public class AuthController {
     }
 }
 
-// 刷新Token请求记录类
+// 刷新 Token请求记录类
 record RefreshTokenRequest(String refreshToken) {}
