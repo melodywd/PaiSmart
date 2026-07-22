@@ -7,6 +7,7 @@ import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +27,6 @@ import java.util.stream.Collectors;
  * 1. 用户私人空间：仅资源创建者可访问
  * 2. 组织资源：组织成员可访问
  * 3. 公开资源：所有用户可访问
- * 
  * 实现说明：
  * 本过滤器主要解决两类请求的授权需求：
  * 1. 基于资源ID的权限验证：对特定资源的访问需验证用户是否有权限
@@ -49,7 +49,7 @@ public class OrgTagAuthorizationFilter extends OncePerRequestFilter {
     private FileUploadRepository fileUploadRepository;
 
     @Override
-    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
+    protected void doFilterInternal(@NotNull HttpServletRequest request, @NotNull HttpServletResponse response, @NotNull FilterChain filterChain)
             throws ServletException, IOException {
         try {
             String path = request.getRequestURI();
@@ -65,7 +65,7 @@ public class OrgTagAuthorizationFilter extends OncePerRequestFilter {
                 path.matches(".*/search/hybrid.*") ||
                 (path.matches(".*/documents/[a-fA-F0-9]{32}.*") &&
                         ("DELETE".equals(request.getMethod()) || "POST".equals(request.getMethod())))) {
-                
+
                 String operation = "未知操作";
                 if (path.contains("/chunk")) {
                     operation = "分片上传";
@@ -84,7 +84,7 @@ public class OrgTagAuthorizationFilter extends OncePerRequestFilter {
                 } else if ("POST".equals(request.getMethod()) && path.matches(".*/documents/[a-fA-F0-9]{32}/reindex.*")) {
                     operation = "重建文档索引";
                 }
-                
+
                 logger.info("处理{}请求: {}", operation, path);
                 
                 // 将用户ID和角色设置为请求属性，供控制器方法使用
@@ -112,7 +112,7 @@ public class OrgTagAuthorizationFilter extends OncePerRequestFilter {
             boolean isChunkUpload = path.matches(".*/upload/chunk.*");
             logger.debug("请求路径: {}, 是否为分片上传: {}", path, isChunkUpload);
             
-            // 获取路径中的资源ID
+            // 获取路径中的资源 ID
             String resourceId = extractResourceIdFromPath(request);
             
             // 如果URL不含资源ID，直接放行
@@ -151,7 +151,7 @@ public class OrgTagAuthorizationFilter extends OncePerRequestFilter {
                 return;
             }
             
-            // 从请求头获取token
+            // 从请求头获取 token
             String token = extractToken(request);
             if (token == null) {
                 logger.debug("未找到Token，返回401");
@@ -206,7 +206,7 @@ public class OrgTagAuthorizationFilter extends OncePerRequestFilter {
             response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
         }
     }
-    
+
     /**
      * 从路径中提取资源ID
      */
