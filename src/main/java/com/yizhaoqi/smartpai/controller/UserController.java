@@ -369,7 +369,7 @@ public class UserController {
                 return ResponseEntity.status(401).body(Map.of("code", 401, "message", "Invalid token"));
             }
 
-            // 使当前token失效
+            // 使当前 token失效
             jwtUtils.invalidateToken(jwtToken);
             
             LogUtils.logUserOperation(username, "LOGOUT", "token_invalidation", "SUCCESS");
