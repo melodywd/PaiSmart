@@ -144,8 +144,7 @@ public class UploadController {
             if (orgTag == null || orgTag.isEmpty()) {
                 try {
                     LogUtils.logBusiness("UPLOAD_CHUNK", userId, "组织标签未指定，尝试获取用户主组织标签: fileName=%s", fileName);
-                    String primaryOrg = userService.getUserPrimaryOrg(userId);
-                    orgTag = primaryOrg;
+                    orgTag = userService.getUserPrimaryOrg(userId);
                     LogUtils.logBusiness("UPLOAD_CHUNK", userId, "成功获取用户主组织标签: fileName=%s, orgTag=%s", fileName, orgTag);
                 } catch (Exception e) {
                     LogUtils.logBusinessError("UPLOAD_CHUNK", userId, "获取用户主组织标签失败: fileName=%s", e, fileName);
