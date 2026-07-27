@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<!-- ==================================================================
+     ONE-PAGER TEMPLATE · parchment design system
+     单页 A4 方案/报告/执行摘要
+     改完跑：python3 -c "from weasyprint import HTML; HTML('one-pager.html').write_pdf('out.pdf')"
+     目标：页数必须 == 1
+     ================================================================== -->
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>PaiSmart 文件上传与解析</title>
+<meta name="author" content="melody">
+<meta name="description" content="从浏览器分片上传到 Kafka 异步解析、Embedding 与 Elasticsearch 索引的 PaiSmart 源码导读。">
+<meta name="keywords" content="PaiSmart,文件上传,文档解析,Kafka,RAG">
+<meta name="generator" content="Kami">
+<style>
+  /* Regular weight */
+  @font-face {
+    font-family: "TsangerJinKai02";
+    src: url("../fonts/TsangerJinKai02-W04.ttf") format("truetype"),
+       url("https://cdn.jsdelivr.net/gh/tw93/Kami@main/assets/fonts/TsangerJinKai02-W04.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Bold weight - W05 for all bold variants */
+  @font-face {
+    font-family: "TsangerJinKai02";
+    src: url("../fonts/TsangerJinKai02-W05.ttf") format("truetype"),
+       url("https://cdn.jsdelivr.net/gh/tw93/Kami@main/assets/fonts/TsangerJinKai02-W05.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @page {
+    size: A4;
+    margin: 15mm 18mm 15mm 18mm;
+    background: #f5f4ed;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --parchment: #f5f4ed;
+    --ivory:     #faf9f5;
+    --near-black:#141413;
+    --dark-warm: #3d3d3a;
+    --olive:     #504e49;
+    --stone:     #6b6a64;
+    --brand:     #1B365D;
+    --border:    #e8e6dc;
+    --border-soft:#e5e3d8;
+    --tag-bg:    #E4ECF5;
+    --serif: "TsangerJinKai02", "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", "STSong", Georgia, serif;
+    --sans: var(--serif);
+  }
+
+  html, body { background: var(--parchment); }
+
+  @media screen {
+    body { max-width: 210mm; margin: 0 auto; padding: 15mm 18mm; }
+  }
+
+  body {
+    color: var(--near-black);
+    font-family: var(--serif);
+    font-size: 10pt;
+    line-height: 1.45;
+    letter-spacing: 0.3pt;
+  }
+
+  .serif {
+    font-family: var(--serif);
+  }
+
+  /* ========== HEADER ========== */
+  .header {
+    margin-bottom: 16pt;
+    padding-bottom: 12pt;
+    border-bottom: 0.5pt solid var(--border);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20pt;
+  }
+  .title-block {
+    flex: 1;
+  }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 7pt;
+    font-size: 9pt;
+    color: var(--brand);
+    letter-spacing: 1.5pt;
+    text-transform: uppercase;
+    margin-bottom: 7pt;
+    font-weight: 500;
+  }
+  .eyebrow::before {
+    content: "";
+    width: 8pt;
+    height: 1.5pt;
+    border-radius: 0.75pt;
+    background: var(--brand);
+    flex-shrink: 0;
+  }
+  /* CN locale tuning: TsangerJinKai glyphs are wider per character, so H1 sits
+     slightly smaller (24pt vs EN 26pt) with looser leading (1.15 vs EN 1.12)
+     to keep optical density aligned across the two locales. */
+  h1 {
+    font-family: var(--serif);
+    font-size: 24pt;
+    font-weight: 500;
+    color: var(--near-black);
+    line-height: 1.15;
+    margin-bottom: 5pt;
+  }
+  .subtitle {
+    font-size: 11pt;
+    color: var(--olive);
+    line-height: 1.4;
+  }
+  .meta {
+    font-size: 9pt;
+    color: var(--stone);
+    text-align: right;
+    line-height: 1.45;
+    white-space: nowrap;
+  }
+  /* 品牌 logo 槽(可选,来自 brand profile;默认无 logo,样式仅在取消注释后生效)。 */
+  .brand-logo {
+    height: 44px;
+    width: auto;
+    max-width: 160px;
+    object-fit: contain;
+    align-self: flex-start;
+  }
+
+  /* ========== METRICS ========== */
+  /* 横向 baseline 布局 - -  和 resume.html 一致的 kami native 姿态。
+     背景透明、无边框，用 typography 本身承担层次，不加容器。 */
+  .metrics {
+    display: flex;
+    gap: 14pt;
+    margin-bottom: 18pt;
+    padding: 4pt 0 6pt 0;
+    border-bottom: 0.3pt dotted var(--border);
+  }
+  .metric {
+    flex: 1;
+    background: transparent;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+    gap: 4pt;
+    break-inside: avoid;
+  }
+  .metric-value {
+    font-family: var(--serif);
+    font-size: 20pt;
+    font-weight: 500;
+    color: var(--brand);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    letter-spacing: -0.2pt;
+  }
+  .metric-label {
+    font-size: 9pt;
+    color: var(--olive);
+    line-height: 1.3;
+    white-space: nowrap;
+  }
+
+  /* ========== SECTIONS ========== */
+  /* PRODUCT SHOT (optional) - one real screenshot as the page's visual anchor.
+     Uncomment the <figure> in the body, point src at a local image, and tune
+     .frame height to fill the page. object-fit trims dead margin, not the window. */
+  .product-shot { margin-bottom: 16pt; break-inside: avoid; }
+  .product-shot .frame {
+    height: 110mm;
+    overflow: hidden;
+    border-radius: 5pt;
+    box-shadow: 0 1.5pt 6pt rgba(20, 20, 19, 0.16);
+  }
+  .product-shot .frame img {
+    width: 100%; height: 100%;
+    object-fit: cover; object-position: center; display: block;
+  }
+  .product-shot figcaption {
+    margin-top: 7pt; font-size: 8.5pt;
+    color: var(--stone); line-height: 1.45; text-align: center;
+  }
+  .product-shot figcaption .hl { color: var(--brand); font-weight: 500; }
+
+  section { margin-bottom: 18pt; break-inside: avoid; }
+  section:last-of-type { margin-bottom: 0; }
+
+  h2 {
+    font-family: var(--serif);
+    font-size: 16pt;
+    font-weight: 500;
+    color: var(--near-black);
+    margin-bottom: 6pt;
+  }
+  h2 .sub {
+    font-size: 9pt;
+    color: var(--stone);
+    font-weight: 400;
+    margin-left: 6pt;
+  }
+
+  p { margin-bottom: 6pt; line-height: 1.45; }
+  p:last-child { margin-bottom: 0; }
+
+  .lead {
+    font-size: 12pt;
+    line-height: 1.5;
+    color: var(--dark-warm);
+    margin-bottom: 14pt;
+  }
+
+  .hl { color: var(--brand); font-weight: 500; }
+
+  /* ========== 2-column grid ========== */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18pt;
+  }
+
+  /* ========== 短横线 list（代替默认 bullet） ========== */
+  ul.dash {
+    margin: 0;
+    padding-left: 16pt;
+  }
+  ul.dash li {
+    margin-bottom: 5pt;
+    line-height: 1.45;
+  }
+  ul.dash li:last-child { margin-bottom: 0; }
+  ul.dash li::marker { color: var(--brand); }
+
+  /* ========== Timeline (横向进度点) ========== */
+  .timeline {
+    display: flex;
+    gap: 12pt;
+    margin-top: 6pt;
+  }
+  .tl-step {
+    flex: 1;
+    break-inside: avoid;
+  }
+  .tl-year {
+    font-family: var(--serif);
+    font-size: 11pt;
+    font-weight: 500;
+    color: var(--brand);
+    margin-bottom: 2pt;
+  }
+  .tl-head {
+    font-size: 10pt;
+    font-weight: 500;
+    color: var(--near-black);
+    margin-bottom: 2pt;
+  }
+  .tl-body {
+    font-size: 9pt;
+    color: var(--olive);
+    line-height: 1.4;
+  }
+
+  /* ========== Tag ========== */
+  .tag {
+    display: inline-block;
+    background: var(--tag-bg);    /* 实色！不要 rgba */
+    color: var(--brand);
+    font-size: 9pt;
+    font-weight: 500;
+    padding: 1pt 5pt;
+    border-radius: 3pt;
+    letter-spacing: 0.3pt;
+    margin-right: 3pt;
+  }
+
+  /* ========== Callout / 高亮块 ========== */
+  /* 参考 resume.html .team-culture：透明底 + 单左侧 brand 竖条。
+     不做容器也不做圆角，气质是"一条旁注"而不是"一个卡片"。 */
+  .callout {
+    background: transparent;
+    border-left: 1.8pt solid var(--brand);
+    padding: 4pt 0 4pt 14pt;
+    margin: 10pt 0;
+    font-size: 10pt;
+    line-height: 1.5;
+    color: var(--olive);
+    break-inside: avoid;
+  }
+  .callout .hl, .callout .em-brand { color: var(--brand); }
+
+  /* ========== TABLE (kami-table) ========== */
+  table, .kami-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9pt;
+    margin: 8pt 0;
+    break-inside: avoid;
+  }
+  table th, .kami-table th {
+    text-align: left;
+    font-weight: 500;
+    color: var(--dark-warm);
+    padding: 4pt 6pt;
+    border-bottom: 1pt solid var(--border);
+    background: transparent;
+  }
+  table td, .kami-table td {
+    padding: 3pt 6pt;
+    border-bottom: 0.3pt solid var(--border-soft);
+    vertical-align: top;
+  }
+  table.compact th, .kami-table.compact th { padding: 2pt 5pt; font-size: 8pt; }
+  table.compact td, .kami-table.compact td { padding: 1pt 5pt; font-size: 8pt; line-height: 1.4; }
+  table.financial td:not(:first-child), .kami-table.financial td:not(:first-child) {
+    text-align: right; font-variant-numeric: tabular-nums;
+  }
+  table.financial th:not(:first-child), .kami-table.financial th:not(:first-child) { text-align: right; }
+  table.striped tbody tr:nth-child(even) td, .kami-table.striped tbody tr:nth-child(even) td {
+    background: var(--ivory);
+  }
+  table .total td, .kami-table .total td {
+    font-weight: 500; border-top: 1pt solid var(--brand); border-bottom: none; color: var(--near-black);
+  }
+
+  /* ========== FOOTER ========== */
+  .footer {
+    margin-top: 18pt;
+    padding-top: 6pt;
+    border-top: 0.3pt dotted var(--border);
+    font-size: 9pt;
+    color: var(--stone);
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 0.3pt;
+  }
+</style>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<div class="header">
+  <div class="title-block">
+    <div class="eyebrow">PAISMART · 源码导读</div>
+    <h1>文件上传与解析全链路</h1>
+    <div class="subtitle">同步完成可靠上传，异步完成文本切片、向量化与检索索引</div>
+  </div>
+  <div class="meta">
+    PaiSmart<br>
+    2026.07.24<br>
+    当前工作树
+  </div>
+  <img class="brand-logo" src="logo.svg" alt="PaiSmart">
+</div>
+
+<!-- ========== METRICS（可选，3-4 卡最佳） ========== -->
+<div class="metrics">
+  <div class="metric">
+    <div class="metric-value">5MB</div>
+    <div class="metric-label">单片大小</div>
+  </div>
+  <div class="metric">
+    <div class="metric-value">3</div>
+    <div class="metric-label">并发文件</div>
+  </div>
+  <div class="metric">
+    <div class="metric-value">512</div>
+    <div class="metric-label">切片上限</div>
+  </div>
+  <div class="metric">
+    <div class="metric-value">5×</div>
+    <div class="metric-label">消费尝试</div>
+  </div>
+</div>
+
+<!-- ========== LEAD（导语，一段） ========== -->
+<p class="lead">
+  上传请求负责把文件可靠地放入 MinIO 并投递任务；<span class="hl">解析、切片、Embedding 与 ES 建索引</span>由 Kafka 消费者继续完成。权限字段 userId、orgTag、isPublic 从上传贯穿到检索文档。
+</p>
+
+<section>
+  <h2>端到端主链路<span class="sub">HTTP 很快返回，耗时建库留在后台</span></h2>
+  <figure>
+    <svg viewBox="0 0 900 148" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-labelledby="flow-title flow-desc"
+         style="width:100%;height:auto;display:block;margin:2pt 0 2pt;">
+      <title id="flow-title">PaiSmart 文件上传与解析主链路</title>
+      <desc id="flow-desc">浏览器计算 MD5 并分片，经上传接口校验后写入 MinIO、Redis 与 MySQL；合并后投递 Kafka，由消费者解析并完成向量索引。</desc>
+      <rect width="900" height="148" fill="#f5f4ed"/>
+      <text x="8" y="16" fill="#6b6a64" font-size="12"
+            font-family="Consolas, 'STSong', serif" letter-spacing="1.5">同步上传</text>
+      <text x="620" y="16" fill="#1B365D" font-size="12"
+            font-family="Consolas, 'STSong', serif" letter-spacing="1.5">KAFKA 后台</text>
+      <line x1="596" y1="8" x2="596" y2="136" stroke="#e8e6dc" stroke-width="1" stroke-dasharray="4 4"/>
+
+      <line x1="136" y1="78" x2="152" y2="78" stroke="#504e49" stroke-width="1.5"/>
+      <path d="M144 70 L152 78 L144 86" fill="none" stroke="#504e49" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="280" y1="78" x2="296" y2="78" stroke="#504e49" stroke-width="1.5"/>
+      <path d="M288 70 L296 78 L288 86" fill="none" stroke="#504e49" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="424" y1="78" x2="440" y2="78" stroke="#504e49" stroke-width="1.5"/>
+      <path d="M432 70 L440 78 L432 86" fill="none" stroke="#504e49" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="568" y1="78" x2="616" y2="78" stroke="#1B365D" stroke-width="1.7"/>
+      <path d="M608 70 L616 78 L608 86" fill="none" stroke="#1B365D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="744" y1="78" x2="760" y2="78" stroke="#1B365D" stroke-width="1.7"/>
+      <path d="M752 70 L760 78 L752 86" fill="none" stroke="#1B365D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <g>
+        <rect x="8" y="36" width="128" height="84" rx="6" fill="#faf9f5" stroke="#141413" stroke-width="1"/>
+        <text x="20" y="55" fill="#6b6a64" font-size="12" font-family="Consolas, 'STSong', serif" letter-spacing="1">BROWSER</text>
+        <text x="72" y="82" fill="#141413" font-size="19" font-weight="500" font-family="'STSong', serif" text-anchor="middle">计算 MD5</text>
+        <text x="72" y="101" fill="#504e49" font-size="14" font-family="'STSong', serif" text-anchor="middle">5MB 分片</text>
+        <text x="72" y="116" fill="#504e49" font-size="14" font-family="'STSong', serif" text-anchor="middle">3 文件并发</text>
+      </g>
+
+      <g>
+        <rect x="152" y="36" width="128" height="84" rx="6" fill="#faf9f5" stroke="#141413" stroke-width="1"/>
+        <text x="164" y="55" fill="#6b6a64" font-size="12" font-family="Consolas, 'STSong', serif" letter-spacing="1">UPLOAD API</text>
+        <text x="216" y="82" fill="#141413" font-size="19" font-weight="500" font-family="'STSong', serif" text-anchor="middle">校验与鉴权</text>
+        <text x="216" y="101" fill="#504e49" font-size="14" font-family="'STSong', serif" text-anchor="middle">类型 · 组织</text>
+        <text x="216" y="116" fill="#504e49" font-size="14" font-family="'STSong', serif" text-anchor="middle">上传大小</text>
+      </g>
+
+      <g>
+        <rect x="296" y="36" width="128" height="84" rx="6" fill="#faf9f5" stroke="#141413" stroke-width="1"/>
+        <text x="308" y="55" fill="#6b6a64" font-size="12" font-family="Consolas, 'STSong', serif" letter-spacing="1">STORAGE</text>
+        <text x="360" y="82" fill="#141413" font-size="19" font-weight="500" font-family="'STSong', serif" text-anchor="middle">保存分片</text>
+        <text x="360" y="101" fill="#504e49" font-size="14" font-family="'STSong', serif" text-anchor="middle">MinIO + Redis</text>
+        <text x="360" y="116" fill="#504e49" font-size="14" font-family="'STSong', serif" text-anchor="middle">MySQL 元数据</text>
+      </g>
+
+      <g>
+        <rect x="440" y="36" width="128" height="84" rx="6" fill="#faf9f5" stroke="#141413" stroke-width="1"/>
+        <text x="452" y="55" fill="#6b6a64" font-size="12" font-family="Consolas, 'STSong', serif" letter-spacing="1">MERGE</text>
+        <text x="504" y="82" fill="#141413" font-size="19" font-weight="500" font-family="'STSong', serif" text-anchor="middle">CAS 后合并</text>
+        <text x="504" y="101" fill="#504e49" font-size="14" font-family="'STSong', serif" text-anchor="middle">MinIO compose</text>
+        <text x="504" y="116" fill="#504e49" font-size="14" font-family="'STSong', serif" text-anchor="middle">merged/{md5}</text>
+      </g>
+
+      <g>
+        <rect x="616" y="36" width="128" height="84" rx="6" fill="#EEF2F7" stroke="#1B365D" stroke-width="1.5"/>
+        <text x="628" y="55" fill="#1B365D" font-size="12" font-family="Consolas, 'STSong', serif" letter-spacing="1">KAFKA</text>
+        <text x="680" y="82" fill="#141413" font-size="19" font-weight="500" font-family="'STSong', serif" text-anchor="middle">投递处理任务</text>
+        <text x="680" y="101" fill="#1B365D" font-size="14" font-family="'STSong', serif" text-anchor="middle">文件指纹</text>
+        <text x="680" y="116" fill="#1B365D" font-size="14" font-family="'STSong', serif" text-anchor="middle">三类权限字段</text>
+      </g>
+
+      <g>
+        <rect x="760" y="36" width="132" height="84" rx="6" fill="#faf9f5" stroke="#141413" stroke-width="1"/>
+        <text x="772" y="55" fill="#6b6a64" font-size="12" font-family="Consolas, 'STSong', serif" letter-spacing="1">CONSUMER</text>
+        <text x="826" y="82" fill="#141413" font-size="19" font-weight="500" font-family="'STSong', serif" text-anchor="middle">解析与索引</text>
+        <text x="826" y="101" fill="#504e49" font-size="14" font-family="'STSong', serif" text-anchor="middle">解析文本入 MySQL</text>
+        <text x="826" y="116" fill="#504e49" font-size="14" font-family="'STSong', serif" text-anchor="middle">Embedding → ES</text>
+      </g>
+    </svg>
+  </figure>
+</section>
+
+<section>
+  <h2>模块、步骤与源码坐标<span class="sub">按调用顺序阅读</span></h2>
+  <table class="kami-table compact striped">
+    <colgroup>
+      <col style="width:14%">
+      <col style="width:50%">
+      <col style="width:36%">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>模块</th>
+        <th>关键步骤</th>
+        <th>对应源码</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>前端任务</td>
+        <td>计算整文件 MD5；按 5MB 串行上传；同时处理最多 3 个文件</td>
+        <td><span style="font-family:Consolas,'STSong',serif">common.ts:72-101<br>knowledge-base/index.ts:8-184</span></td>
+      </tr>
+      <tr>
+        <td>上传入口</td>
+        <td>首片校验类型；补主组织；校验大小；返回 Redis 位图进度</td>
+        <td><span style="font-family:Consolas,'STSong',serif">UploadController.java:101-205, 230-279</span></td>
+      </tr>
+      <tr>
+        <td>分片存储</td>
+        <td>写 MinIO <span class="hl">chunks/{md5}/{index}</span>；Redis 位图记进度；MySQL 记分片元数据</td>
+        <td><span style="font-family:Consolas,'STSong',serif">UploadService.java:70-211, 329-510</span></td>
+      </tr>
+      <tr>
+        <td>合并门闩</td>
+        <td>校验分片完整；CAS 执行 UPLOADING → MERGING，挡住重复合并</td>
+        <td><span style="font-family:Consolas,'STSong',serif">UploadController.java:289-377<br>FileUploadRepository.java:79-84</span></td>
+      </tr>
+      <tr>
+        <td>对象合并</td>
+        <td>MinIO compose 到 <span class="hl">merged/{md5}</span>；清理分片与位图；状态置 COMPLETED</td>
+        <td><span style="font-family:Consolas,'STSong',serif">UploadService.java:528-642</span></td>
+      </tr>
+      <tr>
+        <td>任务投递</td>
+        <td>封装文件指纹、预签名 URL、文件名与权限；Kafka 事务发送</td>
+        <td><span style="font-family:Consolas,'STSong',serif">UploadController.java:383-445<br>FileProcessingTask.java:13-19</span></td>
+      </tr>
+      <tr>
+        <td>异步解析</td>
+        <td>下载合并文件；PDFBox 按页并过滤重复页眉页脚；其他格式由 Tika 流式解析；语义切片入 MySQL</td>
+        <td><span style="font-family:Consolas,'STSong',serif">FileProcessingConsumer.java:42-90<br>ParseService.java:72-290, 315-544</span></td>
+      </tr>
+      <tr>
+        <td>向量索引</td>
+        <td>读取文本切片；批量 Embedding；组装 EsDocument；Bulk 写入 <span class="hl">knowledge_base</span>；回写实际用量</td>
+        <td><span style="font-family:Consolas,'STSong',serif">VectorizationService.java:47-125<br>ElasticsearchService.java:34-69</span></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<div class="callout">
+  <span class="hl">状态语义：</span>file_upload.COMPLETED 只表示 MinIO 合并完成，前端此时也显示“已完成”；真正可检索要等消费者写完 document_vectors 与 Elasticsearch。失败每 3 秒重试一次，最多重试 4 次，耗尽进入 file-processing-dlt。
+</div>
+
+<!-- ========== FOOTER ========== -->
+<div class="footer">
+  <span>源码核对基线 · 2026.07.24 · PaiSmart 当前工作树</span>
+  <span>排错：Consumer → DLT → document_vectors → knowledge_base</span>
+</div>
+
+</body>
+</html>
