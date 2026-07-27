@@ -64,7 +64,7 @@ public class UploadService {
      * @param file 要上传的分片文件
      * @param orgTag 组织标签，指定文件所属的组织
      * @param isPublic 是否公开，标识文件访问权限
-     * @param userId 上传用户ID
+     * @param userId 上传用户 ID
      * @throws IOException 如果文件读取失败
      */
     public void uploadChunk(String fileMd5, int chunkIndex, long totalSize, String fileName, 
@@ -522,7 +522,7 @@ public class UploadService {
      *
      * @param fileMd5 文件的 MD5 值
      * @param fileName 文件名
-     * @param userId 用户ID
+     * @param userId 用户 ID
      * @return 合成文件的访问 URL
      */
     public String mergeChunks(String fileMd5, String fileName, String userId) {

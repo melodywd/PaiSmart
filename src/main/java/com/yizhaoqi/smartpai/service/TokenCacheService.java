@@ -31,7 +31,7 @@ public class TokenCacheService {
     private static final String BLACKLIST_PREFIX = "jwt:blacklist:";
     
     /**
-     * 缓存有效token信息
+     * 缓存有效 token信息
      */
     public void cacheToken(String tokenId, String userId, String username, long expireTimeMs) {
         try {
@@ -87,7 +87,7 @@ public class TokenCacheService {
             
             // 检查缓存中是否存在
             String key = TOKEN_PREFIX + tokenId;
-            return Boolean.TRUE.equals(redisTemplate.hasKey(key));
+            return redisTemplate.hasKey(key);
         } catch (Exception e) {
             logger.error("Failed to check token validity: {}", tokenId, e);
             return false;

@@ -112,7 +112,7 @@ public class UserService {
         // 设置用户角色为普通用户
         user.setRole(User.Role.USER);
         
-        // 保存用户以生成ID
+        // 保存用户以生成 ID
         userRepository.save(user);
         
         // 创建用户的私人组织标签
