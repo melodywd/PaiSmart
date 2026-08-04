@@ -227,7 +227,7 @@ public class ParseService {
 
         @Override
         public void endDocument() {
-            if (buffer.length() > 0) {
+            if (!buffer.isEmpty()) {
                 processParentChunk();
             }
         }
